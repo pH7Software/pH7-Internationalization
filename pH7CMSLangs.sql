@@ -10,8 +10,8 @@
 --
 
 INSERT INTO pH7_LanguagesInfo (langId, name, charset, active, direction, author, website, email) VALUES
-('ln_NL', 'English', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://hizup.com', 'phs@hizup.com'),
-('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://hizup.com', 'phs@hizup.com');
+('ln_NL', 'English', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://hizup.com', 'phs@hizup.net'),
+('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://hizup.com', 'phs@hizup.net');
 
 
 CREATE TABLE IF NOT EXISTS pH7_LanguagesPhrases (
