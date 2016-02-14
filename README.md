@@ -1,6 +1,6 @@
 # pH7CMS I18N - Internationalization
 
-pH7CMS Internationalization package. Currently there are French (Français) and Dutch (Nederlands), (20%/30% translated approximately). Please feed free to contribute (by forking the repo and commit it) by translated the files and add new languages.
+pH7CMS Internationalization package. Currently there are French (Français) and Dutch (Nederlands), (20%/30% translated approximately). Please feed free to contribute (by forking the repo and commit it) by translated the files and adding new languages.
 
 
 ## Website
