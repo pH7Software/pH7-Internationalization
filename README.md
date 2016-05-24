@@ -5,7 +5,7 @@ pH7CMS Internationalization package. Currently there are **French** (Français) 
 Please feed free to contribute (by forking the repo and commit it) by translated the files and adding new languages.
 
 
-If you want to translate new languages, start with `global.pot` Gettext file. You can use software such as [Poedit](http://poedit.net/) to make the translation much easier.
+If you want to translate new languages, start with `global.pot` Gettext file. You can use software such as [Poedit](http://poedit.net/) to make the translation much easier. Then, don't forget to compile it in order to get `global.mo` file and upload it in "binary" format using an FTP client such as Filezilla or WinSCP.
 
 
 ## How to Install Those Languages?
