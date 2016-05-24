@@ -5,12 +5,14 @@ pH7CMS Internationalization package. Currently there are **French** (Français) 
 Please feed free to contribute (by forking the repo and commit it) by translated the files and adding new languages.
 
 
-If you want to translate new languages, start with `global.pot` Gettext file. You can use software such as [Poedit](http://poedit.net/) to make the translation much easier. Then, don't forget to compile it in order to get `global.mo` file and upload it in "binary" format using an FTP client such as Filezilla or WinSCP.
+If you want to translate new languages, start with `global.pot` Gettext file. You can use software such as [Poedit](http://poedit.net/) to make the translation much easier.
+
+Then, don't forget to compile it in order to get `global.mo` file and upload it in "binary" format using an FTP client such as Filezilla or WinSCP.
 
 
 ## How to Install Those Languages?
 
-- Upload the `_protected/` folder to your protected pH7CMS's installation with a FTP client such as [FileZilla](https://filezilla-project.org).
+- Upload the `_protected/` folder to your protected pH7CMS's installation with a FTP client such as [FileZilla](https://filezilla-project.org/download.php?type=client) or [WinSCP](https://winscp.net/eng/download.php).
 
 - *Optional:* Open *pH7CMSLangs.sql* file. Replace `pH7_` by your prefix set in "~/_protected/app/configs/config.ini" [database] prefix variable. Then, execute the file through phpMyAdmin.
 
