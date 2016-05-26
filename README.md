@@ -17,6 +17,13 @@ Then, don't forget to compile it in order to get `global.mo` file and upload it 
 - *Optional:* Open *pH7CMSLangs.sql* file. Replace `pH7_` by your prefix set in "~/_protected/app/configs/config.ini" [database] prefix variable. Then, execute the file through phpMyAdmin.
 
 
+## Troubleshooting
+
+If it doesn't work even if Gettext is installed on your server, it means the locale (language) you want to install is not available on your server/web hosting. You will have to install it or contact your host to install the locale (language) you want to use for your site.
+
+For Debian-based OS (such as Ubuntu and Linux Mint), please have a look here [how to install a new locale](https://github.com/pH7Software/pH7CMS-Test-Gettext-Lang#how-to-install-the-missing-locale-language-on-my-server).
+
+
 ## Website
 
 **[PHP Dating Script](http://ph7cms.com)**
