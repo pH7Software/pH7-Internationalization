@@ -177,7 +177,10 @@
 
     <!-- Lost Password -->
       <route url="oublier/([a-zA-Z0-9_-]+)" path="system/modules" module="lost-password" controller="main" action="forgot" vars="mod" />
-      <route url="reset-password/([a-zA-Z0-9_-]+)/(.+)/(.+)" path="system/modules" module="lost-password" controller="main" action="reset" vars="mod,mail,hash" />
+      <route url="reinitialiser-mot-de-passe/([a-zA-Z0-9_-]+)/(.+)/(.+)" path="system/modules" module="lost-password" controller="main" action="reset" vars="mod,mail,hash" />
+
+    <!-- Two-Factor Auth -->
+      <route url="verification-du-code/([a-zA-Z0-9_-]+)" path="system/modules" module="two-factor-auth" controller="main" action="verificationcode" vars="mod" />
 
     <!-- Payment -->
       <route url="payment/editer/([0-9]+)" path="system/modules" module="payment" controller="admin" action="editmembership" vars="group_id" />
