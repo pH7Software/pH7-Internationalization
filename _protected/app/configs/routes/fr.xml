@@ -25,9 +25,9 @@
 
       <route url="rencontre/([a-zA-Z0-9_-]+)/?([^/]+)?" path="system/modules" module="user" controller="country" action="index" vars="country,city" />
       <!-- friend -->
-      <route url="utilisateur/amis/?([a-zA-Z0-9_-]+)?" path="system/modules" module="user" controller="friend" action="index" vars="username" />
-      <route url="utilisateur/amis-mutuels/?([a-zA-Z0-9_-]+)?" path="system/modules" module="user" controller="friend" action="mutual" vars="username" />
-      <route url="utilisateur/amis/recherche/([a-zA-Z0-9_-]+)/?(mutual)?" path="system/modules" module="user" controller="friend" action="search" vars="username,action" />
+      <route url="amis/?([a-zA-Z0-9_-]+)?" path="system/modules" module="friend" controller="main" action="index" vars="username" />
+      <route url="amis-mutuels/?([a-zA-Z0-9_-]+)?" path="system/modules" module="friend" controller="main" action="mutual" vars="username" />
+      <route url="amis/recherche/([a-zA-Z0-9_-]+)/?(mutual)?" path="system/modules" module="friend" controller="main" action="search" vars="username,action" />
       <!-- visitor -->
       <route url="utilisateur/visitors/?([a-zA-Z0-9_-]+)?" path="system/modules" module="user" controller="visitor" action="index" vars="username" />
       <route url="utilisateur/visitors/recherche/?([a-zA-Z0-9_-]+)" path="system/modules" module="user" controller="visitor" action="search" vars="username" />
