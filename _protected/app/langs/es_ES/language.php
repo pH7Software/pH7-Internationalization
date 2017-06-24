@@ -320,13 +320,13 @@ Framework\Registry\Registry::getInstance()->lang = array(
     '+14' => '(UTC +14:00) Line Islands',
 
     /***** GENDER *****/
-    'male'=>'Man',
-    'female'=>'Woman',
-    'couple'=>'Couple',
-    'male,female'=>'Men and Women',
-    'male,couple'=>'Men and Couple',
-    'female,couple'=>'Women and Couple',
-    'male,female,couple'=>'Men, Women and Couple',
+    'male'=>'Varon',
+    'female'=>'Mujer',
+    'couple'=>'Pareja',
+    'male,female'=>'Varon y Mujer',
+    'male,couple'=>'Varon y Pareja',
+    'female,couple'=>'Mujer y Pareja',
+    'male,female,couple'=>'Varon, Mujer y Pareja',
 
     /***** BYTE UNIT *****/
     'byte' => '%0% Bytes',
@@ -336,10 +336,10 @@ Framework\Registry\Registry::getInstance()->lang = array(
     'terabyte' => '%0% TB',
 
     /***** USER'S INFO FIELDS *****/
-    'address' => 'Address:',
-    'street' => 'Street:',
-    'middlename' => 'Middle Name:',
-    'businessname' => 'Business Name:',
-    'taxid' => 'Tax ID, VAT or SSN:',
+    'address' => 'Direccion:',
+    'street' => 'Calle:',
+    'middlename' => 'Segundo Nombre:',
+    'businessname' => 'Empresa:',
+    'taxid' => 'ID Impuestos:',
 
 );
