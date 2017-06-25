@@ -1,8 +1,12 @@
 # pH7CMS I18N - Internationalization
 
-pH7CMS Internationalization package. Currently there are **French** (Français) and **Dutch** (Nederlands), (20%/30% translated approximately).
+pH7CMS Internationalization package. To add new languages to your social dating website.
 
-Please feed free to contribute (by forking the repo and commit it) by translated the files and adding new languages.
+Currently, pH7CMS is translated (not 100% completed) into **French** (Français), **Dutch** (Nederlands) and **Spanish** (Español).
+
+Please feed free to contribute by translating the files and adding new languages.
+
+Fork the repo, add your changes, commit them and create a pull request.
 
 
 If you want to translate new languages, start with `global.pot` Gettext file. You can use software such as [Poedit](http://poedit.net/) to make the translation much easier.
