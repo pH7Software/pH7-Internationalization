@@ -3,15 +3,15 @@
 -- Title:         SQL Internationalization package
 --
 -- Author:        Pierre-Henry Soria <hello@ph7cms.com>
--- Copyright:     (c) 2016, Pierre-Henry Soria. All Rights Reserved.
+-- Copyright:     (c) 2016-2017, Pierre-Henry Soria. All Rights Reserved.
 -- License:       GNU General Public License; See PH7.LICENSE.txt and PH7.COPYRIGHT.txt in the root directory.
 -- Package:       PH7 / Internationalize / Sql
 --
 --
 
 INSERT INTO pH7_LanguagesInfo (langId, name, charset, active, direction, author, website, email) VALUES
-('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://hizup.com', 'phs@hizup.net'),
-('ln_NL', 'English', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://hizup.com', 'phs@hizup.net');
+('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me'),
+('ln_NL', 'English', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me');
 
 
 INSERT INTO pH7_MetaMain (langId, pageTitle, metaDescription, metaKeywords, headline, slogan, promoText, metaRobots, metaAuthor, metaCopyright, metaRating, metaDistribution, metaCategory) VALUES
