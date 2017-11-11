@@ -8,6 +8,7 @@
 -- Package:       PH7 / Internationalize / Sql
 --
 --
+ALTER TABLE  `pH7_MetaMain` CHANGE  `headline`  `headline` VARCHAR( 255 );
 
 INSERT INTO pH7_LanguagesInfo (langId, name, charset, active, direction, author, website, email) VALUES
 ('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me'),
