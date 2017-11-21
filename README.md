@@ -32,14 +32,14 @@ If it doesn't work even if Gettext is installed on your server, it means the loc
 For Debian-based OS (such as Ubuntu and Linux Mint), please have a look here -> [how to install a new locale](https://github.com/pH7Software/pH7CMS-Test-Gettext-Lang#how-to-install-the-missing-locale-language-on-my-server).
 
 
-## Website
+## Official Website
 
 **[PHP Dating Script](http://ph7cms.com)**
 
 
-## Author
+## The Author
 
-Pierre-Henry Soria
+[Pierre-Henry Soria](http://ph7.me)
 
 
 ## Contact
