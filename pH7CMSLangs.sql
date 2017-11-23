@@ -9,6 +9,10 @@
 --
 --
 
+
+-- Increase length of "metaCopyright" column for French copyright (since it is longer)
+ALTER TABLE pH7_MetaMain MODIFY metaCopyright varchar(55);
+
 INSERT INTO pH7_LanguagesInfo (langId, name, charset, active, direction, author, website, email) VALUES
 ('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me'),
 ('ln_NL', 'English', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me');
