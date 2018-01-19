@@ -1,3 +1,9 @@
+## Gettext ##
+*.mo
+
+# PHPStorm IDE folder
+.idea
+
 ## OS ##
 
 # Linux
