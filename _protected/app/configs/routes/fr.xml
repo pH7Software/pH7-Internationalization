@@ -36,6 +36,9 @@
 
       <route url="a-bientot" path="system/modules" module="user" controller="main" action="soon" />
 
+    <!-- Cool Profile Page -->
+      <route url="super-profil/([0-9]+)?" path="system/modules" module="cool-profile-page" controller="main" action="index" vars="profile_id" />
+
     <!-- Picture -->
       <route url="galerie-photo" path="system/modules" module="picture" controller="main" action="index" />
 
