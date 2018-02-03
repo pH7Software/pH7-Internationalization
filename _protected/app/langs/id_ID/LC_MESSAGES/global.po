@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-15 01:18-0800\n"
-"PO-Revision-Date: 2018-01-23 20:18+0700\n"
+"PO-Revision-Date: 2018-02-02 10:45+0700\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +53,7 @@ msgstr "Hai %0% %1% Apa kabarmu di  %2%?"
 #: _protected/app/modules/helloworld/controllers/SecureController.php:26
 #: _protected/app/modules/helloworld/controllers/SecureController.php:31
 msgid "HTTP Secure Page"
-msgstr "Halaman amana HTTP"
+msgstr "Halaman aman HTTP"
 
 #: _protected/app/modules/helloworld/controllers/SecureController.php:27
 msgid "Simple HTTP Secure Page"
@@ -93,7 +93,7 @@ msgstr "Selamat! Anda orang pertama yang menyukai ini"
 
 #: _protected/app/system/core/assets/ajax/RatingCoreAjax.php:61
 msgid "Please <b>register</b> or <b>login</b> to vote."
-msgstr "Silahkan<b>mendaftar</b>dulu, atau <b>login</b> to memberi suara."
+msgstr "Silahkan<b>mendaftar</b>dulu, atau <b>masuk</b> untuk memberi suara."
 
 #: _protected/app/system/core/assets/ajax/RatingCoreAjax.php:98
 msgid "You can not vote your own profile!"
@@ -510,7 +510,8 @@ msgstr "Selamat datang di %site_name%, %0%!"
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:55
 msgid "Hi %0%! We are proud to welcome you as a member of %site_name%!"
 msgstr ""
-"Hai %0%! Dengan bangga kami menyambut anda sebagai member di %site_name%!"
+"Hai %0%! Dengan bangga kami menyambut anda sebagai member (Jobbers) di "
+"%site_name%!"
 
 #: _protected/app/system/core/classes/RegistrationCore.php:58
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:57
@@ -748,7 +749,7 @@ msgstr "Skor: %0% - Jml Suara: %1%"
 
 #: _protected/app/system/core/classes/design/RatingDesignCore.php:52
 msgid "You need to be a member for voting."
-msgstr "Anda harus menjadi member untuk memberikan suara."
+msgstr "Anda harus menjadi jobber untuk memberikan suara."
 
 #: _protected/app/system/core/classes/design/TwoFactorAuthDesignCore.php:33
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:58
@@ -1195,7 +1196,7 @@ msgstr "Kota:"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:53
 msgid "Latest members"
-msgstr "Member Teranyar"
+msgstr "Jobbers Teranyar"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:54
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:85
@@ -1290,7 +1291,7 @@ msgstr "Lihat berdasarkan:"
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:87
 #: _protected/app/system/modules/admin123/forms/SearchUserForm.php:34
 msgid "Latest Members"
-msgstr "Member Paling Anyar"
+msgstr "Jobbers Baru"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:87
 #: _protected/app/system/modules/admin123/forms/SearchAdminForm.php:20
@@ -1408,7 +1409,7 @@ msgstr "Menaik"
 #: _protected/app/system/core/forms/ShareEmbedCoreForm.php:32
 #: _protected/app/system/modules/video/forms/VideoForm.php:48
 msgid "Embed Code"
-msgstr "Kode ditanam"
+msgstr "Dari Youtube/Situs Lain"
 
 #: _protected/app/system/core/forms/ShareUrlCoreForm.php:25
 msgid "Share URL:"
@@ -1509,7 +1510,7 @@ msgstr "Affiliate"
 #: _protected/app/system/core/forms/processing/DeleteUserCoreFormProcess.php:52
 #: _protected/app/system/core/forms/processing/DeleteUserCoreFormProcess.php:67
 msgid "Member"
-msgstr "Member"
+msgstr "Jobbers"
 
 #: _protected/app/system/core/forms/processing/DeleteUserCoreFormProcess.php:54
 msgid "User Type: %0%."
@@ -2557,7 +2558,7 @@ msgstr[0] "%n% user ditemukan!"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:186
 msgid "You are now logged in as member: %0%!"
-msgstr "Sekarang anda masuk sebagai member: %0%!"
+msgstr "Sekarang anda masuk sebagai jobber: %0%!"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:193
 msgid "This user doesn't exist."
@@ -2565,7 +2566,7 @@ msgstr "User ini tidak ada."
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:201
 msgid "You are now logged out as member: %0%!"
-msgstr "Sekarang anda sudah keluar sebagai member: %0%!"
+msgstr "Sekarang anda sudah keluar sebagai jobber: %0%!"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:280
 msgid "The profile has been banned."
@@ -2636,7 +2637,7 @@ msgstr "Error! Ada kesalahan dalam alamat URL."
 #: _protected/app/system/modules/admin123/controllers/UserController.php:428
 #: _protected/app/system/modules/affiliate/controllers/AdminController.php:385
 msgid "The user is not found!"
-msgstr "Usre tidak ditemukan!"
+msgstr "Jobber tidak ditemukan!"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:431
 #: _protected/app/system/modules/affiliate/controllers/AdminController.php:388
@@ -2812,7 +2813,7 @@ msgstr "Tanggal lahir:"
 #: _protected/app/system/modules/affiliate/forms/JoinForm.php:50
 #: _protected/app/system/modules/user/forms/JoinForm.php:95
 msgid "Month/Day/Year"
-msgstr "Bulan/Tanggal/Tahu"
+msgstr "Bulan/Tanggal/Tahun"
 
 #: _protected/app/system/modules/admin123/forms/AddUserForm.php:40
 #: _protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:35
@@ -4652,7 +4653,7 @@ msgid ""
 "available or it is already used by other member."
 msgstr ""
 "Namauser harus berisi karakter dari %0% sd %1%, Namauser tidak tersedia atau "
-"sudah dipakai oleh member lain."
+"sudah dipakai oleh jobbers lain."
 
 #: _protected/app/system/modules/api/controllers/UserController.php:78
 msgid "The Password must contain from %0% to %1% characters."
@@ -4821,7 +4822,7 @@ msgstr "Judul postingan:"
 #: _protected/app/system/modules/note/forms/EditNoteForm.php:61
 #: _protected/app/system/modules/note/forms/NoteForm.php:42
 msgid "Article ID:"
-msgstr "Inisial Penulis:"
+msgstr "Judul (Untuk Alamat URL):"
 
 #: _protected/app/system/modules/blog/forms/AdminBlogForm.php:40
 #: _protected/app/system/modules/note/forms/NoteForm.php:42
@@ -4850,7 +4851,7 @@ msgstr "Isi Postingan:"
 
 #: _protected/app/system/modules/blog/forms/AdminBlogForm.php:45
 msgid "The language of the article:"
-msgstr "Tulis 'in' jika postingan dalam bahasa Indonesia:"
+msgstr "Tulis 'id' jika postingan dalam bahasa Indonesia:"
 
 #: _protected/app/system/modules/blog/forms/AdminBlogForm.php:45
 #: _protected/app/system/modules/note/forms/EditNoteForm.php:66
@@ -5229,7 +5230,7 @@ msgstr "Perihal:"
 
 #: _protected/app/system/modules/contact/forms/ContactForm.php:45
 msgid "Your Message:"
-msgstr "Pesant anda:"
+msgstr "Pesan anda:"
 
 #: _protected/app/system/modules/contact/forms/ContactForm.php:49
 msgid "Contact US"
@@ -5753,7 +5754,7 @@ msgstr "Forum:"
 #: _protected/app/system/modules/forum/forms/SearchTopicForm.php:19
 msgid "Name, Keyword of message, Author (username) or ID of Topic Forum:"
 msgstr ""
-"Nama, Kata kunci pesar, Penulis (namauser) atau ID dari Topik/Postingan di "
+"Nama, Kata kunci pesan, Penulis (namauser) atau ID dari Topik/Postingan di "
 "Forum:"
 
 #: _protected/app/system/modules/forum/forms/processing/CategoryFormProcess.php:27
@@ -6067,7 +6068,7 @@ msgstr "Enter Name, Description, Keyword or ID of a Game."
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Search Games"
-msgstr "Search Games"
+msgstr "Cari Games"
 
 #: _protected/app/system/modules/game/forms/SearchGameForm.php:25
 msgid "Downloaded"
@@ -6349,7 +6350,7 @@ msgstr "KotakSurat: Tuliskan sebuah pesan"
 
 #: _protected/app/system/modules/mail/controllers/MainController.php:78
 msgid "Compose a new message"
-msgstr "Tuliskan sebuah pean"
+msgstr "Tulis Pesan Anda"
 
 #: _protected/app/system/modules/mail/controllers/MainController.php:85
 msgid "MailBox : Inbox"
@@ -6896,7 +6897,7 @@ msgstr ""
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Add a Note"
-msgstr "Tambahkan Status"
+msgstr "Buat Status"
 
 #: _protected/app/system/modules/note/controllers/MainController.php:280
 msgid "Edit the Note"
@@ -7023,7 +7024,7 @@ msgstr "FAQ/PSD"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:55
 msgid "Frequently asked questions of %site_name%"
-msgstr "Paling Sreing Ditanya di %site_name%"
+msgstr "Paling Sering Ditanya di %site_name%"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:67
 msgid "Terms and Conditions of Use"
@@ -7927,7 +7928,7 @@ msgstr "Postingan anda sudah tidak ada lagi."
 
 #: _protected/app/system/modules/user/controllers/BirthdayController.php:45
 msgid "Users' Birthdays %0%"
-msgstr "Ulang Tahun User %0%"
+msgstr "Ulang Tahun Jobber %0%"
 
 #: _protected/app/system/modules/user/controllers/BirthdayController.php:50
 msgid ""
@@ -7949,7 +7950,7 @@ msgstr "Tak ada hasil. Mohon coba lagi dengan kriteria pencarian lebih luas."
 #: _protected/app/system/modules/user/controllers/BrowseController.php:59
 #: _protected/app/system/modules/user/controllers/BrowseController.php:60
 msgid "Browse Members"
-msgstr "Lihat-lihat Anggota"
+msgstr "Lihat-lihat Jobbers (User)"
 
 #: _protected/app/system/modules/user/controllers/BrowseController.php:61
 msgid "Meet new People with %0%"
@@ -7958,7 +7959,8 @@ msgstr "Temukan teman-teman Baru dengan %0%"
 #: _protected/app/system/modules/user/controllers/BrowseController.php:62
 msgid "Meet new People and Friends near you with %site_name% - Browse Members"
 msgstr ""
-"Temukan teman-teman baru di dekat anda dengan %site_name% - Lihat-lihat Orang"
+"Temukan teman-teman baru di dekat anda dengan %site_name% - Lihat-lihat "
+"Jobbers"
 
 #: _protected/app/system/modules/user/controllers/CountryController.php:41
 msgid "Meet new people here!"
@@ -8169,7 +8171,7 @@ msgstr "Pencarian Cepat"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Advanced Search"
-msgstr "Pencarian Sempurna"
+msgstr "Pencarian Lengkap"
 
 #: _protected/app/system/modules/user/controllers/SettingController.php:62
 msgid "Account Settings"
@@ -8318,7 +8320,7 @@ msgstr ""
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:63
 msgid "Sign Up on %site_name%!"
-msgstr "Mendaftarlah di %site_name%!"
+msgstr "Mendaftar di %site_name%"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:67
 msgid ""
@@ -8380,7 +8382,7 @@ msgstr "Temukan orang yang telah melihat profil %0%"
 #: _protected/app/system/modules/user/forms/DesignForm.php:32
 #: _protected/app/system/modules/user/forms/EditForm.php:46
 msgid "Back to Browse Users"
-msgstr "Kembali untuk Melihat-lihat para user"
+msgstr "Kembali untuk Melihat-lihat Jobbers"
 
 #: _protected/app/system/modules/user/forms/AvatarForm.php:37
 #: _protected/app/system/modules/user/forms/JoinForm.php:165
@@ -8398,7 +8400,7 @@ msgstr "Email:"
 #: _protected/app/system/modules/user/forms/EditWallForm.php:37
 #: _protected/app/system/modules/user/forms/WallForm.php:33
 msgid "Content:"
-msgstr "Koenten:"
+msgstr "Konten:"
 
 #: _protected/app/system/modules/user/forms/JoinForm.php:41
 msgid "Universal Login"
@@ -8410,7 +8412,7 @@ msgstr "nama-user-anda"
 
 #: _protected/app/system/modules/user/forms/JoinForm.php:62
 msgid "Join for free!"
-msgstr "Bergabunglah Gratis!"
+msgstr "Daftar (Gratis!)"
 
 #: _protected/app/system/modules/user/forms/JoinForm.php:95
 msgid "Your Date of Birth:"
@@ -8512,7 +8514,7 @@ msgstr "Siapa yang boleh melihat profil anda?"
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:37
 msgid "Everyone (including people who are not %0% members)."
-msgstr "Siapa saja (termasuk orang yang belum mendaftar)."
+msgstr "Siapa saja (termasuk orang yang bukan member %0%)."
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:37
 msgid "Only %0% members who are logged in."
@@ -8550,15 +8552,15 @@ msgstr "Perlihatkan profil para pengintip saya:"
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:41
 msgid "Would you like to display members that have viewed your profile?"
 msgstr ""
-"Apakah anda ingin melihat user-user yang sudah melihat-lihat profil anda?"
+"Apakah anda ingin melihat jobbers yang sudah melihat-lihat profil anda?"
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:41
 msgid ""
 "Yes, display members who viewed my profile (Selecting this option will allow "
 "other members to see that you visited their profile)."
 msgstr ""
-"Ya, perlihatkan user-user yang sudah melihat profil saya (Memilih opsi ini "
-"berarti mengizinkan user lain untuk melihat bahwa anda juga melihat profil "
+"Ya, perlihatkan jobbers yang sudah melihat profil saya (Memilih opsi ini "
+"berarti mengizinkan jobber lain untuk melihat bahwa anda juga melihat profil "
 "mereka)."
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:41
@@ -8566,7 +8568,7 @@ msgid ""
 "No, don't display members who viewed my profile. (Selecting this option will "
 "prevent you from seeing who visited your profile)."
 msgstr ""
-"Tidak. Jangan perlihatkan user-user yang melihat profil saya. (Memilih opsi "
+"Tidak. Jangan perlihatkan Jobbers yang melihat profil saya. (Memilih opsi "
 "ini berarti mencegah anda melihat siapa saja yang sudah melihat-lihat profil "
 "anda)."
 
@@ -8580,7 +8582,7 @@ msgstr "Status anda"
 
 #: _protected/app/system/modules/user/forms/SearchVisitorForm.php:22
 msgid "Find Search a Visitor of \"%0%\""
-msgstr "Temukan Cari yang melihat \"%0%\""
+msgstr "Cari para pengunjung \"%0%\""
 
 #: _protected/app/system/modules/user/forms/SearchVisitorForm.php:23
 msgid "Last Seen on your profile"
@@ -8756,7 +8758,7 @@ msgstr "Pilih..."
 
 #: _protected/app/system/modules/video/forms/VideoForm.php:48
 msgid "Regular"
-msgstr "Biasa"
+msgstr "Unggah Sendiri"
 
 #: _protected/app/system/modules/video/forms/VideoForm.php:51
 msgid "Video:"
@@ -9606,7 +9608,7 @@ msgid ""
 "to collect money."
 msgstr ""
 "Bisa saja ada profil orang-orang (laki-laki atau perempuan) yang anda lihat "
-"di situs ini yang gadungan atau palsu saja dengan maksud merayu anda "
+"di situs ini yang gadungan atau palsu, yang bertujuan merayu anda "
 "mengeluarkan uang."
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filelayout.cpl.php:19
@@ -9665,9 +9667,7 @@ msgstr ""
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/mainlayout.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaplayout.cpl.php:19
 msgid "Be careful, don't send the money to anybody!"
-msgstr ""
-"Berhati-hatilah. Jangan mengirimkan uang ke siapapun selain perdagangan yang "
-"benar!"
+msgstr "Berhati-hatilah. Jangan mengirimkan uang ke siapapun selain bisnis!"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filelayout.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/mainlayout.cpl.php:19
@@ -9832,7 +9832,7 @@ msgstr "Gabung Sekarang!"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Members"
-msgstr "Member"
+msgstr "Jobbers"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -9888,7 +9888,7 @@ msgstr "Orang-orang"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Search the members"
-msgstr "Cari User"
+msgstr "Cari Jobbers"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -9916,7 +9916,7 @@ msgstr "Cari User"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Users in %0% through the Map!"
-msgstr "User di %0% melalui peta!"
+msgstr "Jobbers di %0% melalui peta!"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -9973,7 +9973,7 @@ msgstr "Orang di Sekitaran"
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaplinks.xml.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Users Birthday"
-msgstr "Ulang Tahun User"
+msgstr "Ulang Tahun Jobber"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -10563,7 +10563,7 @@ msgstr "Forum"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Search Topics"
-msgstr "Cari Topik"
+msgstr "Cari Topik/Produk"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -10592,7 +10592,7 @@ msgstr "Cari Topik"
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaplinks.xml.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Community Notes"
-msgstr "Status Komunitas"
+msgstr "Kumpulan Status/Tulisan"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/main/stat.cpl.php:19
@@ -10649,7 +10649,7 @@ msgstr "Status"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Search Notes"
-msgstr "Cari Status"
+msgstr "Cari Status/Tulisan/Produk"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11265,7 +11265,7 @@ msgstr "Daftar Teman"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Find a friend in my list"
-msgstr "Temukan teman di daftar teman saya"
+msgstr "Cari teman di daftar teman saya"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11293,7 +11293,7 @@ msgstr "Temukan teman di daftar teman saya"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Find a Friend"
-msgstr "Temukan teman"
+msgstr "Cari teman"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11321,7 +11321,7 @@ msgstr "Temukan teman"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Who Visited My Profile"
-msgstr "Yang Sudah Melihat Profil Saya:"
+msgstr "Para Pengintipku"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11349,7 +11349,7 @@ msgstr "Yang Sudah Melihat Profil Saya:"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Who See Me"
-msgstr "Siapa yang Melihat Saya"
+msgstr "Siapa Pengintipku"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11377,7 +11377,7 @@ msgstr "Siapa yang Melihat Saya"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Find who visited my profile"
-msgstr "Temukan Siapa saja yang melihat profil saya"
+msgstr "Cari para pengintip profilku"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11405,7 +11405,7 @@ msgstr "Temukan Siapa saja yang melihat profil saya"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Find Visitor(s)"
-msgstr "Cari Siapa yang Melihat"
+msgstr "Cari Pengintipku"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11601,7 +11601,7 @@ msgstr "User/Admin"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Users"
-msgstr "User"
+msgstr "Jobbers"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11657,7 +11657,7 @@ msgstr "Lihat-lihat"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Search Users"
-msgstr "Cari User"
+msgstr "Cari Jobbers"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -11685,7 +11685,7 @@ msgstr "Cari User"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaptop_menu.inc.cpl.php:19
 msgid "Add User"
-msgstr "Tambahkan Usre"
+msgstr "Tambahkan Jobbers"
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filetop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/maintop_menu.inc.cpl.php:19
@@ -15609,7 +15609,7 @@ msgstr "Tambahkan album baru"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/browse_user.inc.cpl.php:19
 msgid "Whoops! No users found."
-msgstr "Ups! User tak ditemukan."
+msgstr "Ups! Jobbers tak ditemukan."
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/browse_user.inc.cpl.php:19
 msgid "Name: %0%"
@@ -15645,7 +15645,7 @@ msgstr "Dari: %0%"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/browse_user.inc.cpl.php:19
 msgid "Login As a member"
-msgstr "Masuk Sebagai User"
+msgstr "Masuk Sebagai jobber"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/main/index.guest.inc.cpl.php:19
 msgid "People love us! Realtime users using our service"
@@ -15899,7 +15899,7 @@ msgstr "You must enter a valid login ID and password to access this resource."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Age.php:34
 msgid "Age"
-msgstr "Umur"
+msgstr "Usia"
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Age.php:34
 msgid "years"
@@ -15917,7 +15917,7 @@ msgstr "karakter."
 #: _protected/framework/Layout/Form/Engine/PFBC/Error/Standard.php:38
 msgid "The following error was found:"
 msgid_plural "The following errors were found:"
-msgstr[0] "Ups! Ditemukan eror seperti ini:"
+msgstr[0] "Ups! Ada kesalahan:"
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation.php:24
 msgid "%element% is invalid."
@@ -16181,7 +16181,7 @@ msgstr "profilenya %0%"
 
 #: _protected/framework/Layout/Html/Design.class.php:731
 msgid "You need to be a member for liking contents."
-msgstr "Anda harus terdaftar atau menjadi user untuk menyukai konten."
+msgstr "Anda harus terdaftar atau menjadi user (jobber) untuk menyukai konten."
 
 #: _protected/framework/Layout/Html/Design.class.php:744
 msgid "Like %0%"
@@ -16189,7 +16189,7 @@ msgstr "Sukai %0%"
 
 #: _protected/framework/Layout/Html/Design.class.php:809
 msgid "You need to be a user to report contents."
-msgstr "Anda harus menjadi user untuk melaporkan konten."
+msgstr "Anda harus menjadi jobber untuk melaporkan konten."
 
 #: _protected/framework/Layout/Html/Design.class.php:819
 #: _protected/framework/Layout/Html/Design.class.php:821
@@ -16201,8 +16201,8 @@ msgid ""
 "Report feature is not available for this content since the user who posted "
 "that content has been deleted."
 msgstr ""
-"Layanan laporan tidak tersedia untuk konten ini karena user yang memposting "
-"konten tersebut sudah dihapus."
+"Layanan laporan tidak tersedia untuk konten ini karena jobber yang "
+"memposting konten tersebut sudah dihapus."
 
 #: _protected/framework/Layout/Html/Mail.class.php:83
 msgid "Best regards,<br />%0% team."
