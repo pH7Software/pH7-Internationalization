@@ -322,13 +322,13 @@ Framework\Registry\Registry::getInstance()->lang = [
     '+14' => '(UTC +14:00) Line Islands',
 
     /***** GENDER *****/
-    'male' => 'Man',
-    'female' => 'Woman',
-    'couple' => 'Couple',
-    'male,female' => 'Men and Women',
-    'male,couple' => 'Men and Couple',
-    'female,couple' => 'Women and Couple',
-    'male,female,couple' => 'Men, Women and Couple',
+    'male' => 'Pria',
+    'female' => 'Wanita',
+    'couple' => 'Berkeluarga',
+    'male,female' => 'Pria dan Wanita',
+    'male,couple' => 'Pria dan Berkeluarga',
+    'female,couple' => 'Wanita dan Berkeluarga',
+    'male,female,couple' => 'Pria, Wanita dan Berkeluarga',
 
     /***** BYTE UNIT *****/
     'byte' => '%0% Bytes',
