@@ -338,10 +338,10 @@ Framework\Registry\Registry::getInstance()->lang = [
     'terabyte' => '%0% TB',
 
     /***** USER'S INFO FIELDS *****/
-    'address' => 'Address:',
-    'street' => 'Street:',
-    'middlename' => 'Middle Name:',
-    'businessname' => 'Business Name:',
+    'address' => 'Alamat:',
+    'street' => 'Jalan:',
+    'middlename' => 'Nama Tengah:',
+    'businessname' => 'Nama Bisnis:',
     'taxid' => 'Tax ID, VAT or SSN:',
 
 ];

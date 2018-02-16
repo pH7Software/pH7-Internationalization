@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-15 01:18-0800\n"
-"PO-Revision-Date: 2018-02-06 09:23+0700\n"
+"PO-Revision-Date: 2018-02-09 14:49+0700\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.0.6\n"
 "Last-Translator: \n"
 "Language: id_ID\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -2549,7 +2549,7 @@ msgstr "Pencarian User"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:160
 msgid "Users - Your search returned"
-msgstr "User - Hasil pencarian anda"
+msgstr "User - Hasil pencarian anda:"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:161
 msgid "%n% user found!"
@@ -4786,7 +4786,7 @@ msgstr "Maaf, Pencarian anda tidak mebuahkan hasil!"
 
 #: _protected/app/system/modules/blog/controllers/MainController.php:184
 msgid "Dating Social Blog - Your search returned"
-msgstr "Blog Jodoh & Bisnis - Pencarian anda gagal"
+msgstr "Blog Jodoh & Bisnis - Hasil pencarian: "
 
 #: _protected/app/system/modules/blog/controllers/MainController.php:187
 msgid "Search - Dating Social Community Blog"
@@ -5663,7 +5663,7 @@ msgstr ""
 
 #: _protected/app/system/modules/forum/controllers/ForumController.php:251
 msgid "Forums - Your search returned"
-msgstr "Forum Jual-Beli dan Sharing Pengetahuan - Pencarian tak ada hasil"
+msgstr "Forum Jual-Beli dan Sharing Pengetahuan - Hasil Pencarian:"
 
 #: _protected/app/system/modules/forum/controllers/ForumController.php:253
 msgid "%n% Result"
@@ -6404,7 +6404,7 @@ msgstr "Pencarian anda tidak cocok dengan pesan-pesan anda."
 
 #: _protected/app/system/modules/mail/controllers/MainController.php:309
 msgid "Mail | Message - Your search returned"
-msgstr "Surat | Pesan - Pencarian anda gagal"
+msgstr "Surat | Pesan - Hasil pencarian: "
 
 #: _protected/app/system/modules/mail/controllers/MainController.php:331
 msgid "Your message doesn't exist anymore in your trash bin."
@@ -6858,7 +6858,7 @@ msgstr "Cari Status - Mencari Postingan"
 
 #: _protected/app/system/modules/note/controllers/MainController.php:259
 msgid "Dating Social Note - Your search returned"
-msgstr "Status Jodoh & Bisnis Online - Pencarian anda tak berhasil"
+msgstr "Status Jodoh & Bisnis Online - Hasil pencarian: "
 
 #: _protected/app/system/modules/note/controllers/MainController.php:262
 msgid "Search - Dating Social Community Note"
@@ -7513,7 +7513,7 @@ msgstr "Pencarian foto - Mencari foto"
 
 #: _protected/app/system/modules/picture/controllers/MainController.php:264
 msgid "Dating Social Picture - Your search returned"
-msgstr "Hasil pencarian nol"
+msgstr "Gambar di Situs Medsos Kenalan -  Hasil pencarian:"
 
 #: _protected/app/system/modules/picture/controllers/MainController.php:266
 msgid "%n% photo found!"
@@ -8039,7 +8039,7 @@ msgid ""
 "from <span class=\"pH2\">%2%, %3% %4%</span>"
 msgstr ""
 "Seorang <span class=\"pH1\">%0%</span> Berusia <span class=\"pH3\">%1% "
-"Tahun</span>, Dar i <span class=\"pH2\">%2%, %3% %4%</span>"
+"Tahun</span>, Dari <span class=\"pH2\">%2%, %3% %4%</span>"
 
 #: _protected/app/system/modules/user/controllers/ProfileController.php:188
 msgid "Meet %0% near here!"
@@ -8605,7 +8605,7 @@ msgstr "Foto latar sudah diterima. tunggu moderator."
 
 #: _protected/app/system/modules/user/forms/processing/DesignFormProcess.php:43
 msgid "Your Wallpaper has been updated successfully!"
-msgstr "Foto latar anda sudah berhasil diperbarui!"
+msgstr "Wallpaper anda sudah berhasil diperbarui!"
 
 #: _protected/app/system/modules/user/forms/processing/EditWallFormProcess.php:28
 #: _protected/app/system/modules/user/forms/processing/WallFormProcess.php:29
@@ -8712,7 +8712,7 @@ msgstr "Pencarian Video - Mencari Video"
 
 #: _protected/app/system/modules/video/controllers/MainController.php:275
 msgid "Dating Social Video - Your search returned"
-msgstr "Hasil pencarian anda nihil"
+msgstr "Video Medsos Kenalan - Hasil pencarian anda:"
 
 #: _protected/app/system/modules/video/controllers/MainController.php:277
 msgid "%n% video found!"
@@ -15717,19 +15717,19 @@ msgstr "Ya. Saya serius ingin menghapus akun saya"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/design.cpl.php:19
 msgid "Wallpaper"
-msgstr "Foto Latar"
+msgstr "Wallpaper"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/design.cpl.php:19
 msgid "Your current wallpaper"
-msgstr "Foto latar anda saat ini"
+msgstr "Wallpaper anda saat ini"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/design.cpl.php:19
 msgid "Remove wallpaper?"
-msgstr "Hapus foto latar?"
+msgstr "Hapus wallpaper?"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/index.cpl.php:19
 msgid "Profile Wallpaper"
-msgstr "Foto latar profil"
+msgstr "Wallpaper Profil"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/index.cpl.php:19
 msgid "Notification"
@@ -16786,7 +16786,7 @@ msgid "Send Message"
 msgstr "Kirim Pesan"
 
 msgid "Live Chat"
-msgstr "Chatting Langsung"
+msgstr "Chat Live"
 
 msgid "Social Profile:"
 msgstr "Profil Sosial:"
