@@ -97,10 +97,10 @@
       <route url="aide/a-propos" path="system/modules" module="page" controller="main" action="about" />
       <route url="aide/faq" path="system/modules" module="page" controller="main" action="faq" />
       <route url="legal/cgu" path="system/modules" module="page" controller="main" action="terms" />
-      <route url="legal/affiliation/tos" path="system/modules" module="page" controller="main" action="affiliateterms" />
-      <route url="legal/confidentialite[$page_ext]" path="system/modules" module="page" controller="main" action="privacy" />
+      <route url="legal/affiliation/cgu" path="system/modules" module="page" controller="main" action="affiliateterms" />
+      <route url="legal/confidentialite" path="system/modules" module="page" controller="main" action="privacy" />
       <route url="legal/mentions-legales" path="system/modules" module="page" controller="main" action="legalnotice" />
-      <route url="partners" path="system/modules" module="page" controller="main" action="partner" />
+      <route url="partenaires" path="system/modules" module="page" controller="main" action="partner" />
       <route url="liens" path="system/modules" module="page" controller="main" action="link" />
       <route url="emplois" path="system/modules" module="page" controller="main" action="job" />
 
