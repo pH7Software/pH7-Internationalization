@@ -17,7 +17,7 @@
       <route url="utilisateur/avatar/?([0-9]+)?/?([a-zA-Z0-9_-]+)?/?([^/]+)?/?([a-z]+)?" path="system/modules" module="user" controller="setting" action="avatar" vars="profile_id,username,first_name,sex" />
       <route url="utilisateur/design/?([0-9]+)?/?([a-zA-Z0-9_-]+)?/?([^/]+)?/?([a-z]+)?" path="system/modules" module="user" controller="setting" action="design" vars="profile_id,username,first_name,sex" />
 
-      <route url="rencontrer-des-gens-cool" path="system/modules" module="user" controller="browse" action="index" />
+      <route url="rencontrer-des-gens-sympas" path="system/modules" module="user" controller="browse" action="index" />
       <!-- search -->
       <route url="recherche-gens" path="system/modules" module="user" controller="search" action="index" />
       <route url="recherche-gens-rapide" path="system/modules" module="user" controller="search" action="quick" />
@@ -42,8 +42,8 @@
     <!-- Picture -->
       <route url="galerie-photo" path="system/modules" module="picture" controller="main" action="index" />
 
-      <route url="utilisateur/add-album" path="system/modules" module="picture" controller="main" action="addalbum" />
-      <route url="utilisateur/add-photo/?([0-9]+)?" path="system/modules" module="picture" controller="main" action="addphoto" vars="album_id" />
+      <route url="utilisateur/ajouter-album" path="system/modules" module="picture" controller="main" action="addalbum" />
+      <route url="utilisateur/ajouter-photo/?([0-9]+)?" path="system/modules" module="picture" controller="main" action="addphoto" vars="album_id" />
       <route url="utilisateur/editer-album/([0-9]+)" path="system/modules" module="picture" controller="main" action="editalbum" vars="album_id" />
       <route url="utilisateur/editer-photo/([0-9]+)/(.+)/([0-9]+)" path="system/modules" module="picture" controller="main" action="editphoto" vars="album_id,picture_title,picture_id" />
       <route url="utilisateur/albums/?([a-zA-Z0-9_-]+)?" path="system/modules" module="picture" controller="main" action="albums" vars="username" />
@@ -53,13 +53,13 @@
     <!-- Video -->
       <route url="video" path="system/modules" module="video" controller="main" action="index" />
 
-      <route url="video/add-album" path="system/modules" module="video" controller="main" action="addalbum" />
-      <route url="video/add-video/?([0-9]+)?" path="system/modules" module="video" controller="main" action="addvideo" vars="album_id" />
+      <route url="video/ajouter-album" path="system/modules" module="video" controller="main" action="addalbum" />
+      <route url="video/ajouter-video/?([0-9]+)?" path="system/modules" module="video" controller="main" action="addvideo" vars="album_id" />
       <route url="video/editer-album/([0-9]+)" path="system/modules" module="video" controller="main" action="editalbum" vars="album_id" />
       <route url="video/editer-video/([0-9]+)/(.+)/([0-9]+)" path="system/modules" module="video" controller="main" action="editvideo" vars="album_id,video_title,video_id" />
       <route url="video/albums/?([a-zA-Z0-9_-]+)?" path="system/modules" module="video" controller="main" action="albums" vars="username" />
       <route url="video/album/([a-zA-Z0-9_-]+)/([^/]+)/([0-9]+)" path="system/modules" module="video" controller="main" action="album" vars="username,album_title,album_id" />
-      <route url="video/watch/([a-zA-Z0-9_-]+)/([0-9]+)/(.+)/([0-9]+)" path="system/modules" module="video" controller="main" action="video" vars="username,album_id,video_title,video_id" />
+      <route url="video/voir/([a-zA-Z0-9_-]+)/([0-9]+)/(.+)/([0-9]+)" path="system/modules" module="video" controller="main" action="video" vars="username,album_id,video_title,video_id" />
 
     <!-- Hot Or Not -->
       <route url="canon-ou-pas" path="system/modules" module="hotornot" controller="main" action="rating" />
@@ -102,7 +102,7 @@
       <route url="legal/mentions-legales" path="system/modules" module="page" controller="main" action="legalnotice" />
       <route url="partners" path="system/modules" module="page" controller="main" action="partner" />
       <route url="liens" path="system/modules" module="page" controller="main" action="link" />
-      <route url="jobs" path="system/modules" module="page" controller="main" action="job" />
+      <route url="emplois" path="system/modules" module="page" controller="main" action="job" />
 
     <!-- Error -->
       <route url="erreur/([0-9]+)" path="system/modules" module="error" controller="http" action="index" vars="code" />
@@ -117,25 +117,25 @@
       <route url="layout\.xsl" path="system/modules" module="xml" controller="main" action="xsllayout" />
 
     <!-- Forum -->
-      <route url="forum" path="system/modules" module="forum" controller="forum" action="index" />
-      <route url="forum/topics/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="topic" vars="forum_name,forum_id" />
-      <route url="forum/post/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="post" vars="forum_name,forum_id,topic_name,topic_id" />
-      <route url="forum/add-topic/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="addtopic" vars="forum_name,forum_id" />
-      <route url="forum/reply/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="reply" vars="forum_name,forum_id,topic_name,topic_id" />
-      <route url="forum/editer-topic/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="edittopic" vars="forum_name,forum_id,topic_name,topic_id" />
-      <route url="forum/editer-msg/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="editmessage" vars="forum_name,forum_id,topic_name,topic_id,message_id" />
-      <route url="utilisateur/forum/([a-zA-Z0-9_-]+)" path="system/modules" module="forum" controller="forum" action="showpostbyprofile" vars="username" />
+      <route url="discussion" path="system/modules" module="forum" controller="forum" action="index" />
+      <route url="discussion/sujets/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="topic" vars="forum_name,forum_id" />
+      <route url="discussion/poste/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="post" vars="forum_name,forum_id,topic_name,topic_id" />
+      <route url="discussion/ajouter-sujet/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="addtopic" vars="forum_name,forum_id" />
+      <route url="discussion/repondre/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="reply" vars="forum_name,forum_id,topic_name,topic_id" />
+      <route url="discussion/editer-sujet/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="edittopic" vars="forum_name,forum_id,topic_name,topic_id" />
+      <route url="discussion/editer-msg/([^/]+)/([0-9]+)/([^/]+)/([0-9]+)/([0-9]+)" path="system/modules" module="forum" controller="forum" action="editmessage" vars="forum_name,forum_id,topic_name,topic_id,message_id" />
+      <route url="utilisateur/discussion/([a-zA-Z0-9_-]+)" path="system/modules" module="forum" controller="forum" action="showpostbyprofile" vars="username" />
       <!-- admin -->
-      <route url="forum/admin/add-category" path="system/modules" module="forum" controller="admin" action="addcategory" />
-      <route url="forum/admin/add-forum/?([0-9]+)?" path="system/modules" module="forum" controller="admin" action="addforum" vars="category_id" />
-      <route url="forum/admin/editer-categorie/([0-9]+)" path="system/modules" module="forum" controller="admin" action="editcategory" vars="category_id" />
-      <route url="forum/admin/editer-forum/([0-9]+)" path="system/modules" module="forum" controller="admin" action="editforum" vars="forum_id" />
+      <route url="discussion/admin/ajouter-categorie" path="system/modules" module="forum" controller="admin" action="addcategory" />
+      <route url="discussion/admin/ajouter-discussion/?([0-9]+)?" path="system/modules" module="forum" controller="admin" action="addforum" vars="category_id" />
+      <route url="discussion/admin/editer-categorie/([0-9]+)" path="system/modules" module="forum" controller="admin" action="editcategory" vars="category_id" />
+      <route url="discussion/admin/editer-discussion/([0-9]+)" path="system/modules" module="forum" controller="admin" action="editforum" vars="forum_id" />
 
     <!-- Comment -->
       <route url="commentaire/ajouter/([a-zA-Z]+)/([0-9]+)" path="system/modules" module="comment" controller="comment" action="add" vars="table,recipient" />
       <route url="commentaire/editer/([a-zA-Z]+)/([0-9]+)/([0-9]+)/([0-9]+)" path="system/modules" module="comment" controller="comment" action="edit" vars="table,recipient,sender,id" />
-      <route url="commentaire/read/([a-zA-Z]+)/([0-9]+)" path="system/modules" module="comment" controller="comment" action="read" vars="table,id" />
-      <route url="commentaire/post/([a-zA-Z]+)/([0-9]+)" path="system/modules" module="comment" controller="comment" action="post" vars="table,id" />
+      <route url="commentaire/lire/([a-zA-Z]+)/([0-9]+)" path="system/modules" module="comment" controller="comment" action="read" vars="table,id" />
+      <route url="commentaire/poste/([a-zA-Z]+)/([0-9]+)" path="system/modules" module="comment" controller="comment" action="post" vars="table,id" />
 
     <!-- Game -->
       <route url="jeux-en-ligne-gratuit" path="system/modules" module="game" controller="main" action="index" />
@@ -187,9 +187,9 @@
       <route url="payment/editer/([0-9]+)" path="system/modules" module="payment" controller="admin" action="editmembership" vars="group_id" />
 
     <!-- Field -->
-      <route url="field/liste/([a-zA-Z]+)" path="system/modules" module="field" controller="field" action="all" vars="mod" />
-      <route url="field/ajouter/([a-zA-Z]+)" path="system/modules" module="field" controller="field" action="add" vars="mod" />
-      <route url="field/editer/([a-zA-Z]+)/([a-zA-Z0-9_-]+)" path="system/modules" module="field" controller="field" action="edit" vars="mod,name" />
+      <route url="champ/liste/([a-zA-Z]+)" path="system/modules" module="field" controller="field" action="all" vars="mod" />
+      <route url="champ/ajouter/([a-zA-Z]+)" path="system/modules" module="field" controller="field" action="add" vars="mod" />
+      <route url="champ/editer/([a-zA-Z]+)/([a-zA-Z0-9_-]+)" path="system/modules" module="field" controller="field" action="edit" vars="mod,name" />
 
     <!-- END SYSTEM MODULES -->
 
