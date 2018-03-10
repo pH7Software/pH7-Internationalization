@@ -17,7 +17,7 @@
       <route url="utilisateur/avatar/?([0-9]+)?/?([a-zA-Z0-9_-]+)?/?([^/]+)?/?([a-z]+)?" path="system/modules" module="user" controller="setting" action="avatar" vars="profile_id,username,first_name,sex" />
       <route url="utilisateur/design/?([0-9]+)?/?([a-zA-Z0-9_-]+)?/?([^/]+)?/?([a-z]+)?" path="system/modules" module="user" controller="setting" action="design" vars="profile_id,username,first_name,sex" />
 
-      <route url="meeting-people" path="system/modules" module="user" controller="browse" action="index" />
+      <route url="rencontrer-des-gens-cool" path="system/modules" module="user" controller="browse" action="index" />
       <!-- search -->
       <route url="recherche-gens" path="system/modules" module="user" controller="search" action="index" />
       <route url="recherche-gens-rapide" path="system/modules" module="user" controller="search" action="quick" />
