@@ -74,11 +74,11 @@
       <route url="mail/?([0-9]+)?" path="system/modules" module="mail" controller="main" action="inbox" vars="id" />
 
     <!-- Blog -->
-      <route url="blog" path="system/modules" module="blog" controller="main" action="index" />
-      <route url="blog/categorie/([^/]+)/?([a-zA-Z]+)?/?([a-zA-Z]+)?" path="system/modules" module="blog" controller="main" action="category" vars="name,order,sort" />
+      <route url="blogue" path="system/modules" module="blog" controller="main" action="index" />
+      <route url="blogue/categorie/([^/]+)/?([a-zA-Z]+)?/?([a-zA-Z]+)?" path="system/modules" module="blog" controller="main" action="category" vars="name,order,sort" />
       <route url="b/([a-zA-Z0-9_-]+)" path="system/modules" module="blog" controller="main" action="read" vars="post" />
       <!--admin-->
-      <route url="blog/admin/editer/([0-9]+)" path="system/modules" module="blog" controller="admin" action="edit" vars="id" />
+      <route url="blogue/admin/editer/([0-9]+)" path="system/modules" module="blog" controller="admin" action="edit" vars="id" />
 
     <!-- Note -->
       <route url="note" path="system/modules" module="note" controller="main" action="index" />
@@ -88,7 +88,7 @@
       <route url="note/editer/([0-9]+)" path="system/modules" module="note" controller="main" action="edit" vars="id" />
 
     <!-- Contact -->
-      <route url="contact" path="system/modules" module="contact" controller="contact" action="index" />
+      <route url="contactez-nous" path="system/modules" module="contact" controller="contact" action="index" />
 
     <!-- Page -->
       <route url="rencontre-gratuite-en-ligne" path="system/modules" module="page" controller="main" action="index" />
