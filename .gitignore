@@ -1,6 +1,3 @@
-## Gettext ##
-*.mo
-
 # PHPStorm IDE folder
 .idea
 
@@ -17,6 +14,6 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-# Mac OS 
+# Mac OS
 .DS_Store*
 ._*
