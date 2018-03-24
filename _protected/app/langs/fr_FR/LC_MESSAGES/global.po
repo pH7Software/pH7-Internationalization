@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-06 12:45+0100\n"
-"PO-Revision-Date: 2016-05-11 22:24+0200\n"
+"PO-Revision-Date: 2018-03-18 18:05-0400\n"
 "Last-Translator: Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <ph7software@gmail.com>\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SearchPath-0: global.po\n"
 "X-Poedit-SearchPath-1: global.mo\n"
 
@@ -2098,7 +2098,7 @@ msgid ""
 "available on our website."
 msgstr ""
 "Si vous pensez que quelqu'un a utilisé votre adresse e - mail à votre insu pour "
-"créer un compte sur %site_name de%, s'il vous plaît nous contacter via notre "
+"créer un compte sur %site_name%, s'il vous plaît nous contacter via notre "
 "formulaire de contact disponible sur notre site Web."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:54
@@ -4153,7 +4153,7 @@ msgid ""
 "dating free site  new generation with webcam chat!"
 msgstr ""
 "Rencontrer de nouvelles personnes et avoir des rencontres près de chez vous "
-"avec %site_name de%, la nouvelle rencontre en ligne site gratuit nouvelle "
+"avec %site_name%, la nouvelle rencontre en ligne site gratuit nouvelle "
 "génération avec chat webcam!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:30
@@ -4167,7 +4167,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:31
 msgid "Free Online Dating with %site_name%!"
-msgstr "Rencontres en ligne gratuit avec %site_name de%!"
+msgstr "Rencontres en ligne gratuit avec %site_name%!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:32
 msgid "Welcome to we Web Dating Site!"
@@ -4455,7 +4455,7 @@ msgid ""
 "Do you like %site_name% and want it even more popular, then share this site on "
 "your website, blog, discussion forum, etc..."
 msgstr ""
-"Aimez - vous %site_name de% et que vous voulez encore plus populaire, puis de "
+"Aimez - vous %site_name% et que vous voulez encore plus populaire, puis de "
 "partager ce site sur votre site, blog, forum de discussion, etc ..."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:123
@@ -4713,7 +4713,7 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/controllers/HomeController.php:26
 msgid "Affiliate Platform with %site_name%! Dating Social Affiliate"
 msgstr ""
-"Plate - forme d'affiliation avec %site_name de%! Rencontre d'affiliation sociale"
+"Plate - forme d'affiliation avec %site_name%! Rencontre d'affiliation sociale"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/controllers/HomeController.php:27
 msgid "Affiliate Platform - %site_name%"
@@ -4859,7 +4859,7 @@ msgid ""
 "At %site_name%, we are working hard to give you one of the best affiliate "
 "service!"
 msgstr ""
-"A %site_name de%, nous travaillons dur pour vous donner l' un des meilleurs "
+"A %site_name%, nous travaillons dur pour vous donner l' un des meilleurs "
 "services d'affiliation!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/controllers/AccountController.php:68
@@ -5946,7 +5946,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SignupController.php:66
 msgid "Sign Up on %site_name%!"
-msgstr "Inscription sur %site_name de%!"
+msgstr "Inscription sur %site_name%!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SignupController.php:68
 msgid ""
@@ -18414,7 +18414,7 @@ msgstr "Connexion"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/home/index.cpl.php:22
 msgid "Affiliate Platform with %site_name%!"
-msgstr "Plate - forme d'affiliation avec %site_name de%!"
+msgstr "Plateforme d'affiliation avec %site_name%!"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/home/index.cpl.php:27
 msgid "Make Money with our Affiliate Program!"
