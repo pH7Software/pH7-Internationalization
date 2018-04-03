@@ -23,7 +23,7 @@ Then, don't forget to compile it in order to get `global.mo` file and upload it 
 
 - Upload the `_protected/` folder to your protected pH7CMS's installation with a FTP client such as [FileZilla](https://filezilla-project.org/download.php?type=client) or [WinSCP](https://winscp.net/eng/download.php).
 
-- *Optional:* Open *pH7CMSLangs.sql* file. Replace `pH7_` by your prefix set in "~/_protected/app/configs/config.ini" [database] prefix variable. Then, execute the file through phpMyAdmin.
+- *Optional:* Open *pH7CMSLangs.sql* file. Replace `ph7_` by your prefix set in "~/_protected/app/configs/config.ini" [database] prefix variable. Then, execute the file through phpMyAdmin.
 
 
 ## Troubleshooting
