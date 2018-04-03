@@ -9,11 +9,15 @@
 --
 --
 
+-----
+-- Replace "ph7_" by your prefix set in "~/_protected/app/configs/config.ini" [database] prefix variable
+-----
+
 
 -- Increase length of "metaCopyright" column for French copyright (since it is longer)
 ALTER TABLE ph7_meta_main MODIFY metaCopyright varchar(55);
 
-INSERT INTO pH7_languages_info (langId, name, charset, active, direction, author, website, email) VALUES
+INSERT INTO ph7_languages_info (langId, name, charset, active, direction, author, website, email) VALUES
 ('fr_FR', 'Français', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me'),
 ('ln_NL', 'English', 'UTF-8', '1', 'ltr', 'Pierre-Henry Soria', 'http://ph7.me', 'me@ph7.me');
 
@@ -32,5 +36,5 @@ CREATE TABLE IF NOT EXISTS ph7_languages_phrases (
   text mediumtext,
   added int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (phraseId),
-  FOREIGN KEY (langId) REFERENCES pH7_LanguagesInfo(langId)
+  FOREIGN KEY (langId) REFERENCES ph7_languages_info(langId)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
