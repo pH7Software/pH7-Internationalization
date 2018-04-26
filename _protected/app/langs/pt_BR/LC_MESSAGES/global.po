@@ -2387,7 +2387,10 @@ msgstr "Isenção de responsabilidade de adultos:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:72
 msgid ""
-"Show an Adult Warning to enter to your website. This is useful for websites with adult content. <br /><strong>Note: this disclaimer offered by a third-party provider may sometimes open a new tab promoting a third-party adult website.</strong>"
+"Show an Adult Warning to enter to your website. This is useful for websites "
+"with adult content. <br /><strong>WARNING: this disclaimer offered by a third-"
+"party provider may sometimes open a new tab promoting third-party adult "
+"websites.</strong>"
 msgstr ""
 "Mostrar um aviso de adulto para entrar no seu site. Isso é útil para sites com conteúdo adulto. <br /> <strong> Observação: este aviso oferecido por um provedor terceirizado pode, às vezes, abrir uma nova guia promovendo um site adulto de "
 "terceiros. </strong>"
@@ -2397,7 +2400,11 @@ msgid "Cookie Consent Bar:"
 msgstr "Barra de Permissão de Cookies:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:74
-msgid "Enable a Cookie Consent Bar to prevent your users that your website uses cookies. This is required for EU Law (if you have visitors from EU countries). The Cookie Bar will only be displayed if the visitor is in the EU."
+msgid ""
+"Enable a Cookie Consent Bar to prevent your users that your website uses "
+"cookies. This is required by EU Law (if you have visitors from EU "
+"countries). The Cookie Bar will only be displayed if the visitor is in the "
+"EU."
 msgstr "Ative a Barra de Permissão de Cookies para impedir que seus usuários usem. Isto é necessário para a legislação da UE (se você tiver visitantes de países da UE). A Barra de Cookies só será exibida se o visitante estiver na UE."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:76
@@ -2445,7 +2452,7 @@ msgid "No activation required"
 msgstr "Não requer ativação"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:94 _protected/app/system/modules/admin123/forms/SettingForm.php:96
-msgid "Self activation via email"
+msgid "Self-activation via email"
 msgstr "Auto-ativação via email"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:94 _protected/app/system/modules/admin123/forms/SettingForm.php:96

@@ -3363,9 +3363,9 @@ msgstr "Adult Disclaimer:"
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:71
 msgid ""
 "Show an Adult Warning to enter to your website. This is useful for websites "
-"with adult content. <br /><strong>Note: this disclaimer offered by a third-"
-"party provider may sometimes open a new tab promoting a third-party adult "
-"website.</strong>"
+"with adult content. <br /><strong>WARNING: this disclaimer offered by a third-"
+"party provider may sometimes open a new tab promoting third-party adult "
+"websites.</strong>"
 msgstr ""
 "Show an Adult Warning to enter to your website. This is useful for websites "
 "with adult content. <br /><strong>Note: this disclaimer offered by a third-"
@@ -3379,12 +3379,12 @@ msgstr "Cookie Consent Bar:"
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:73
 msgid ""
 "Enable a Cookie Consent Bar to prevent your users that your website uses "
-"cookies. This is required for EU Law (if you have visitors from EU "
+"cookies. This is required by EU Law (if you have visitors from EU "
 "countries). The Cookie Bar will only be displayed if the visitor is in the "
 "EU."
 msgstr ""
 "Enable a Cookie Consent Bar to prevent your users that your website uses "
-"cookies. This is required for EU Law (if you have visitors from EU "
+"cookies. This is required by EU Law (if you have visitors from EU "
 "countries). The Cookie Bar will only be displayed if the visitor is in the "
 "EU."
 
@@ -3446,7 +3446,7 @@ msgstr "No activation required"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:93
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:95
-msgid "Self activation via email"
+msgid "Self-activation via email"
 msgstr "Self activation via email"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:93

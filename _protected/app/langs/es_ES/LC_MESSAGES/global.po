@@ -7439,8 +7439,10 @@ msgstr "Nota Aclaratoria para Adultos:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:70
 msgid ""
-"Show an Adult Warning to enter to the site. This is useful for sites with adult "
-"content."
+"Show an Adult Warning to enter to your website. This is useful for websites "
+"with adult content. <br /><strong>WARNING: this disclaimer offered by a third-"
+"party provider may sometimes open a new tab promoting third-party adult "
+"websites.</strong>"
 msgstr ""
 "Mostrar una advertencia adulto para entrar al sitio. Esto es útil para sitios "
 "con contenido para adultos."
@@ -7451,9 +7453,10 @@ msgstr " Consentimiento de cookie:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:72
 msgid ""
-"Enable a Cookie Consent Bar to prevent your users that your site uses cookies. "
-"This is required for EU Law (if you have visitors from EU countries). The "
-"Cookie Bar will only be displayed if the visitor is in the EU."
+"Enable a Cookie Consent Bar to prevent your users that your website uses "
+"cookies. This is required by EU Law (if you have visitors from EU "
+"countries). The Cookie Bar will only be displayed if the visitor is in the "
+"EU."
 msgstr ""
 "Habilitar una barra de consentimiento cookies evitar que los usuarios que su "
 "sitio utiliza cookies. Esto es necesario para la legislación de la UE (si usted "
@@ -7506,7 +7509,7 @@ msgstr "No activación es requerida"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:88
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:90
-msgid "Self activation via email"
+msgid "Self-activation via email"
 msgstr "Auta activación por correo electrónico"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:88
