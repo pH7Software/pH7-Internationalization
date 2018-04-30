@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-15 01:18-0800\n"
-"PO-Revision-Date: 2018-02-09 14:49+0700\n"
+"PO-Revision-Date: 2018-04-30 19:47+0100\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.7\n"
 "Last-Translator: \n"
 "Language: id_ID\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -33,9 +33,9 @@ msgstr "Modul ini buat contoh PH7CMS"
 
 #: _protected/app/modules/helloworld/controllers/HomeController.php:31
 msgid ""
-"hello world, test, developpers, CMS, Dating CMS, CMS Dating, Social CMS, "
-"pH7, pH7 CMS, Dating Script, Social Dating Script, Dating Software, Social "
-"Network Software, Social Networking Software"
+"hello world, test, developpers, CMS, Dating CMS, CMS Dating, Social CMS, pH7, "
+"pH7 CMS, Dating Script, Social Dating Script, Dating Software, Social Network "
+"Software, Social Networking Software"
 msgstr "hello dunia, test, developer, script kencan, pacaran, jodoh"
 
 #: _protected/app/modules/helloworld/controllers/HomeController.php:34
@@ -322,13 +322,11 @@ msgstr "Nama Versi: %0%, Nomer Versi: %1%, Versi Utuh: %2%"
 
 #: _protected/app/system/core/assets/file/UpgradeCoreFile.php:162
 msgid ""
-"Upgrade <span class=\"bold italic\">%software_version_name% %software_version"
-"% Build %software_build%</span> to version <span class=\"bold italic\">%0%</"
-"span>"
+"Upgrade <span class=\"bold italic\">%software_version_name% %software_version% "
+"Build %software_build%</span> to version <span class=\"bold italic\">%0%</span>"
 msgstr ""
-"Upgrade <span class=\"bold italic\">%software_version_name% %software_version"
-"% Build %software_build%</span> to version <span class=\"bold italic\">%0%</"
-"span>"
+"Upgrade <span class=\"bold italic\">%software_version_name% %software_version% "
+"Build %software_build%</span> to version <span class=\"bold italic\">%0%</span>"
 
 #: _protected/app/system/core/assets/file/UpgradeCoreFile.php:163
 msgid "Have you made a backup of your website files, folders and database?"
@@ -494,12 +492,11 @@ msgstr "Sandi: %0% (Mohon diubah jika anda nanti hendak login)."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:52
 msgid ""
-"Password: ****** (hidden to protect against theft of your account. If you "
-"have forgotten your password, please request a new one <a href=\"%0%\">here</"
-"a>)."
+"Password: ****** (hidden to protect against theft of your account. If you have "
+"forgotten your password, please request a new one <a href=\"%0%\">here</a>)."
 msgstr ""
-"Sandi: ****** (disembunyikan unntuk menghidari pembajakan akun. Jika anda "
-"lupa sandi anda, mohon meminta yang baru)."
+"Sandi: ****** (disembunyikan unntuk menghidari pembajakan akun. Jika anda lupa "
+"sandi anda, mohon meminta yang baru)."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:55
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:54
@@ -541,8 +538,8 @@ msgid ""
 "You are receiving this email because we received a registration application "
 "with \"%0%\" email address for %site_name% (%site_url%)."
 msgstr ""
-"Anda menerima email ini karena kami menerima pendaftaran aplikasi dengan "
-"\"%0%\" alamat email untuk %site_name% (%site_url%)."
+"Anda menerima email ini karena kami menerima pendaftaran aplikasi dengan \"%0%"
+"\" alamat email untuk %site_name% (%site_url%)."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:64
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:63
@@ -570,12 +567,12 @@ msgstr "Log in sekarang!"
 #: _protected/app/system/core/classes/RegistrationCore.php:92
 msgid ""
 "Please activate your account by clicking the activation link you received by "
-"email. If you can not find the email, please look in your SPAM FOLDER and "
-"mark as not spam."
+"email. If you can not find the email, please look in your SPAM FOLDER and mark "
+"as not spam."
 msgstr ""
-"Silakan aktifkan akun anda dengan meng-klik link aktivasi yang anda terima "
-"di email anda. Jika anda tidak menemukannya di email anda, cobalah periksa "
-"di  FOLDER SPAM  and tandai sebagai bukan  spam."
+"Silakan aktifkan akun anda dengan meng-klik link aktivasi yang anda terima di "
+"email anda. Jika anda tidak menemukannya di email anda, cobalah periksa di  "
+"FOLDER SPAM  and tandai sebagai bukan  spam."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:96
 msgid ""
@@ -608,16 +605,15 @@ msgid ""
 "Caution! Your account is not activated yet. You will receive an email of any "
 "decision."
 msgstr ""
-"Perhatian! Akun anda belum diaktivasi. Anda akan menerima email email "
-"tentang putusannya."
+"Perhatian! Akun anda belum diaktivasi. Anda akan menerima email email tentang "
+"putusannya."
 
 #: _protected/app/system/core/classes/Security.php:42
 msgid "Dear, %0%"
 msgstr "Yth, %0%"
 
 #: _protected/app/system/core/classes/Security.php:43
-msgid ""
-"Someone tried to login more than %0% times with the IP address: \"%1%\"."
+msgid "Someone tried to login more than %0% times with the IP address: \"%1%\"."
 msgstr ""
 "Seseorang telah mencoba masuk lebih dari %0% kali dengan alamat IP: \"%1%\"."
 
@@ -639,16 +635,16 @@ msgstr ""
 
 #: _protected/app/system/core/classes/Security.php:46
 msgid ""
-"If you do not know the person who made the login attempts, you should be "
-"very careful and change your password to a new one more complicated."
+"If you do not know the person who made the login attempts, you should be very "
+"careful and change your password to a new one more complicated."
 msgstr ""
 "Jika anda tidak tahu siapa orang yang mencoba berusaha masuk, anda harus "
 "berhati-hati. Ganti sandi anda dengan yang baru yang lebih sulit ditebak."
 
 #: _protected/app/system/core/classes/Security.php:47
 msgid ""
-"We also recommend that you change the password of your emailbox, because it "
-"is with this emalbox we send a potential new password in case you forget it."
+"We also recommend that you change the password of your emailbox, because it is "
+"with this emalbox we send a potential new password in case you forget it."
 msgstr ""
 "Kami menyarankan anda mengubah sandi emailbox atau sandi email anda, karena "
 "dengan menggunakan email inilah sandi bisa dirubah ketika anda lupa sandi ke "
@@ -664,16 +660,16 @@ msgstr "Peringatan Keamanan: Ada percobaan masuk - %site_name%"
 
 #: _protected/app/system/core/classes/UserCore.php:411
 msgid ""
-"Sorry, your account has not been activated yet. Please activate it by "
-"clicking the activation link that was emailed."
+"Sorry, your account has not been activated yet. Please activate it by clicking "
+"the activation link that was emailed."
 msgstr ""
 "Maaf, akun ada belum diaktivasi. Silakan lakukan aktivasi dengan meng-klik "
 "link aktivasi yang kami kirimkan ke email."
 
 #: _protected/app/system/core/classes/UserCore.php:413
 msgid ""
-"Sorry, your account has not been activated yet. An administrator must "
-"validate your account."
+"Sorry, your account has not been activated yet. An administrator must validate "
+"your account."
 msgstr ""
 "Maaf, akun anda belum diaktivasi. Akun anda harus divalidadi administrator."
 
@@ -911,14 +907,14 @@ msgstr "Pengembangan"
 #: _protected/app/system/core/forms/ConfigFileCoreForm.php:57
 msgid ""
 "If you see \"Internal Server Error\" message on your site, please set to "
-"\"development\" mode in order to see the details of the error. If your site "
-"is on production (and visible by everyone) please set it to the production "
-"mode for security reason."
+"\"development\" mode in order to see the details of the error. If your site is "
+"on production (and visible by everyone) please set it to the production mode "
+"for security reason."
 msgstr ""
 "If you see \"Internal Server Error\" message on your site, please set to "
-"\"development\" mode in order to see the details of the error. If your site "
-"is on production (and visible by everyone) please set it to the production "
-"mode for security reason."
+"\"development\" mode in order to see the details of the error. If your site is "
+"on production (and visible by everyone) please set it to the production mode "
+"for security reason."
 
 #: _protected/app/system/core/forms/ConfirmCoreForm.php:31
 msgid "Are you sure you want to do this?"
@@ -1084,8 +1080,7 @@ msgstr "Alamat Facebook anda, instagram, Line dsb."
 
 #: _protected/app/system/core/forms/DynamicFieldCoreForm.php:86
 msgid ""
-"Your Personal Website/Blog (any promotional/affiliated contents will be "
-"banned)"
+"Your Personal Website/Blog (any promotional/affiliated contents will be banned)"
 msgstr ""
 "Alamat Blog atau website pribadi anda: (alamat link affiliate/bisnisan akan "
 "diblokir)"
@@ -1421,8 +1416,7 @@ msgstr "Sandi tidak cocok."
 
 #: _protected/app/system/core/forms/processing/ChangePasswordCoreFormProcess.php:51
 msgid ""
-"Your current and new passwords are identical. So why do you want to change "
-"it?"
+"Your current and new passwords are identical. So why do you want to change it?"
 msgstr "Sandi yang sekarang dan yang baru sama. Kenapa anda mau menggantinya?"
 
 #: _protected/app/system/core/forms/processing/ChangePasswordCoreFormProcess.php:53
@@ -1569,8 +1563,7 @@ msgid ""
 "make sure that you entered the e-mail address used in creating your account."
 msgstr ""
 "Ups, \"%0%\"  ini tidak berhubungan dengan akun apapun di %site_name%. "
-"Pastikan anda memasukkan email yang sama yang digunakan untuk membuat akun "
-"ini."
+"Pastikan anda memasukkan email yang sama yang digunakan untuk membuat akun ini."
 
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:28
 msgid "Oops! Your account is already activated."
@@ -1589,8 +1582,7 @@ msgid ""
 "Password: ***** (this field is hidden to protect against theft of your "
 "account)."
 msgstr ""
-"Sandi: ***** (Field disembunyikan untuk melindungi akun anda dari "
-"pembajakan)."
+"Sandi: ***** (Field disembunyikan untuk melindungi akun anda dari pembajakan)."
 
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:69
 #: _protected/app/system/modules/lost-password/controllers/MainController.php:107
@@ -1695,8 +1687,7 @@ msgstr "Website dalam Perbaikan"
 
 #: _protected/app/system/global/views/base/tpl/other/maintenance.html.php:20
 msgid "dating site,free dating site,online dating site,social dating"
-msgstr ""
-"kencan,pacaran,jodoh,online,jodoh online,pacar online,nikah,kawin,nembak"
+msgstr "kencan,pacaran,jodoh,online,jodoh online,pacar online,nikah,kawin,nembak"
 
 #: _protected/app/system/global/views/base/tpl/other/maintenance.html.php:30
 msgid "Site Maintenance"
@@ -1704,8 +1695,7 @@ msgstr "Website Sedang Dalam Perbaikan"
 
 #: _protected/app/system/global/views/base/tpl/other/maintenance.html.php:31
 msgid "Whoops! Our website is currently down for maintenance."
-msgstr ""
-"Ups! Untuk sementara website tidak bisa diakses karena sedang perbaikan."
+msgstr "Ups! Untuk sementara website tidak bisa diakses karena sedang perbaikan."
 
 #: _protected/app/system/global/views/base/tpl/other/maintenance.html.php:32
 msgid "Please come back later!"
@@ -2409,11 +2399,9 @@ msgstr "Please select a field."
 #: _protected/app/system/modules/admin123/controllers/ToolController.php:174
 #: _protected/app/system/modules/admin123/controllers/ToolController.php:214
 msgid ""
-"Dump file must be a SQL type (extension \".sql\" or compressed archive \".gz"
-"\")"
+"Dump file must be a SQL type (extension \".sql\" or compressed archive \".gz\")"
 msgstr ""
-"Dump file must be a SQL type (extension \".sql\" or compressed archive \".gz"
-"\")"
+"Dump file must be a SQL type (extension \".sql\" or compressed archive \".gz\")"
 
 #: _protected/app/system/modules/admin123/controllers/ToolController.php:177
 #: _protected/app/system/modules/admin123/controllers/ToolController.php:196
@@ -2618,8 +2606,8 @@ msgstr "Akun keanggotaan anda sudah diaktifkan"
 #: _protected/app/system/modules/admin123/controllers/UserController.php:403
 #: _protected/app/system/modules/affiliate/controllers/AdminController.php:359
 msgid ""
-"Congratulations! Your account has been approved by our team of "
-"administrators.<br />You can now %0% to meeting new people!"
+"Congratulations! Your account has been approved by our team of administrators."
+"<br />You can now %0% to meeting new people!"
 msgstr ""
 "Selamat! akun anda sudah disetujui oleh tim admin kami. <br/> Anda sekarang "
 "bisa %0% untuk berjumpa dengan orang-orang baru!"
@@ -2854,11 +2842,11 @@ msgstr "Banner:"
 
 #: _protected/app/system/modules/admin123/forms/AdsForm.php:42
 msgid ""
-"The predefined variable for the URL of an affiliate account to put in the "
-"HTML is: %0%."
+"The predefined variable for the URL of an affiliate account to put in the HTML "
+"is: %0%."
 msgstr ""
-"The predefined variable for the URL of an affiliate account to put in the "
-"HTML is: %0%."
+"The predefined variable for the URL of an affiliate account to put in the HTML "
+"is: %0%."
 
 #: _protected/app/system/modules/admin123/forms/AdsForm.php:45
 msgid ""
@@ -2895,12 +2883,12 @@ msgstr "Wanita"
 #: _protected/app/system/modules/admin123/forms/ImportUserForm.php:29
 msgid ""
 "Import members into your site from a <strong><abbr title=\"Comma Separated "
-"Values\">CSV</abbr></strong> file. You can find database users <strong><a "
-"href=\"%0%\">here</a></strong>."
+"Values\">CSV</abbr></strong> file. You can find database users <strong><a href="
+"\"%0%\">here</a></strong>."
 msgstr ""
 "Import members into your site from a <strong><abbr title=\"Comma Separated "
-"Values\">CSV</abbr></strong> file. You can find database users <strong><a "
-"href=\"%0%\">here</a></strong>."
+"Values\">CSV</abbr></strong> file. You can find database users <strong><a href="
+"\"%0%\">here</a></strong>."
 
 #: _protected/app/system/modules/admin123/forms/ImportUserForm.php:32
 msgid "CSV file:"
@@ -3201,11 +3189,11 @@ msgstr "Default Module:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:49
 msgid ""
-"The default module is the one running by default on the homepage "
-"(recommended to keep the \"user\" module)."
+"The default module is the one running by default on the homepage (recommended "
+"to keep the \"user\" module)."
 msgstr ""
-"The default module is the one running by default on the homepage "
-"(recommended to keep the \"user\" module)."
+"The default module is the one running by default on the homepage (recommended "
+"to keep the \"user\" module)."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:51
 msgid "Default Language:"
@@ -3263,8 +3251,8 @@ msgstr "Tidak"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:55
 msgid ""
-"Display only the profiles with a profile photo on profile blocks (such as "
-"the homepage)."
+"Display only the profiles with a profile photo on profile blocks (such as the "
+"homepage)."
 msgstr ""
 "Tampilkan profil yang ada fotonya saja di blok profil (seperti di homepage)."
 
@@ -3275,12 +3263,12 @@ msgstr "Splash Homepage:"
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:57
 msgid ""
 "Use the Splash Page (recommended) for visitors (not logged), otherwise the "
-"classic page will be used. <br /><em>Available only if \"User\" is the "
-"Default Module.</em>"
+"classic page will be used. <br /><em>Available only if \"User\" is the Default "
+"Module.</em>"
 msgstr ""
 "Use the Splash Page (recommended) for visitors (not logged), otherwise the "
-"classic page will be used. <br /><em>Available only if \"User\" is the "
-"Default Module.</em>"
+"classic page will be used. <br /><em>Available only if \"User\" is the Default "
+"Module.</em>"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:59
 msgid "Background Splash Video:"
@@ -3312,13 +3300,13 @@ msgstr "Number of Profiles on Splash Page:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:63
 msgid ""
-"The number of profiles to display on the Splash Homepage. <br /"
-"><em>Available only if \"Profiles on Guest Homepage\" is enabled and if "
-"\"User\" is the Default Module.</em>"
+"The number of profiles to display on the Splash Homepage. <br /><em>Available "
+"only if \"Profiles on Guest Homepage\" is enabled and if \"User\" is the "
+"Default Module.</em>"
 msgstr ""
-"The number of profiles to display on the Splash Homepage. <br /"
-"><em>Available only if \"Profiles on Guest Homepage\" is enabled and if "
-"\"User\" is the Default Module.</em>"
+"The number of profiles to display on the Splash Homepage. <br /><em>Available "
+"only if \"Profiles on Guest Homepage\" is enabled and if \"User\" is the "
+"Default Module.</em>"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:65
 msgid "Ajax Site with AjPH:"
@@ -3379,14 +3367,12 @@ msgstr "Cookie Consent Bar:"
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:73
 msgid ""
 "Enable a Cookie Consent Bar to prevent your users that your website uses "
-"cookies. This is required by EU Law (if you have visitors from EU "
-"countries). The Cookie Bar will only be displayed if the visitor is in the "
-"EU."
+"cookies. This is required by EU Law (if you have visitors from EU countries). "
+"The Cookie Bar will only be displayed if the visitor is in the EU."
 msgstr ""
 "Enable a Cookie Consent Bar to prevent your users that your website uses "
-"cookies. This is required by EU Law (if you have visitors from EU "
-"countries). The Cookie Bar will only be displayed if the visitor is in the "
-"EU."
+"cookies. This is required by EU Law (if you have visitors from EU countries). "
+"The Cookie Bar will only be displayed if the visitor is in the EU."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:75
 msgid "Show \"Powered By\" link in footer:"
@@ -3421,11 +3407,11 @@ msgstr "Logo"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:85
 msgid ""
-"Add your small logo/icon that represents/distinguishes your site/concept/"
-"brand the best."
+"Add your small logo/icon that represents/distinguishes your site/concept/brand "
+"the best."
 msgstr ""
-"Add your small logo/icon that represents/distinguishes your site/concept/"
-"brand the best."
+"Add your small logo/icon that represents/distinguishes your site/concept/brand "
+"the best."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:87
 msgid "The current logo of your website."
@@ -3591,11 +3577,11 @@ msgstr "Nudity Filter:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:129
 msgid ""
-"Photos will be automatically pending approval if there are detected as "
-"\"Nude/Adult Photos\""
+"Photos will be automatically pending approval if there are detected as \"Nude/"
+"Adult Photos\""
 msgstr ""
-"Photos will be automatically pending approval if there are detected as "
-"\"Nude/Adult Photos\""
+"Photos will be automatically pending approval if there are detected as \"Nude/"
+"Adult Photos\""
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:131
 msgid "Profile Photo Manual Approval:"
@@ -3722,27 +3708,27 @@ msgstr "IP Restriction for Admin Panel Access:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:189
 msgid ""
-"By entering <a href=\"%0%\" title=\"Get your current IP address\">your IP</"
-"a>, you will get a higher security and exclude all other people and bots "
-"that tried to login with another IP address even if the login is correct! "
-"Leave blank to disable this feature. Be careful, for using this feature you "
-"need to have a static IP (not a dynamic one). If you are not sure, please "
-"contact your ISP."
+"By entering <a href=\"%0%\" title=\"Get your current IP address\">your IP</a>, "
+"you will get a higher security and exclude all other people and bots that "
+"tried to login with another IP address even if the login is correct! Leave "
+"blank to disable this feature. Be careful, for using this feature you need to "
+"have a static IP (not a dynamic one). If you are not sure, please contact your "
+"ISP."
 msgstr ""
-"By entering <a href=\"%0%\" title=\"Get your current IP address\">your IP</"
-"a>, you will get a higher security and exclude all other people and bots "
-"that tried to login with another IP address even if the login is correct! "
-"Leave blank to disable this feature. Be careful, for using this feature you "
-"need to have a static IP (not a dynamic one). If you are not sure, please "
-"contact your ISP."
+"By entering <a href=\"%0%\" title=\"Get your current IP address\">your IP</a>, "
+"you will get a higher security and exclude all other people and bots that "
+"tried to login with another IP address even if the login is correct! Leave "
+"blank to disable this feature. Be careful, for using this feature you need to "
+"have a static IP (not a dynamic one). If you are not sure, please contact your "
+"ISP."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:191
 msgid ""
-"Indicate a word that will replace the banned word in the <a href=\"%0%"
-"\">list</a>."
+"Indicate a word that will replace the banned word in the <a href=\"%0%\">list</"
+"a>."
 msgstr ""
-"Indicate a word that will replace the banned word in the <a href=\"%0%"
-"\">list</a>."
+"Indicate a word that will replace the banned word in the <a href=\"%0%\">list</"
+"a>."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:193
 msgid "Enable/Disable the CSRF security tokens for forms:"
@@ -3859,11 +3845,9 @@ msgstr "Send Forum Message delay:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:217
 msgid ""
-"Number of minutes for the same user can send a reply message in the same "
-"topic."
+"Number of minutes for the same user can send a reply message in the same topic."
 msgstr ""
-"Number of minutes for the same user can send a reply message in the same "
-"topic."
+"Number of minutes for the same user can send a reply message in the same topic."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:221
 msgid "Captcha for User Signup Form:"
@@ -3983,11 +3967,11 @@ msgstr "Secret word for the cron URL:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:259
 msgid ""
-"Your very secret word for the cron URL. It will be used for running "
-"automated cron jobs."
+"Your very secret word for the cron URL. It will be used for running automated "
+"cron jobs."
 msgstr ""
-"Your very secret word for the cron URL. It will be used for running "
-"automated cron jobs."
+"Your very secret word for the cron URL. It will be used for running automated "
+"cron jobs."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:261
 msgid "User inactivity timeout:"
@@ -4054,11 +4038,11 @@ msgstr "Module Status saved!"
 
 #: _protected/app/system/modules/admin123/forms/processing/EditFormProcess.php:36
 msgid ""
-"Your username has to contain from %0% to %1% characters, your username is "
-"not available or your username already used by other admin."
+"Your username has to contain from %0% to %1% characters, your username is not "
+"available or your username already used by other admin."
 msgstr ""
-"Your username has to contain from %0% to %1% characters, your username is "
-"not available or your username already used by other admin."
+"Your username has to contain from %0% to %1% characters, your username is not "
+"available or your username already used by other admin."
 
 #: _protected/app/system/modules/admin123/forms/processing/EditFormProcess.php:48
 msgid "Invalid email address or this email is already used by another admin."
@@ -4142,21 +4126,19 @@ msgstr "Anda sudah berhasil keluar."
 
 #: _protected/app/system/modules/admin123/inc/class/ImportUser.php:236
 msgid ""
-"Invalid File Format! Please select a valid CSV file containing the member "
-"data."
+"Invalid File Format! Please select a valid CSV file containing the member data."
 msgstr ""
-"Invalid File Format! Please select a valid CSV file containing the member "
-"data."
+"Invalid File Format! Please select a valid CSV file containing the member data."
 
 #: _protected/app/system/modules/admin123/inc/class/ImportUser.php:240
 msgid ""
-"The file is too large. Please select a smaller file or change your server "
-"PHP settings. Especially \"upload_max_filesize\" and \"post_max_size\" "
-"directives in the php.ini file."
+"The file is too large. Please select a smaller file or change your server PHP "
+"settings. Especially \"upload_max_filesize\" and \"post_max_size\" directives "
+"in the php.ini file."
 msgstr ""
-"The file is too large. Please select a smaller file or change your server "
-"PHP settings. Especially \"upload_max_filesize\" and \"post_max_size\" "
-"directives in the php.ini file."
+"The file is too large. Please select a smaller file or change your server PHP "
+"settings. Especially \"upload_max_filesize\" and \"post_max_size\" directives "
+"in the php.ini file."
 
 #: _protected/app/system/modules/admin123/inc/class/ImportUser.php:244
 msgid "The file is Invalid/Empty or has incorrect Delimiter/Enclosure set."
@@ -4506,9 +4488,8 @@ msgid ""
 "Please specify your birth date using the calendar or with this format: Month/"
 "Day/Year. <strong>It is imperative to finish by the DAY</strong>."
 msgstr ""
-"Mohon tentukan tanggal lahir anda menggunakan format ini: Bulan/Tanggal/"
-"Tahun. <strong> Di tabel ini harus diakhiri dengan menentukan TANGGAL "
-"<strong>."
+"Mohon tentukan tanggal lahir anda menggunakan format ini: Bulan/Tanggal/Tahun. "
+"<strong> Di tabel ini harus diakhiri dengan menentukan TANGGAL <strong>."
 
 #: _protected/app/system/modules/affiliate/forms/JoinForm.php:53
 msgid "Select the country where you are legally resident."
@@ -4616,8 +4597,8 @@ msgstr "Hai %0%! Kami bangga menyambut anda sebagai affilate di %site_name%!"
 #: _protected/app/system/modules/affiliate/inc/class/Registration.php:41
 msgid ""
 "Password: ****** (This field is hidden to protect against theft of your "
-"account. If you have forgotten your password, please request a new one <a "
-"href=\"%0%\">here</a>)."
+"account. If you have forgotten your password, please request a new one <a href="
+"\"%0%\">here</a>)."
 msgstr ""
 "Sandi: ****** (Field ini disembunyikan untuk melindungi dari para pembajak "
 "akun. Jika anda lupa sandi anda, Silakan ajukan yang baru <a href=\"%0%\">di "
@@ -4633,11 +4614,11 @@ msgstr "Silakan %0% dapatkan penghasilanmu mulai hari ini!"
 
 #: _protected/app/system/modules/api/config/Permission.php:26
 msgid ""
-"Your API key and/or the URL of your external application don't match with "
-"the one in your pH7CMS's configuration system!"
+"Your API key and/or the URL of your external application don't match with the "
+"one in your pH7CMS's configuration system!"
 msgstr ""
-"Your API key and/or the URL of your external application don't match with "
-"the one in your pH7CMS's configuration system!"
+"Your API key and/or the URL of your external application don't match with the "
+"one in your pH7CMS's configuration system!"
 
 #: _protected/app/system/modules/api/controllers/UserController.php:69
 msgid "One or several profile fields are empty."
@@ -4772,8 +4753,8 @@ msgstr ""
 #: _protected/app/system/modules/blog/controllers/MainController.php:140
 msgid "search,post,blog,dating,social network,community,news"
 msgstr ""
-"cari,post,postingan,kencan,jejaring sosial,medos,komunitas,jodoh,jodoh-"
-"bisnis online,berita"
+"cari,post,postingan,kencan,jejaring sosial,medos,komunitas,jodoh,jodoh-bisnis "
+"online,berita"
 
 #: _protected/app/system/modules/blog/controllers/MainController.php:151
 msgid "Blog Search - Looking for a post"
@@ -4807,8 +4788,8 @@ msgid ""
 "You can go back on the <a href=\"%0%\">blog homepage</a> or <a href=\"%1%"
 "\">search with different keywords</a>."
 msgstr ""
-"Anda bisa kembali ke <a href=\"%0%\">halaman utama blog</a> atau <a href="
-"\"%1%\">cari dengan kata kunci yang berbeda</a>."
+"Anda bisa kembali ke <a href=\"%0%\">halaman utama blog</a> atau <a href=\"%1%"
+"\">cari dengan kata kunci yang berbeda</a>."
 
 #: _protected/app/system/modules/blog/forms/AdminBlogForm.php:39
 #: _protected/app/system/modules/blog/forms/EditAdminBlogForm.php:56
@@ -4991,16 +4972,16 @@ msgstr ""
 msgid ""
 "chat, speed dating, meet singles, dating, free dating, chat room, chat webcam"
 msgstr ""
-"chatting,chat,kencan,jodoh,single,jomblo,jomblowan,jomblowati,duda,janda,"
-"chat room,ruang obrol,obrol,chat kamera,kamera,web cam"
+"chatting,chat,kencan,jodoh,single,jomblo,jomblowan,jomblowati,duda,janda,chat "
+"room,ruang obrol,obrol,chat kamera,kamera,web cam"
 
 #: _protected/app/system/modules/chat/controllers/HomeController.php:22
 msgid ""
 "Welcome to <span class=\"pH3\">Free Chat Room</span> on <span class=\"pH0\">"
 "%site_name%</span>!"
 msgstr ""
-"Selamat Datang di <span class=\"pH3\">Ruang Chat Bersama</span> di <span "
-"class=\"pH0\">%site_name%</span>!"
+"Selamat Datang di <span class=\"pH3\">Ruang Chat Bersama</span> di <span class="
+"\"pH0\">%site_name%</span>!"
 
 #: _protected/app/system/modules/chatroulette/controllers/HomeController.php:19
 msgid "Free Video Room, Live Speed Dating ChatRoulette"
@@ -5022,8 +5003,8 @@ msgstr ""
 
 #: _protected/app/system/modules/chatroulette/controllers/HomeController.php:22
 msgid ""
-"Welcome to <span class=\"pH1\">Speed Dating ChatRoulette</span> of <span "
-"class=\"pH0\">%site_name%</span>!"
+"Welcome to <span class=\"pH1\">Speed Dating ChatRoulette</span> of <span class="
+"\"pH0\">%site_name%</span>!"
 msgstr ""
 "Selamat Datang di <span class=\"pH1\">Chat Wow Webcam Live</span> di <span "
 "class=\"pH0\">%site_name%</span>!"
@@ -5063,11 +5044,9 @@ msgid "comment,%0%"
 msgstr "komentar,%0%"
 
 #: _protected/app/system/modules/comment/controllers/CommentController.php:110
-msgid ""
-"No comments yet, please return to the <a href=\"%0%\">previous page</a>."
+msgid "No comments yet, please return to the <a href=\"%0%\">previous page</a>."
 msgstr ""
-"Belum ada komentar, Silakan kembali ke <a href=\"%0%\">halaman sebelumnya</"
-"a>."
+"Belum ada komentar, Silakan kembali ke <a href=\"%0%\">halaman sebelumnya</a>."
 
 #: _protected/app/system/modules/comment/controllers/CommentController.php:117
 msgid "Add a new comment"
@@ -5136,8 +5115,8 @@ msgid ""
 "Universal Login, Use the service Facebook, Twitter, Outlook, Microsoft, "
 "Google, or other account to login on the social dating site %site_name%"
 msgstr ""
-"Login Universal, gunakan Facebook, Twitter dan lain-lain untuk masuk ke "
-"situs Jodoh & Bisnis online %site_name%"
+"Login Universal, gunakan Facebook, Twitter dan lain-lain untuk masuk ke situs "
+"Jodoh & Bisnis online %site_name%"
 
 #: _protected/app/system/modules/connect/controllers/MainController.php:39
 msgid ""
@@ -5337,12 +5316,12 @@ msgstr "Method Not Allowed"
 
 #: _protected/app/system/modules/error/controllers/HttpController.php:58
 msgid ""
-"A request was made of a resource using a request method not supported by "
-"that resource;[2] for example, using GET on a form which requires data to be "
+"A request was made of a resource using a request method not supported by that "
+"resource;[2] for example, using GET on a form which requires data to be "
 "presented via POST, or using PUT on a read-only resource."
 msgstr ""
-"A request was made of a resource using a request method not supported by "
-"that resource;[2] for example, using GET on a form which requires data to be "
+"A request was made of a resource using a request method not supported by that "
+"resource;[2] for example, using GET on a form which requires data to be "
 "presented via POST, or using PUT on a read-only resource."
 
 #: _protected/app/system/modules/error/controllers/HttpController.php:63
@@ -5356,8 +5335,8 @@ msgid ""
 ">Please come back later!"
 msgstr ""
 "Server sedang mengalami gangguan. Kemungkinan besar karena masalah script, "
-"database yang eror ketika diakses, atau penyebab serupa. <br/>Silakan "
-"kembali lagi nanti!"
+"database yang eror ketika diakses, atau penyebab serupa. <br/>Silakan kembali "
+"lagi nanti!"
 
 #: _protected/app/system/modules/error/controllers/HttpController.php:71
 msgid "Not Implemented"
@@ -5389,15 +5368,15 @@ msgstr "Gateway Timeout"
 
 #: _protected/app/system/modules/error/controllers/HttpController.php:99
 msgid ""
-"Most likely the client has lost connectivity (disconnected from the "
-"internet) or the client's host is having technical difficulties.<br /> This "
-"could also meanthat a server that allows access to the requested server is "
-"down, having bandwidth/load issues, or otherwise unavailable."
+"Most likely the client has lost connectivity (disconnected from the internet) "
+"or the client's host is having technical difficulties.<br /> This could also "
+"meanthat a server that allows access to the requested server is down, having "
+"bandwidth/load issues, or otherwise unavailable."
 msgstr ""
-"Kemungkinan besar diakibatkan oleh hilangnya koneksi (putus hubungan "
-"internet) atau hosting dari klien sedang mengalami masalah teknis. <br /> "
-"Ini juga bisa diartikan server yang bertugas memberi akses yang diminta, "
-"sedang down, bermasalah dengan bandwith/loading, atau server tidak tersedia."
+"Kemungkinan besar diakibatkan oleh hilangnya koneksi (putus hubungan internet) "
+"atau hosting dari klien sedang mengalami masalah teknis. <br /> Ini juga bisa "
+"diartikan server yang bertugas memberi akses yang diminta, sedang down, "
+"bermasalah dengan bandwith/loading, atau server tidak tersedia."
 
 #: _protected/app/system/modules/error/controllers/HttpController.php:104
 msgid "HTTP Version Not Supported"
@@ -5456,13 +5435,13 @@ msgstr "Field Name:"
 #: _protected/app/system/modules/field/forms/AddFieldForm.php:33
 #: _protected/app/system/modules/field/forms/EditFieldForm.php:34
 msgid ""
-"Field Name must contain 2-30 alphanumeric characters ([a-z], [A-Z], [0-9] "
-"and [_], [-]). After you can translate this language key in <span class="
-"\"italic underline\">%0%</span>"
+"Field Name must contain 2-30 alphanumeric characters ([a-z], [A-Z], [0-9] and "
+"[_], [-]). After you can translate this language key in <span class=\"italic "
+"underline\">%0%</span>"
 msgstr ""
-"Field Name must contain 2-30 alphanumeric characters ([a-z], [A-Z], [0-9] "
-"and [_], [-]). After you can translate this language key in <span class="
-"\"italic underline\">%0%</span>"
+"Field Name must contain 2-30 alphanumeric characters ([a-z], [A-Z], [0-9] and "
+"[_], [-]). After you can translate this language key in <span class=\"italic "
+"underline\">%0%</span>"
 
 #: _protected/app/system/modules/field/forms/AddFieldForm.php:34
 #: _protected/app/system/modules/field/forms/EditFieldForm.php:35
@@ -5578,8 +5557,8 @@ msgid ""
 "forum,discussion,dating forum,social forum,people,meet people,forums,free "
 "dating forum,free forum,community forum,social forum"
 msgstr ""
-"jodoh,forum,diskusi,bisnis,bisnis online,komunitas jodoh,rejeki,rizki,"
-"kenalan,gebetan,jones,seret jodoh,seret rejeki"
+"jodoh,forum,diskusi,bisnis,bisnis online,komunitas jodoh,rejeki,rizki,kenalan,"
+"gebetan,jones,seret jodoh,seret rejeki"
 
 #: _protected/app/system/modules/forum/controllers/ForumController.php:71
 msgid "No Forums found."
@@ -5611,8 +5590,8 @@ msgstr "%0% - %0% - Forum Jual-Beli , dan Sharing Pengetahuan"
 
 #: _protected/app/system/modules/forum/controllers/ForumController.php:113
 msgid ""
-"%0%,forum,discussion,dating forum,social forum,people,meet people,forums,"
-"free dating forum"
+"%0%,forum,discussion,dating forum,social forum,people,meet people,forums,free "
+"dating forum"
 msgstr ""
 "%0%,forum,diskusi,jual,beli,jual-beli,bisnis,bisnis online,berjumpa orang,"
 "kencan gratis"
@@ -5658,8 +5637,7 @@ msgstr "Pencarian Forum - Mecari postingan di Forum | %site_name%"
 
 #: _protected/app/system/modules/forum/controllers/ForumController.php:216
 msgid "Topic Search - Discussion Forum - %site_name%"
-msgstr ""
-"Pencarian Topik - Forum Jual-Beli dan Sharing Pengetahuan - %site_name%"
+msgstr "Pencarian Topik - Forum Jual-Beli dan Sharing Pengetahuan - %site_name%"
 
 #: _protected/app/system/modules/forum/controllers/ForumController.php:251
 msgid "Forums - Your search returned"
@@ -5845,8 +5823,8 @@ msgstr "%0% ingin menjadi teman anda di %1%"
 
 #: _protected/app/system/modules/friend/controllers/MainController.php:86
 msgid ""
-"%0%'s friends. Meet new people and make new friends, sex friends, hot "
-"friends for Flirt, Speed Dating or social relationship with %site_name%"
+"%0%'s friends. Meet new people and make new friends, sex friends, hot friends "
+"for Flirt, Speed Dating or social relationship with %site_name%"
 msgstr ""
 "teman-temannya %0%. Cari  kenalan, pasangan, gebetan, jodoh atau teman biasa "
 "dan peluang bisnis online di %site_name%"
@@ -5856,8 +5834,8 @@ msgid ""
 "friend,friends,girl friend,boy friend,sex friend,hot friend,new friend,"
 "friendship,dating,flirt,%0%"
 msgstr ""
-"teman,rekan,gebetan,kenalan,pasangan,kencan,ketemuan,jodoh,usaha,bisnis,"
-"bisnis online,jones,%0%"
+"teman,rekan,gebetan,kenalan,pasangan,kencan,ketemuan,jodoh,usaha,bisnis,bisnis "
+"online,jones,%0%"
 
 #: _protected/app/system/modules/friend/controllers/MainController.php:107
 msgid "No Friend found on %0%'s profile"
@@ -5976,8 +5954,7 @@ msgid_plural "%n% Games Found!"
 msgstr[0] "%n% Game Found!"
 
 #: _protected/app/system/modules/game/controllers/MainController.php:145
-msgid ""
-"Search the Flash Game in the Category %0% - Community Dating Social Games"
+msgid "Search the Flash Game in the Category %0% - Community Dating Social Games"
 msgstr ""
 "Search the Flash Game in the Category %0% - Community Dating Social Games"
 
@@ -6003,11 +5980,11 @@ msgstr "Wrong download ID specified!"
 
 #: _protected/app/system/modules/game/controllers/MainController.php:262
 msgid ""
-"Please return to the <a href=\"%0%\">main game page</a> or <a href=\"%1%"
-"\">the previous page</a>."
+"Please return to the <a href=\"%0%\">main game page</a> or <a href=\"%1%\">the "
+"previous page</a>."
 msgstr ""
-"Please return to the <a href=\"%0%\">main game page</a> or <a href=\"%1%"
-"\">the previous page</a>."
+"Please return to the <a href=\"%0%\">main game page</a> or <a href=\"%1%\">the "
+"previous page</a>."
 
 #: _protected/app/system/modules/game/forms/AdminEditForm.php:50
 #: _protected/app/system/modules/game/forms/AdminForm.php:42
@@ -6135,12 +6112,11 @@ msgstr "Anda harus berstatus ONLINE jika ingin berbicara langsung."
 #: _protected/app/system/modules/im/assets/ajax/MessengerAjax.php:190
 msgid "%0% is offline. Send a <a href='%1%'>Private Message</a> instead."
 msgstr ""
-"%0% sedang offline/tidak on. Anda bisa mengirim<a href='%1%'>Pesan Pribadi</"
-"a> sebagai gantinya."
+"%0% sedang offline/tidak on. Anda bisa mengirim<a href='%1%'>Pesan Pribadi</a> "
+"sebagai gantinya."
 
 #: _protected/app/system/modules/im/assets/ajax/MessengerAjax.php:186
-msgid ""
-"You need to <a href='%0%'>upgrade your membership</a> to be able to chat."
+msgid "You need to <a href='%0%'>upgrade your membership</a> to be able to chat."
 msgstr ""
 "Anda harus<a href='%0%'>memperbarui keanggotaan anda</a> untuk bisa obrol/"
 "chatting."
@@ -6176,8 +6152,7 @@ msgid "Invite your Friends!"
 msgstr "Undang teman-teman anda!"
 
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:29
-msgid ""
-"To prevent spam, you cannot put more than %0% email addresses at a time."
+msgid "To prevent spam, you cannot put more than %0% email addresses at a time."
 msgstr ""
 "Untuk menghindari Spam, anda tidak bisa menambahkan lebih dari  %0% alamat "
 "email dalam satu waktu."
@@ -6206,8 +6181,8 @@ msgstr ""
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:60
 msgid "Get exclusive privilege to join your friend is waiting for you!"
 msgstr ""
-"Ayo dapatkan kesempatan istimewa ini untuk bergabung dengan teman-teman  "
-"anda yang sudah menunggu kehadiran anda!"
+"Ayo dapatkan kesempatan istimewa ini untuk bergabung dengan teman-teman  anda "
+"yang sudah menunggu kehadiran anda!"
 
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:61
 msgid "Message left by your friend:"
@@ -6215,17 +6190,16 @@ msgstr "Pesan yang dikirim oleh teman anda:"
 
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:62
 msgid ""
-"You are receiving this message because \"%0%\" you know has entered your "
-"email address in the form of invitation of friends to our site. This is not "
-"spam!"
+"You are receiving this message because \"%0%\" you know has entered your email "
+"address in the form of invitation of friends to our site. This is not spam!"
 msgstr ""
 "Anda menerima pesan ini karena email anda sudah dimasukkan dalam daftar "
 "undangan ke situs jodoh & bisnis online oleh teman anda. Ini bukan spam!"
 
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:68
 msgid ""
-"Privilege on the invitation from your friend for the new generation "
-"community platform - %site_name%"
+"Privilege on the invitation from your friend for the new generation community "
+"platform - %site_name%"
 msgstr ""
 "Undangan kehormatan oleh teman anda untuk bergabung di situs jodoh & bisnis "
 "online paling populer - %site_name%"
@@ -6275,10 +6249,8 @@ msgid "Password reset instructions sent to %0%"
 msgstr "Petunjuk setting ulang sandi sudah dikirimkan ke %0%"
 
 #: _protected/app/system/modules/lost-password/forms/processing/ForgotPasswordFormProcess.php:72
-msgid ""
-"Someone (from the IP: %0%) has requested a new password for this account."
-msgstr ""
-"Seseorang (dari IP: %0%) telah meminta penggantian sandi untuk akun ini."
+msgid "Someone (from the IP: %0%) has requested a new password for this account."
+msgstr "Seseorang (dari IP: %0%) telah meminta penggantian sandi untuk akun ini."
 
 #: _protected/app/system/modules/lost-password/forms/processing/ForgotPasswordFormProcess.php:73
 msgid ""
@@ -6297,8 +6269,8 @@ msgid ""
 "Love Calculator with <span class=\"pH1\">You</span> and <span class=\"pH1\">"
 "%0%</span>"
 msgstr ""
-"Kalkulator Cinta antara<span class=\"pH1\">Anda</span> dan <span class="
-"\"pH1\">%0%</span>"
+"Kalkulator Cinta antara<span class=\"pH1\">Anda</span> dan <span class=\"pH1\">"
+"%0%</span>"
 
 #: _protected/app/system/modules/love-calculator/controllers/MainController.php:79
 msgid "No Name Found for the Love Calculator!"
@@ -6542,8 +6514,8 @@ msgstr "Ups! Anda tidak bisa mengirim pesan ke anda sendiri."
 
 #: _protected/app/system/modules/mail/forms/processing/MailFormProcess.php:42
 msgid ""
-"Oops! You cannot reply to administrator! If you want to contact us, please "
-"use our <a href=\"%0%\">contact form</a>."
+"Oops! You cannot reply to administrator! If you want to contact us, please use "
+"our <a href=\"%0%\">contact form</a>."
 msgstr ""
 "Ups! Anda tidak bisa membalas pesan admin! Jika anda ingin menghubungi kami, "
 "silakan gunakan<a href=\"%0%\">kontak form</a> kami."
@@ -6678,8 +6650,8 @@ msgid ""
 "Newsletters - Subscribe to our newsletter %site_name% | Social networking, "
 "dating website."
 msgstr ""
-"Info-Rutin - Berlangganan Info-Rutin dari %site_name% | Website Jodoh & "
-"Bisnis Online."
+"Info-Rutin - Berlangganan Info-Rutin dari %site_name% | Website Jodoh & Bisnis "
+"Online."
 
 #: _protected/app/system/modules/newsletter/controllers/HomeController.php:17
 msgid ""
@@ -6740,13 +6712,13 @@ msgstr[0] "%n% langganan berita telah berhasil dikirimkan"
 
 #: _protected/app/system/modules/newsletter/forms/processing/SubscriptionFormProcess.php:46
 msgid ""
-"Please activate your subscription by clicking the activation link you "
-"received by email. If you can not find the email, please look in your SPAM "
-"FOLDER and mark as not spam."
+"Please activate your subscription by clicking the activation link you received "
+"by email. If you can not find the email, please look in your SPAM FOLDER and "
+"mark as not spam."
 msgstr ""
-"Silakan aktifkan langganan anda dengan mengirim link aktifasi yang anda "
-"terima di email. Jika anda tidak bisa menemukannya dalam email, silakan cari "
-"di FOLDER SPAM dan beritanda bukan spam."
+"Silakan aktifkan langganan anda dengan mengirim link aktifasi yang anda terima "
+"di email. Jika anda tidak bisa menemukannya dalam email, silakan cari di "
+"FOLDER SPAM dan beritanda bukan spam."
 
 #: _protected/app/system/modules/newsletter/forms/processing/SubscriptionFormProcess.php:52
 msgid "Oops! You are already subscribed to our newsletter."
@@ -6849,8 +6821,8 @@ msgstr ""
 #: _protected/app/system/modules/note/controllers/MainController.php:213
 msgid "author,search,post,blog,note,dating,social network,community,news"
 msgstr ""
-"pengarang,penulis,posting,postingan,blog,tulisan,artikel,kencan,pacar,"
-"jaringan,medsos,sosmed,berita"
+"pengarang,penulis,posting,postingan,blog,tulisan,artikel,kencan,pacar,jaringan,"
+"medsos,sosmed,berita"
 
 #: _protected/app/system/modules/note/controllers/MainController.php:224
 msgid "Note Search - Looking for a post"
@@ -6917,8 +6889,8 @@ msgid ""
 "Select a category that fits the best for your article. You can select up to "
 "three different categories"
 msgstr ""
-"Pilih kategori mana yang paling cocok dengan postingan anda. Anda bisa "
-"memilih hingga tiga kategori yang berbeda"
+"Pilih kategori mana yang paling cocok dengan postingan anda. Anda bisa memilih "
+"hingga tiga kategori yang berbeda"
 
 #: _protected/app/system/modules/note/forms/EditNoteForm.php:66
 msgid "The language of your post:"
@@ -6968,17 +6940,17 @@ msgid ""
 "Meet new people and have meetings near you with %site_name%, the new online "
 "dating free site  new generation with webcam chat!"
 msgstr ""
-"Temui kenalan-kenalan baru dan temui mereka di sekitar anda lewat %site_name"
-"%, situs perkenalan, perjodohan dan bisnis online generasi baru dilengkapi "
-"dengan chatting menggunakan kamera!"
+"Temui kenalan-kenalan baru dan temui mereka di sekitar anda lewat %site_name%, "
+"situs perkenalan, perjodohan dan bisnis online generasi baru dilengkapi dengan "
+"chatting menggunakan kamera!"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:31
 msgid ""
 "dating, free dating, online dating, people, meeting, romance, woman, man, "
 "dating site, flirt, chat, chat room, webcam, video chat, %site_name%"
 msgstr ""
-"pacaran, jodoh, orang-orang, berjumpa, romantisme, romantis, laki, "
-"perempuan, menggoda, chat, chat room, webcam, chat video, %site_name%"
+"pacaran, jodoh, orang-orang, berjumpa, romantisme, romantis, laki, perempuan, "
+"menggoda, chat, chat room, webcam, chat video, %site_name%"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:32
 msgid "Free Online Dating with %site_name%!"
@@ -7148,8 +7120,8 @@ msgstr "Bagi tahu situs ini dengan yang lain!"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:125
 msgid ""
-"Do you like %site_name% and want it even more popular, then share this site "
-"on your website, blog, discussion forum, etc..."
+"Do you like %site_name% and want it even more popular, then share this site on "
+"your website, blog, discussion forum, etc..."
 msgstr ""
 "Apakah anda menyukai - %site_name%? dan ingin supaya lebih dikenal. Bagikan "
 "situs ini di website anda, blog, forum dll."
@@ -7337,11 +7309,11 @@ msgstr "Price:"
 #: _protected/app/system/modules/payment/forms/EditMembershipForm.php:48
 #: _protected/app/system/modules/payment/forms/MembershipForm.php:43
 msgid ""
-"Currency: %0%. 0 = Free. To change the currency, please <a href=\"%1%\">go "
-"to settings</a>."
+"Currency: %0%. 0 = Free. To change the currency, please <a href=\"%1%\">go to "
+"settings</a>."
 msgstr ""
-"Currency: %0%. 0 = Free. To change the currency, please <a href=\"%1%\">go "
-"to settings</a>."
+"Currency: %0%. 0 = Free. To change the currency, please <a href=\"%1%\">go to "
+"settings</a>."
 
 #: _protected/app/system/modules/payment/forms/EditMembershipForm.php:49
 #: _protected/app/system/modules/payment/forms/MembershipForm.php:44
@@ -7456,8 +7428,7 @@ msgid "Photo Gallery Community"
 msgstr "Gallery Foto"
 
 #: _protected/app/system/modules/picture/controllers/MainController.php:109
-msgid ""
-"%0%'s Albums | Photo Albums of the Dating Social Community - %site_name%"
+msgid "%0%'s Albums | Photo Albums of the Dating Social Community - %site_name%"
 msgstr "Album %0% | Album Foto Komunitas Jodoh & Bisnis Online  - %site_name%"
 
 #: _protected/app/system/modules/picture/controllers/MainController.php:136
@@ -7534,8 +7505,8 @@ msgstr ""
 
 #: _protected/app/system/modules/picture/controllers/MainController.php:292
 msgid ""
-"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%"
-"\">add new photos</a> in this album."
+"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%\">add "
+"new photos</a> in this album."
 msgstr ""
 "Silakan kembali ke <a href=\"%1%\">halaman sebelumnya</a> atau <a href=\"%1%"
 "\">tambahkan foto-foto baru</a> dalam album ini."
@@ -7589,8 +7560,8 @@ msgid ""
 "You can select multiple photos at once by clicking multiple files while "
 "holding down the \"CTRL\" key."
 msgstr ""
-"Anda bisa memilih beberapa foto sekaligus dengan mengklik beberapa foto "
-"sambil menekan tombol \"CTRL\"."
+"Anda bisa memilih beberapa foto sekaligus dengan mengklik beberapa foto sambil "
+"menekan tombol \"CTRL\"."
 
 #: _protected/app/system/modules/picture/forms/PictureForm.php:50
 #: _protected/app/system/modules/video/forms/VideoForm.php:51
@@ -7631,8 +7602,8 @@ msgid ""
 "Your photo(s) has/have been received. It will not be visible until it is "
 "approved by our moderators. Please do not send a new one."
 msgstr ""
-"Foto-foto anda sudah diterima. Foto tidak akan terlihat sampai disetujui "
-"oleh moderator. Mohon jangan tambahkan lagi yang baru."
+"Foto-foto anda sudah diterima. Foto tidak akan terlihat sampai disetujui oleh "
+"moderator. Mohon jangan tambahkan lagi yang baru."
 
 #: _protected/app/system/modules/picture/forms/processing/PictureFormProcess.php:126
 msgid "Your photo(s) has/have been successfully added!"
@@ -7897,8 +7868,8 @@ msgstr "Terakhir Diedit: %0%"
 #: _protected/app/system/modules/user/assets/ajax/WallAjax.php:94
 msgid "No news feed available at the moment. Start commenting some profiles!"
 msgstr ""
-"Tak ada informasi postingan sampai saat ini. Mulailah memberikan komentar "
-"pada profil orang-orang!"
+"Tak ada informasi postingan sampai saat ini. Mulailah memberikan komentar pada "
+"profil orang-orang!"
 
 #: _protected/app/system/modules/user/assets/ajax/WallAjax.php:101
 msgid "Read more"
@@ -7958,8 +7929,7 @@ msgstr "Temukan teman-teman Baru dengan %0%"
 #: _protected/app/system/modules/user/controllers/BrowseController.php:62
 msgid "Meet new People and Friends near you with %site_name% - Browse Members"
 msgstr ""
-"Temukan teman-teman baru di dekat anda dengan %site_name% - Lihat-lihat "
-"Jobbers"
+"Temukan teman-teman baru di dekat anda dengan %site_name% - Lihat-lihat Jobbers"
 
 #: _protected/app/system/modules/user/controllers/CountryController.php:41
 msgid "Meet new people here!"
@@ -7976,8 +7946,8 @@ msgstr ""
 #: _protected/app/system/modules/user/controllers/CountryController.php:63
 msgid ""
 "Free online dating in %0% with single women & men. Personals, meet people & "
-"find friends in %1% on internet dating site. Find sweet love or sex dating "
-"and flirt in %2%, %3% with %site_name%"
+"find friends in %1% on internet dating site. Find sweet love or sex dating and "
+"flirt in %2%, %3% with %site_name%"
 msgstr ""
 "Situs kenalan dan jodoh gratis di  %0%. Pria dan wanita single. Pribadi, "
 "temukan orang-orang dan teman baru di %1% di situs jodoh dan bisnis ini. "
@@ -8030,16 +8000,15 @@ msgstr "Temui %0% %1% | %2% - %3%"
 msgid ""
 "Meet <span class=\"pH1\">%0%</span> on <span class=\"pH0\">%site_name%</span>"
 msgstr ""
-"Temui <span class=\"pH1\">%0%</span> di <span class=\"pH0\">%site_name%</"
-"span>"
+"Temui <span class=\"pH1\">%0%</span> di <span class=\"pH0\">%site_name%</span>"
 
 #: _protected/app/system/modules/user/controllers/ProfileController.php:118
 msgid ""
-"A <span class=\"pH1\">%0%</span> of <span class=\"pH3\">%1% years</span>, "
-"from <span class=\"pH2\">%2%, %3% %4%</span>"
+"A <span class=\"pH1\">%0%</span> of <span class=\"pH3\">%1% years</span>, from "
+"<span class=\"pH2\">%2%, %3% %4%</span>"
 msgstr ""
-"Seorang <span class=\"pH1\">%0%</span> Berusia <span class=\"pH3\">%1% "
-"Tahun</span>, Dari <span class=\"pH2\">%2%, %3% %4%</span>"
+"Seorang <span class=\"pH1\">%0%</span> Berusia <span class=\"pH3\">%1% Tahun</"
+"span>, Dari <span class=\"pH2\">%2%, %3% %4%</span>"
 
 #: _protected/app/system/modules/user/controllers/ProfileController.php:188
 msgid "Meet %0% near here!"
@@ -8051,8 +8020,8 @@ msgid ""
 "\">login</a> or <a href=\"%2%\">register</a> to see this profile."
 msgstr ""
 "Ups! profil \"%0%\" hanya bisa dilihat oleh orang yang terdaftar. Silakan<a "
-"href=\"%1%\">masuk</a> atau <a href=\"%2%\">mendaftar</a> untuk melihat "
-"profil ini."
+"href=\"%1%\">masuk</a> atau <a href=\"%2%\">mendaftar</a> untuk melihat profil "
+"ini."
 
 #: _protected/app/system/modules/user/controllers/ProfileController.php:216
 msgid "Whoops! The \"%0%\" profile is not available to you."
@@ -8297,16 +8266,14 @@ msgid "Action: %0%"
 msgstr "Aksi: %0%"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:58
-msgid ""
-"Register for free to meet %0% on %site_name%. The Real Social Dating app!"
+msgid "Register for free to meet %0% on %site_name%. The Real Social Dating app!"
 msgstr ""
-"Mendaftarlah (gratis) untuk bisa bertemu %0% di %site_name%. Medsos Jodoh "
-"dan Bisnis Online!"
+"Mendaftarlah (gratis) untuk bisa bertemu %0% di %site_name%. Medsos Jodoh dan "
+"Bisnis Online!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:58
 msgid "Free Sign Up to Meet Lovely People!"
-msgstr ""
-"Mendaftarlah (Gratis) untuk bisa bertemu orang-orang yang menyenangkan!"
+msgstr "Mendaftarlah (Gratis) untuk bisa bertemu orang-orang yang menyenangkan!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:61
 msgid ""
@@ -8314,8 +8281,8 @@ msgid ""
 "\"pink1\">%1%</span>) on <span class=\"pink2\">%site_name%</span>!"
 msgstr ""
 "Mendaftarlah (Gratis) untuk bisa bertemu dengan<span class=\"pink2\">%0%</"
-"span> (<span class=\"pink1\">%1%</span>) di <span class=\"pink2\">%site_name"
-"%</span>!"
+"span> (<span class=\"pink1\">%1%</span>) di <span class=\"pink2\">%site_name%</"
+"span>!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:63
 msgid "Sign Up on %site_name%!"
@@ -8328,8 +8295,8 @@ msgid ""
 "with profiles, blogs, rating, hot or not, video chat rooms"
 msgstr ""
 "Mendaftarlah sekarang juga untuk bisa bertemu teman-teman, kenalan, gebetan, "
-"rekan bisnis, dan orang-orang menyenangkan lainnya, di dekat anda maupun "
-"jauh. %site_name% adalah medsos untuk jodoh dan bisnis online, bisa chatting "
+"rekan bisnis, dan orang-orang menyenangkan lainnya, di dekat anda maupun jauh. "
+"%site_name% adalah medsos untuk jodoh dan bisnis online, bisa chatting "
 "tulisan, maupuan kamera live"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:76
@@ -8346,11 +8313,11 @@ msgstr "Sekarang, anda unggah foto profil anda!"
 
 #: _protected/app/system/modules/user/controllers/VisitorController.php:68
 msgid ""
-"The Last %0%'s visitors. Meet new people and make new visitors on your "
-"social profile. Make new Visitors and Friends with %site_name%"
+"The Last %0%'s visitors. Meet new people and make new visitors on your social "
+"profile. Make new Visitors and Friends with %site_name%"
 msgstr ""
-"Yang terakhir melihat %0%. Temui orang-orang dan kenalan baru dan profil "
-"anda akan dilihat orang-orang di %site_name%"
+"Yang terakhir melihat %0%. Temui orang-orang dan kenalan baru dan profil anda "
+"akan dilihat orang-orang di %site_name%"
 
 #: _protected/app/system/modules/user/controllers/VisitorController.php:73
 msgid "visitor,friend,dating,social networking,visitors,spy,profile,social,%0%"
@@ -8491,13 +8458,12 @@ msgstr "Informasi"
 
 #: _protected/app/system/modules/user/forms/NotificationForm.php:36
 msgid ""
-"By enabling this option, you would be likely to receive occasional news on "
-"our website and our services and offers, promotions and other benefits to "
-"our partners."
+"By enabling this option, you would be likely to receive occasional news on our "
+"website and our services and offers, promotions and other benefits to our "
+"partners."
 msgstr ""
-"Dengan mengaktifkan pilihan ini, anda akan mendapatkan kiriman informasi "
-"dari kami, baik berupa layanan maupun penawaran atau informasi lainnya yang "
-"berguna."
+"Dengan mengaktifkan pilihan ini, anda akan mendapatkan kiriman informasi dari "
+"kami, baik berupa layanan maupun penawaran atau informasi lainnya yang berguna."
 
 #: _protected/app/system/modules/user/forms/NotificationForm.php:38
 msgid "Friend requests"
@@ -8534,11 +8500,9 @@ msgstr "Apakah anda mau diikutkan dalam hasil pencarian?"
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:39
 #, php-format
 msgid ""
-"Yes, include my profile in search results (%site_name%'s search, Google, "
-"Bing, Yahoo, etc.)."
+"Yes, include my profile in search results (%site_name%'s search, Google, Bing, "
+"Yahoo, etc.)."
 msgstr ""
-"Ya, masukkan saya dalam hasil pencarian (pencarian %site_name%, Google, "
-"Bing, Yahoo dll)."
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:39
 msgid "No, do not include my profile in search results."
@@ -8550,8 +8514,7 @@ msgstr "Perlihatkan profil para pengintip saya:"
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:41
 msgid "Would you like to display members that have viewed your profile?"
-msgstr ""
-"Apakah anda ingin melihat jobbers yang sudah melihat-lihat profil anda?"
+msgstr "Apakah anda ingin melihat jobbers yang sudah melihat-lihat profil anda?"
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:41
 msgid ""
@@ -8567,9 +8530,8 @@ msgid ""
 "No, don't display members who viewed my profile. (Selecting this option will "
 "prevent you from seeing who visited your profile)."
 msgstr ""
-"Tidak. Jangan perlihatkan Jobbers yang melihat profil saya. (Memilih opsi "
-"ini berarti mencegah anda melihat siapa saja yang sudah melihat-lihat profil "
-"anda)."
+"Tidak. Jangan perlihatkan Jobbers yang melihat profil saya. (Memilih opsi ini "
+"berarti mencegah anda melihat siapa saja yang sudah melihat-lihat profil anda)."
 
 #: _protected/app/system/modules/user/forms/PrivacyForm.php:42
 msgid "Presence:"
@@ -8599,8 +8561,8 @@ msgstr "Foto profil anda sudah berhasil diperbarui!"
 
 #: _protected/app/system/modules/user/forms/processing/DesignFormProcess.php:42
 msgid ""
-"Your Wallpaper has been received. It will not be visible until it is "
-"approved by our moderators. Please do not send a new one."
+"Your Wallpaper has been received. It will not be visible until it is approved "
+"by our moderators. Please do not send a new one."
 msgstr "Foto latar sudah diterima. tunggu moderator."
 
 #: _protected/app/system/modules/user/forms/processing/DesignFormProcess.php:43
@@ -8663,10 +8625,8 @@ msgid "Video Gallery Community"
 msgstr "Komunitas Galeri Video"
 
 #: _protected/app/system/modules/video/controllers/MainController.php:110
-msgid ""
-"%0%'s Albums | Video Albums of the Dating Social Community - %site_name%"
-msgstr ""
-"Album %0% | Album Video Komunitas Jodoh dan Bisnis Online - %site_name%"
+msgid "%0%'s Albums | Video Albums of the Dating Social Community - %site_name%"
+msgstr "Album %0% | Album Video Komunitas Jodoh dan Bisnis Online - %site_name%"
 
 #: _protected/app/system/modules/video/controllers/MainController.php:141
 msgid "Album not found or is still in pending approval."
@@ -8731,8 +8691,8 @@ msgstr ""
 
 #: _protected/app/system/modules/video/controllers/MainController.php:302
 msgid ""
-"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%"
-"\">add a new video</a> in this album."
+"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%\">add "
+"a new video</a> in this album."
 msgstr ""
 "Silakan kembali ke<a href=\"%1%\">halaman sebelumnya</a> atau <a href=\"%1%"
 "\">tambahkan video baru</a> di album ini."
@@ -8797,8 +8757,8 @@ msgstr "Silakan tambahkan kategori sebelum anda menambahkan video."
 
 #: _protected/app/system/modules/video/forms/processing/VideoFormProcess.php:60
 msgid ""
-"Oops! The embed video link looks incorrect? Please make sure that the link "
-"is correct."
+"Oops! The embed video link looks incorrect? Please make sure that the link is "
+"correct."
 msgstr ""
 "Ups! Link video yang anda masukkan sepertinya salah? Mohon pastikan link-nya "
 "benar."
@@ -8828,8 +8788,8 @@ msgid ""
 "Your video has been received. It will not be visible until it is approved by "
 "our moderators. Please do not send a new one."
 msgstr ""
-"Video anda sudah diterima. Video akan bisa dilihat ketika sudah disetujui "
-"oleh moderator. Mohon jangan kirim lagi yang baru."
+"Video anda sudah diterima. Video akan bisa dilihat ketika sudah disetujui oleh "
+"moderator. Mohon jangan kirim lagi yang baru."
 
 #: _protected/app/system/modules/video/forms/processing/VideoFormProcess.php:145
 msgid "Your video has been successfully added!"
@@ -9543,8 +9503,8 @@ msgstr "Undang"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/mainlayout.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaplayout.cpl.php:19
 msgid ""
-"JavaScript is disabled on your Web browser!<br /> Please enable JavaScript "
-"via the options of your Web browser in order to use this website."
+"JavaScript is disabled on your Web browser!<br /> Please enable JavaScript via "
+"the options of your Web browser in order to use this website."
 msgstr ""
 "JavaScript dinonaktifkan di Browser anda <br /> Silakan aktifkan JavaScript "
 "lewat opsi di browser anda agar bisa menggunakan website ini."
@@ -9603,12 +9563,12 @@ msgstr "Perhatian!"
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/mainlayout.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaplayout.cpl.php:19
 msgid ""
-"Some of the women (or men) profiles you see on dating sites might be scams "
-"to collect money."
+"Some of the women (or men) profiles you see on dating sites might be scams to "
+"collect money."
 msgstr ""
-"Bisa saja ada profil orang-orang (laki-laki atau perempuan) yang anda lihat "
-"di situs ini yang gadungan atau palsu, yang bertujuan merayu anda "
-"mengeluarkan uang."
+"Bisa saja ada profil orang-orang (laki-laki atau perempuan) yang anda lihat di "
+"situs ini yang gadungan atau palsu, yang bertujuan merayu anda mengeluarkan "
+"uang."
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filelayout.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/mainlayout.cpl.php:19
@@ -9637,8 +9597,7 @@ msgstr ""
 #: _protected/data/cache/pH7tpl_compile/xml_42c1ecd1699b844fe824fa84999eaee0/base/sitemaplayout.cpl.php:19
 msgid "People who are really interested in you will never ask for money."
 msgstr ""
-"Orang yang betul-betul tertarik dengan anda tak akan pernah meminta-minta "
-"uang."
+"Orang yang betul-betul tertarik dengan anda tak akan pernah meminta-minta uang."
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/filelayout.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/mainlayout.cpl.php:19
@@ -15366,8 +15325,8 @@ msgid ""
 msgstr ""
 "Jika anda lupa sandi anda, masukkan alamat email anda di bawah dan kami akan "
 "mengirimkan <br /> anda sebuah email berisi tautan khusus yang akan membantu "
-"anda membuat sandi baru. <br />. Pastikan anda memasukkan email <em>email "
-"yang sama ketika anda pertama kali mendaftar untuk profil anda </em>."
+"anda membuat sandi baru. <br />. Pastikan anda memasukkan email <em>email yang "
+"sama ketika anda pertama kali mendaftar untuk profil anda </em>."
 
 #: _protected/data/cache/pH7tpl_compile/note_9f88d4a777f4272034b4b067e1994fbc/base/mainhome.inc.cpl.php:19
 msgid "Search Note Posts"
@@ -15401,13 +15360,13 @@ msgstr "pH7 Social / Dating CMS"
 msgid ""
 "is a <a href=\"https://sourceforge.net/projects/ph7socialdating/\">Free</a> "
 "and <a href=\"https://github.com/pH7Software/pH7-Social-Dating-CMS\">Open "
-"Source</a> <strong>Social Dating Software</strong> for building online "
-"dating web apps and social networks."
+"Source</a> <strong>Social Dating Software</strong> for building online dating "
+"web apps and social networks."
 msgstr ""
 "is a <a href=\"https://sourceforge.net/projects/ph7socialdating/\">Free</a> "
 "and <a href=\"https://github.com/pH7Software/pH7-Social-Dating-CMS\">Open "
-"Source</a> <strong>Social Dating Software</strong> for building online "
-"dating web apps and social networks."
+"Source</a> <strong>Social Dating Software</strong> for building online dating "
+"web apps and social networks."
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/about.cpl.php:19
 msgid "pH7CMS is also sometimes called \"CMS-Dating\"."
@@ -15420,12 +15379,12 @@ msgstr "Saya tidak bisa masuk, atau Saya lupa namauser saya atau sandi."
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid ""
 "If you can't login, check to make sure that your \"caps lock\" key is off. "
-"Your username and password are CaSe SeNsItIvE. If you still cannot login, "
-"you can request to"
+"Your username and password are CaSe SeNsItIvE. If you still cannot login, you "
+"can request to"
 msgstr ""
 "Jika anda tidak bisa masuk, pastikan \"Capslock\" di keyboard anda  mati. "
-"Namauser anda dan sandi sensitif hurf besar/kecil. Jika anda tetap tidak "
-"bisa masuk, anda bisa meminta  untuk"
+"Namauser anda dan sandi sensitif hurf besar/kecil. Jika anda tetap tidak bisa "
+"masuk, anda bisa meminta  untuk"
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid "reset your password"
@@ -15449,8 +15408,8 @@ msgid ""
 "profile editing. You can move through the different parts of your profile by "
 "clicking the tabs at the top of the page."
 msgstr ""
-"Untuk memperbarui profil anda, anda harus masuk ke profil anda dan setingan "
-"di edit profil."
+"Untuk memperbarui profil anda, anda harus masuk ke profil anda dan setingan di "
+"edit profil."
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid "How can I delete my account?"
@@ -15458,12 +15417,12 @@ msgstr "Bagaimana cara menghapus akun saya?"
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid ""
-"If you are aboslutely sure that you want to delete your account, you can do "
-"so in your privacy settings. Please note that your account will be "
-"permanently deleted and irrecoverable!"
+"If you are aboslutely sure that you want to delete your account, you can do so "
+"in your privacy settings. Please note that your account will be permanently "
+"deleted and irrecoverable!"
 msgstr ""
-"Jika anda yakin mau menghapus akun, anda bisa lakukan di seting privasi. "
-"Mohon diingat bahwa penghapusan akun adalah permanen dan tidak bisa kembali!"
+"Jika anda yakin mau menghapus akun, anda bisa lakukan di seting privasi. Mohon "
+"diingat bahwa penghapusan akun adalah permanen dan tidak bisa kembali!"
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid "How can I update my email address?"
@@ -15472,8 +15431,7 @@ msgstr "Apakah saya bisa memperbarui email saya?"
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid "For safety and to prevent spam, you can not change your email address."
 msgstr ""
-"Untuk masalah keamanan dan mencegah spam, anda tidak bisa mengganti email "
-"anda."
+"Untuk masalah keamanan dan mencegah spam, anda tidak bisa mengganti email anda."
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid "How can I deal with someone that is bothering me?"
@@ -15482,8 +15440,8 @@ msgstr "Bagaimana jika ada yang mengganggu saya, apa yang bisa saya lakukan?"
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
 msgid ""
 "If someone is bothering or harassing you, blocking them is usually the best "
-"solution. Please report it via our contact form with the url of the profile "
-"of the person and the explanation of what the person has done wrong."
+"solution. Please report it via our contact form with the url of the profile of "
+"the person and the explanation of what the person has done wrong."
 msgstr ""
 "Jika ada orang yang mengganggu anda, menjengkelkan, anda bisa membloknya. "
 "Mohon laporkan juga lewat kontak kita di situs dengan menyertakan alamat url "
@@ -15496,39 +15454,37 @@ msgstr "Oleh siapa Aplikasi Web ini dibuat?"
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/helpus.cpl.php:19
 msgid ""
-"<strong><a href=\"http://ph7cms.com\">pH7CMS</a></strong> is built by a "
-"small volunteer team of engineers, programmers, designers, and others in "
-"many different sites across the globe. It is updated continuously, and<br /> "
-"in constantly evolving to give the best image of the <strong>next Social "
-"Dating Web generation</strong>!<br /> If you wish to help us as volunteer "
-"developer and if you know one of the following languages (C++, Java, "
-"Android, Python, PHP 7+ OOP, HTML5/CSS, JavaScript OOP/Node.js, Ruby on "
-"Rails, Swift, SQL, Unix Server, Apache/Nginx)<br /> or professional hackers "
-"who could help us in the security of our Web software to find any security "
-"vulnerability in order to create the most secure Web software ever<br /> or "
-"help us in the translation of one of our open source CMS, you can directly "
-"start by <a href=\"https://github.com/pH7Software/pH7-Social-Dating-CMS"
-"\">forking our project on Github</a> or contact us via our <a href=\"http://"
-"ph7cms.com/contact/\">contact form</a>.<br /> Moreover, this unique "
-"experience will <strong>make the difference more than ever on your CV</"
-"strong>."
+"<strong><a href=\"http://ph7cms.com\">pH7CMS</a></strong> is built by a small "
+"volunteer team of engineers, programmers, designers, and others in many "
+"different sites across the globe. It is updated continuously, and<br /> in "
+"constantly evolving to give the best image of the <strong>next Social Dating "
+"Web generation</strong>!<br /> If you wish to help us as volunteer developer "
+"and if you know one of the following languages (C++, Java, Android, Python, "
+"PHP 7+ OOP, HTML5/CSS, JavaScript OOP/Node.js, Ruby on Rails, Swift, SQL, Unix "
+"Server, Apache/Nginx)<br /> or professional hackers who could help us in the "
+"security of our Web software to find any security vulnerability in order to "
+"create the most secure Web software ever<br /> or help us in the translation "
+"of one of our open source CMS, you can directly start by <a href=\"https://"
+"github.com/pH7Software/pH7-Social-Dating-CMS\">forking our project on Github</"
+"a> or contact us via our <a href=\"http://ph7cms.com/contact/\">contact form</"
+"a>.<br /> Moreover, this unique experience will <strong>make the difference "
+"more than ever on your CV</strong>."
 msgstr ""
-"<strong><a href=\"http://ph7cms.com\">pH7CMS</a></strong> is built by a "
-"small volunteer team of engineers, programmers, designers, and others in "
-"many different sites across the globe. It is updated continuously, and<br /> "
-"in constantly evolving to give the best image of the <strong>next Social "
-"Dating Web generation</strong>!<br /> If you wish to help us as volunteer "
-"developer and if you know one of the following languages (C++, Java, "
-"Android, Python, PHP 7+ OOP, HTML5/CSS, JavaScript OOP/Node.js, Ruby on "
-"Rails, Swift, SQL, Unix Server, Apache/Nginx)<br /> or professional hackers "
-"who could help us in the security of our Web software to find any security "
-"vulnerability in order to create the most secure Web software ever<br /> or "
-"help us in the translation of one of our open source CMS, you can directly "
-"start by <a href=\"https://github.com/pH7Software/pH7-Social-Dating-CMS"
-"\">forking our project on Github</a> or contact us via our <a href=\"http://"
-"ph7cms.com/contact/\">contact form</a>.<br /> Moreover, this unique "
-"experience will <strong>make the difference more than ever on your CV</"
-"strong>."
+"<strong><a href=\"http://ph7cms.com\">pH7CMS</a></strong> is built by a small "
+"volunteer team of engineers, programmers, designers, and others in many "
+"different sites across the globe. It is updated continuously, and<br /> in "
+"constantly evolving to give the best image of the <strong>next Social Dating "
+"Web generation</strong>!<br /> If you wish to help us as volunteer developer "
+"and if you know one of the following languages (C++, Java, Android, Python, "
+"PHP 7+ OOP, HTML5/CSS, JavaScript OOP/Node.js, Ruby on Rails, Swift, SQL, Unix "
+"Server, Apache/Nginx)<br /> or professional hackers who could help us in the "
+"security of our Web software to find any security vulnerability in order to "
+"create the most secure Web software ever<br /> or help us in the translation "
+"of one of our open source CMS, you can directly start by <a href=\"https://"
+"github.com/pH7Software/pH7-Social-Dating-CMS\">forking our project on Github</"
+"a> or contact us via our <a href=\"http://ph7cms.com/contact/\">contact form</"
+"a>.<br /> Moreover, this unique experience will <strong>make the difference "
+"more than ever on your CV</strong>."
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/helpus.cpl.php:19
 msgid ""
@@ -15679,10 +15635,9 @@ msgstr "Peringatan:"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/avatar.cpl.php:19
 msgid ""
-"Your profile photo must contain a photo of you under penalty of banishment "
-"of your account!"
-msgstr ""
-"Foto profil harus berupa foto sendiri jika tidak akun anda kena penalti!"
+"Your profile photo must contain a photo of you under penalty of banishment of "
+"your account!"
+msgstr "Foto profil harus berupa foto sendiri jika tidak akun anda kena penalti!"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/avatar.cpl.php:19
 msgid "Want to take a photo of yourself directly with your webcam?"
@@ -15697,8 +15652,7 @@ msgid "You will see, you will not regret it!"
 msgstr "Anda akan lihat, anda tidak akan menyesalinya!"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/setting/delete.cpl.php:19
-msgid ""
-"At %site_name%, we work hard to give you one of the best social service!"
+msgid "At %site_name%, we work hard to give you one of the best social service!"
 msgstr ""
 "Di %site_name%, kita bekerja keras untuk memberikan yang terbaik dalam "
 "pelayanan sosial ini kepada anda!"
@@ -15993,8 +15947,8 @@ msgstr ""
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/RegExp.php:16
 msgid ""
-"Error: %element% contains invalid characters. Here is the rule to be "
-"followed: \"%0%\""
+"Error: %element% contains invalid characters. Here is the rule to be followed: "
+"\"%0%\""
 msgstr ""
 "Eror: %element% berisi karakter tidak valid. Peraturannya sepert ini: %0%\""
 
@@ -16023,8 +15977,8 @@ msgid ""
 "Error: Username has to be from %0% to %1% characters long, or it is not "
 "available or already used by other user."
 msgstr ""
-"Eror: Namauser antara %0% hingga %1% panjang karakternya, atau tidak "
-"tersedia, atau sudah dipakai user yang lain."
+"Eror: Namauser antara %0% hingga %1% panjang karakternya, atau tidak tersedia, "
+"atau sudah dipakai user yang lain."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/YesNo.php:13
 msgid "Error: You must accept our %element%."
@@ -16035,8 +15989,8 @@ msgid ""
 "The security token does not exist or the security time of the token has "
 "expired. Please try again!"
 msgstr ""
-"Token keamanan tidak ada  atau pengaturan waktu keamanan telah habis. "
-"Silakan coba lagi!"
+"Token keamanan tidak ada  atau pengaturan waktu keamanan telah habis. Silakan "
+"coba lagi!"
 
 #: _protected/framework/Layout/Form/Form.class.php:37
 msgid ""
@@ -16070,24 +16024,24 @@ msgstr ""
 msgid ""
 "Oops! You have exceeded allowed login attemts. Please try again in %0% %1%."
 msgstr ""
-"Ups! Anda sudah terlalu banyak mencoba masuk, melebihi jumlah yang "
-"diizinkan. Silakan coba lagi dalam %0% %1%."
+"Ups! Anda sudah terlalu banyak mencoba masuk, melebihi jumlah yang diizinkan. "
+"Silakan coba lagi dalam %0% %1%."
 
 #: _protected/framework/Layout/Form/Form.class.php:89
 msgid ""
-"Oops! It seems that you have already sent the same message to prevent spam "
-"you can not send multiple same content."
+"Oops! It seems that you have already sent the same message to prevent spam you "
+"can not send multiple same content."
 msgstr ""
-"Ups! Kelihatannya anda sudah mengirimkan pesan yang sama lagi. untuk "
-"mencegah spam anda tidak bisa mengirimkan konten yang sama berkali-kali."
+"Ups! Kelihatannya anda sudah mengirimkan pesan yang sama lagi. untuk mencegah "
+"spam anda tidak bisa mengirimkan konten yang sama berkali-kali."
 
 #: _protected/framework/Layout/Form/Form.class.php:97
 msgid ""
 "Oops! It seems that you abuse of links. Why links are that important for "
 "you...?"
 msgstr ""
-"Ups! Kelihatannyha anda menyalahgunakan links. Mengapa link itu begitu "
-"penting buat anda...?"
+"Ups! Kelihatannyha anda menyalahgunakan links. Mengapa link itu begitu penting "
+"buat anda...?"
 
 #: _protected/framework/Layout/Form/Form.class.php:105
 msgid ""
@@ -16200,8 +16154,8 @@ msgid ""
 "Report feature is not available for this content since the user who posted "
 "that content has been deleted."
 msgstr ""
-"Layanan laporan tidak tersedia untuk konten ini karena jobber yang "
-"memposting konten tersebut sudah dihapus."
+"Layanan laporan tidak tersedia untuk konten ini karena jobber yang memposting "
+"konten tersebut sudah dihapus."
 
 #: _protected/framework/Layout/Html/Mail.class.php:83
 msgid "Best regards,<br />%0% team."
@@ -16214,8 +16168,8 @@ msgid ""
 "account."
 msgstr ""
 "Pesan ini dikirim kepada %0%.<br /> Anda menerima pesan ini karena anda "
-"terdaftar di %1%.<br /> Anda bisa merubah pemberitahuan email ini dengan "
-"masuk ke akun anda."
+"terdaftar di %1%.<br /> Anda bisa merubah pemberitahuan email ini dengan masuk "
+"ke akun anda."
 
 #: _protected/framework/Math/Measure/Height.class.php:44
 msgid "%0% &prime; %1% &Prime; &ndash; %2% cm"
@@ -16296,14 +16250,14 @@ msgstr "Invalid connection to 2CheckOut."
 #: _protected/framework/Video/Video.class.php:66
 msgid ""
 "FFmpeg is not installed on the server or the path cannot be found. Please "
-"install and configure the path in \"~/YOUR-PROTECTED-FOLDER/app/configs/"
-"config.ini\" or contact the administrator of the site/server or Web host by "
-"saying the problem."
+"install and configure the path in \"~/YOUR-PROTECTED-FOLDER/app/configs/config."
+"ini\" or contact the administrator of the site/server or Web host by saying "
+"the problem."
 msgstr ""
 "FFmpeg is not installed on the server or the path cannot be found. Please "
-"install and configure the path in \"~/YOUR-PROTECTED-FOLDER/app/configs/"
-"config.ini\" or contact the administrator of the site/server or Web host by "
-"saying the problem."
+"install and configure the path in \"~/YOUR-PROTECTED-FOLDER/app/configs/config."
+"ini\" or contact the administrator of the site/server or Web host by saying "
+"the problem."
 
 #: _protected/framework/Xml/Link.class.php:51
 msgid "URL '%0%' doesn't exist or isn't a valid XML file."
@@ -16347,15 +16301,13 @@ msgid ""
 "spelled correctly and that you've selected enough categories."
 msgstr ""
 "Pencarian anda tidak cocok dengan dokumen apapun. Mohon pastikan bahwa kata "
-"yang anda tuliskan sudah benar, dan anda sudah memasukkan kategori yang "
-"benar."
+"yang anda tuliskan sudah benar, dan anda sudah memasukkan kategori yang benar."
 
 #: _protected/vendor/phake/phake/docs/_build/html/_static/searchtools.js:461
 #, javascript-format
 msgid "Search finished, found %s page(s) matching the search query."
 msgstr ""
-"Pencarian selesai, ditemukan %s halaman yang sesuai dengan kriteria "
-"pencarian."
+"Pencarian selesai, ditemukan %s halaman yang sesuai dengan kriteria pencarian."
 
 #: _repository/module/fake-admin-panel/controllers/AdminController.php:18
 msgid "Logs | Administration of Fake Admin"
@@ -16404,8 +16356,7 @@ msgstr "1) Open the \"%0%\" file."
 
 #: _repository/module/fake-admin-panel/install/info/in_conclusion.php:36
 msgid "2) Find this piece of code \"%0%\" and add the following code after it."
-msgstr ""
-"2) Find this piece of code \"%0%\" and add the following code after it."
+msgstr "2) Find this piece of code \"%0%\" and add the following code after it."
 
 #: _repository/module/fake-admin-panel/install/info/in_conclusion.php:38
 msgid ""
@@ -16499,11 +16450,11 @@ msgstr "Edit your \"%0%\" file."
 
 #: _repository/upgrade/1.0.0-1.0.1/info/conclusion.php:20
 msgid ""
-"Add M after the size of the \"upload.max_size\" variable (e.g., this: "
-"\"upload.max_size = 500M\" instead of \"upload.max_size = 500\""
+"Add M after the size of the \"upload.max_size\" variable (e.g., this: \"upload."
+"max_size = 500M\" instead of \"upload.max_size = 500\""
 msgstr ""
-"Add M after the size of the \"upload.max_size\" variable (e.g., this: "
-"\"upload.max_size = 500M\" instead of \"upload.max_size = 500\""
+"Add M after the size of the \"upload.max_size\" variable (e.g., this: \"upload."
+"max_size = 500M\" instead of \"upload.max_size = 500\""
 
 #: _repository/upgrade/1.0.0-1.0.1/info/conclusion.php:21
 #: _repository/upgrade/1.0.3-1.0.10/info/conclusion.php:131
@@ -16516,11 +16467,11 @@ msgstr "Be careful because this version has a new hash algorithm password."
 
 #: _repository/upgrade/1.0.10-1.1.0/info/introduction.php:18
 msgid ""
-"If you have a lot of members, please, stay with your current version if you "
-"do not want all your members must reset their password."
+"If you have a lot of members, please, stay with your current version if you do "
+"not want all your members must reset their password."
 msgstr ""
-"If you have a lot of members, please, stay with your current version if you "
-"do not want all your members must reset their password."
+"If you have a lot of members, please, stay with your current version if you do "
+"not want all your members must reset their password."
 
 #: _repository/upgrade/1.0.10-1.1.0/info/introduction.php:19
 msgid ""
@@ -16670,10 +16621,8 @@ msgid "<span>"
 msgstr "<span>"
 
 #: static/js/jquery/jquery-ui.js:7
-msgid ""
-"<div class='ui-progressbar-value ui-widget-header ui-corner-left'></div>"
-msgstr ""
-"<div class='ui-progressbar-value ui-widget-header ui-corner-left'></div>"
+msgid "<div class='ui-progressbar-value ui-widget-header ui-corner-left'></div>"
+msgstr "<div class='ui-progressbar-value ui-widget-header ui-corner-left'></div>"
 
 #: static/js/jquery/jquery-ui.js:7
 msgid "<div class='ui-progressbar-overlay'></div>"
