@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: Trad I Seek You\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-04-24 13:55-0300\n"
-"Last-Translator review: Edmundo Santana<edmundo@hsmarketing.com.br>\n"
-"Language-Team: I Seek You - Edmundo Santana <edmundo@hsmarketing.com.br>\n"
+"PO-Revision-Date: 2018-04-27 13:21-0300\n"
+"Last-Translator: Edmundo <edmundo@hsmarketing.com.br>\n"
+"Language-Team: Â¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,8 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: Edmundo <edmundo@hsmarketing.com.br>\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: _protected/app/includes/classes/Cron.php:33
@@ -60,6 +61,14 @@ msgstr "seguro, CMS, PHP, framework, MVC, página, HTTP"
 #: _protected/app/modules/helloworld/install/info/in_conclusion.php:19
 msgid "Congrats! The module has been successfully installed."
 msgstr "Parabéns! O módulo foi instalado com sucesso."
+
+#: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/main/user_promo_block.inc.cpl.php:19
+msgid "Meet &amp; date amazing people near %0%!"
+msgstr "Conheça e encontre pessoas incríveis perto de %0%!"
+
+#: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/signup/step1.cpl.php:19
+msgid "Already registered?"
+msgstr "Já fez seu registro?"
 
 #: _protected/app/modules/helloworld/install/info/in_conclusion.php:20
 msgid "Thank you for using our module!"
