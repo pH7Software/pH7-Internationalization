@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-06 12:45+0100\n"
-"PO-Revision-Date: 2016-02-06 12:45+0100\n"
+"PO-Revision-Date: 2018-04-30 19:35+0100\n"
 "Last-Translator: Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <ph7software@gmail.com>\n"
 "Language: en_US\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.7\n"
 "X-Poedit-SearchPath-0: /var/www/html/pH7CMS\n"
 
 #: /var/www/html/pH7CMS/_repository/module/fake-admin-panel/controllers/MainController.php:21
@@ -242,8 +242,8 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_repository/upgrade/1.0.10-1.1.0/info/introduction.php:18
 msgid ""
-"If you have a lot of members, please, stay with your current version if you "
-"do not want all your members must reset their password."
+"If you have a lot of members, please, stay with your current version if you do "
+"not want all your members must reset their password."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_repository/upgrade/1.0.10-1.1.0/info/introduction.php:19
@@ -275,24 +275,24 @@ msgstr "Bewerk je \"%0%\" bestand."
 
 #: /var/www/html/pH7CMS/_repository/upgrade/1.0.0-1.0.1/info/conclusion.php:20
 msgid ""
-"Add M after the size of the \"upload.max_size\" variable (e.g., this: "
-"\"upload.max_size = 500M\" instead of \"upload.max_size = 500\""
+"Add M after the size of the \"upload.max_size\" variable (e.g., this: \"upload."
+"max_size = 500M\" instead of \"upload.max_size = 500\""
 msgstr ""
-"Voeg een M toe achter de grootte van de \"upload.max_size\" variable (zoals "
-"b.v.: \"upload.max_size = 500M\" in plaats van \"upload.max_size = 500\""
+"Voeg een M toe achter de grootte van de \"upload.max_size\" variable (zoals b."
+"v.: \"upload.max_size = 500M\" in plaats van \"upload.max_size = 500\""
 
 #: /var/www/html/pH7CMS/_protected/framework/Video/Video.class.php:58
 msgid ""
 "FFmpeg is not installed on your server or the path cannot be found. Please "
-"install and configure the path in \"~/YOUR-PROTECTED-FOLDER/app/configs/"
-"config.ini\""
+"install and configure the path in \"~/YOUR-PROTECTED-FOLDER/app/configs/config."
+"ini\""
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/framework/Http/Http.class.php:198
 msgid "You must enter a valid login ID and password to access this resource."
 msgstr ""
-"Je dient een geldige login ID en wachtwoord in te voeren om toegang te "
-"krijgen tot deze bron."
+"Je dient een geldige login ID en wachtwoord in te voeren om toegang te krijgen "
+"tot deze bron."
 
 #: /var/www/html/pH7CMS/_protected/framework/Payment/Gateway/Api/TwoCheckOut.class.php:79
 msgid "Refund transaction valid."
@@ -381,12 +381,12 @@ msgstr "Met vriendelijke groeten,<br />The %0% Team."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Html/Mail.class.php:88
 msgid ""
-"This message was sent to %0%.<br /> You are receiving this message because "
-"you have registered on %1%.<br /> You can change the e-mail alerts by "
-"visiting your account."
+"This message was sent to %0%.<br /> You are receiving this message because you "
+"have registered on %1%.<br /> You can change the e-mail alerts by visiting "
+"your account."
 msgstr ""
-"Dit bericht is verzonden aan %0%.<br /> Je ontvangt dit bericht omdat je "
-"bent geregistreerd op %1%.<br /> Je kan je email meldingen veranderen via je "
+"Dit bericht is verzonden aan %0%.<br /> Je ontvangt dit bericht omdat je bent "
+"geregistreerd op %1%.<br /> Je kan je email meldingen veranderen via je "
 "account instellingen."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Html/Design.class.php:129
@@ -503,8 +503,7 @@ msgstr ""
 msgid ""
 "The file type is incompatible or too large. Please try again a smaller image "
 "with .gif, .png or .jpg extension."
-msgstr ""
-"Bestandstype niet compatibel. Bewaar de afbeeling als .gif, .png of .jpg"
+msgstr "Bestandstype niet compatibel. Bewaar de afbeeling als .gif, .png of .jpg"
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Form.class.php:46
 #, fuzzy
@@ -522,8 +521,8 @@ msgstr "Deze HTTP parameter moet van het %0% type zijn!"
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Form.class.php:67
 #, fuzzy
 msgid ""
-"Oops! We are sorry but our email server encountered an internal error and "
-"the email could not be sent. Please try again later!"
+"Oops! We are sorry but our email server encountered an internal error and the "
+"email could not be sent. Please try again later!"
 msgstr ""
 "Ohoh! De mail server constateerde een interne fout en de mail kon niet "
 "verzonden worden. Probeer het later opnieuw!."
@@ -537,8 +536,8 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Form.class.php:88
 msgid ""
-"Oops! It seems that you have already sent the same message to prevent spam "
-"you can not send multiple same content."
+"Oops! It seems that you have already sent the same message to prevent spam you "
+"can not send multiple same content."
 msgstr ""
 "Ohoh! Het blijkt dat je dit bericht al verzonden hebt. Om spam te voorkomen "
 "kan je inhoudelijk dezelfde mails niet nogmaals versturen."
@@ -552,8 +551,8 @@ msgid ""
 "Oops! Somebody has recently registered with the same IP address. You have to "
 "wait %0% %1% before try again."
 msgstr ""
-"Ohoh! Iemand heeft onlangs geregistreerd met hetzelfde IP adres. Je dient "
-"%0% %1% te wachten om opnieuw te proberen."
+"Ohoh! Iemand heeft onlangs geregistreerd met hetzelfde IP adres. Je dient %0% "
+"%1% te wachten om opnieuw te proberen."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Form.class.php:123
 msgid "minute"
@@ -603,8 +602,8 @@ msgstr "Verstuur"
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/Url.php:14
 #, fuzzy
 msgid ""
-"Error: %element% must contain a URL (e.g., <a href=\"http://sofun.co"
-"\">http://www.sofun.co</a>)."
+"Error: %element% must contain a URL (e.g., <a href=\"http://sofun.co\">http://"
+"www.sofun.co</a>)."
 msgstr ""
 "Fout: %element% dient een URL te bevatten (zoals, <a href=\"http://leuk-op-"
 "internet.nl\">http://www.leuk-op-internet.nl</a>)."
@@ -614,8 +613,7 @@ msgid ""
 "Error: Your phone number is incorrect. Please enter full phone number with "
 "area code."
 msgstr ""
-"Fout: Je telefoonnummer is onjuist. Geef je telefoonnummer in met je "
-"kengetal."
+"Fout: Je telefoonnummer is onjuist. Geef je telefoonnummer in met je kengetal."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/Password.php:16
 msgid "Error: Your password has to contain from %0% to %1% characters."
@@ -625,8 +623,8 @@ msgstr "Fout: Je wachtwoord dient tussen de %0% en %1% karakters te zijn ."
 msgid ""
 "Error: Invalid email address or this email is already used by another member."
 msgstr ""
-"Fout: Ongeldig email adres of dit email adres is al in gebruik door een "
-"ander lid."
+"Fout: Ongeldig email adres of dit email adres is al in gebruik door een ander "
+"lid."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/BirthDate.php:17
 #: /var/www/html/pH7CMS/_protected/app/system/modules/api/controllers/UserController.php:64
@@ -706,8 +704,8 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/Username.php:25
 #, fuzzy
 msgid ""
-"Error: Your username has to contain from %0% to %1% characters, your "
-"username is not available or it is already used by other member."
+"Error: Your username has to contain from %0% to %1% characters, your username "
+"is not available or it is already used by other member."
 msgstr ""
 "Fout: Je gebruikersnaam dient tussen de %0% en %1% karakters te zijn, je "
 "gebruikersnaam is niet beschikbaar of je gebruikersnaam is al in gebruik bij "
@@ -715,11 +713,11 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/RegExp.php:16
 msgid ""
-"Error: %element% contains invalid characters. Here is the rule to be "
-"observed: \"%0%\""
+"Error: %element% contains invalid characters. Here is the rule to be observed: "
+"\"%0%\""
 msgstr ""
-"Fout: %element% bevat ongeldige karakters. Hier is de regel die even "
-"nagekenen dient te worden: \"%0%\""
+"Fout: %element% bevat ongeldige karakters. Hier is de regel die even nagekenen "
+"dient te worden: \"%0%\""
 
 #: /var/www/html/pH7CMS/_protected/framework/Mvc/Controller/Controller.class.php:171
 msgid "%0% - Page Not Found"
@@ -925,17 +923,15 @@ msgstr "Versie Naam: %0%, Versie Nummer: %1%, Versie Samengesteld: %2%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:116
 msgid "Have you made a backup of your website files, folders and database?"
-msgstr ""
-"Heb je een backup gemaakt van je website bestanden, folders en database?"
+msgstr "Heb je een backup gemaakt van je website bestanden, folders en database?"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:116
 msgid ""
-"Upgrade <span class=\"bold italic\">%software_version_name% %software_version"
-"% Build %software_build%</span> to version <span class=\"bold italic\">%0%</"
-"span>"
+"Upgrade <span class=\"bold italic\">%software_version_name% %software_version% "
+"Build %software_build%</span> to version <span class=\"bold italic\">%0%</span>"
 msgstr ""
-"Upgrade <span class=\"bold italic\">%software_version_name% %software_version"
-"% Build %software_build%</span> naar versie <span class=\"bold italic\">%0%</"
+"Upgrade <span class=\"bold italic\">%software_version_name% %software_version% "
+"Build %software_build%</span> naar versie <span class=\"bold italic\">%0%</"
 "span>"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:119
@@ -949,8 +945,8 @@ msgstr "Instructies:"
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:128
 msgid "Bad \"version name, version number or version build\" of upgrade path!"
 msgstr ""
-"Slechte \"versie naam, versie nummer or version samengesteld\" van het "
-"upgrade pad!"
+"Slechte \"versie naam, versie nummer or version samengesteld\" van het upgrade "
+"pad!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:133
 msgid "Upgrade path is not valid!"
@@ -1012,8 +1008,7 @@ msgstr ""
 msgid ""
 "1) Please change the permission of the ~%0% file for writing for all groups "
 "(0666 in octal)."
-msgstr ""
-"1) Verander de permissie van het ~%0% bestand voor alle groepen (0666)."
+msgstr "1) Verander de permissie van het ~%0% bestand voor alle groepen (0666)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:260
 msgid "2) Edit ~%0% file and find the code:"
@@ -1033,8 +1028,8 @@ msgid ""
 "4) Change the permission of the file to write only for users and reading for "
 "the other groups (0644 in octal)."
 msgstr ""
-"4) Verander de permissie van het bestand naar alleen schrijven voor "
-"genruikers and aleen lezen voor andere groepen (0644)."
+"4) Verander de permissie van het bestand naar alleen schrijven voor genruikers "
+"and aleen lezen voor andere groepen (0644)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:293
 msgid "You have %0% error(s):"
@@ -1188,8 +1183,7 @@ msgstr "Je moet een geldige datum invoeren (Maand/Dag/Jaar)."
 #, php-format
 msgid "You must be %d to %d years to register on the site."
 msgstr ""
-"Je dient tussen de %d en %d jaar te zijn om op deze site te mogen "
-"registreren."
+"Je dient tussen de %d en %d jaar te zijn om op deze site te mogen registreren."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/ajax/ValidateCoreAjax.php:209
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/ajax/ValidateCoreAjax.php:242
@@ -1222,8 +1216,7 @@ msgstr "Je bericht is verplaatst naar je Inbox."
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/ajax/ValidateCoreAjax.php:282
 msgid "Your must enter a valid url (e.g. http://www.coolonweb.com)."
 msgstr ""
-"Je dient een geldige URL in te geven (bijvoorbeeld http://www.leukophetweb."
-"nl)."
+"Je dient een geldige URL in te geven (bijvoorbeeld http://www.leukophetweb.nl)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/ajax/ValidateCoreAjax.php:307
 msgid "Captcha check failed!"
@@ -1813,8 +1806,8 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/DeleteUserCoreForm.php:30
 msgid ""
-"Please be specific in your reason. This will hep us to improve our service "
-"and make it the best social service for you."
+"Please be specific in your reason. This will hep us to improve our service and "
+"make it the best social service for you."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/DeleteUserCoreForm.php:31
@@ -2007,8 +2000,8 @@ msgstr "De wachtwoorden zijn niet eender"
 msgid ""
 "The old and new passwords are identical. So why do you change your password?"
 msgstr ""
-"Het oude en het nieuwe wachtwoord zijn hetzelfde. Waarom ben je het "
-"wachtwoord aan het wijzigen?"
+"Het oude en het nieuwe wachtwoord zijn hetzelfde. Waarom ben je het wachtwoord "
+"aan het wijzigen?"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/processing/ChangePasswordCoreFormProcess.php:50
 msgid "The old password is not correct."
@@ -2065,8 +2058,7 @@ msgid ""
 "Password: ***** (This field is hidden to protect against theft of your "
 "account)."
 msgstr ""
-"Wachtwoord: ***** (Dit veld is onleesbaar om eventuele diefstal tegen te "
-"gaan)."
+"Wachtwoord: ***** (Dit veld is onleesbaar om eventuele diefstal tegen te gaan)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:47
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/RegistrationCore.php:65
@@ -2076,12 +2068,12 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/UserController.php:384
 msgid ""
 "You are receiving this mail because we received an application for "
-"registration with the email \"%0%\" has been provided in the form of "
-"%site_name% (%site_url%)."
+"registration with the email \"%0%\" has been provided in the form of %site_name"
+"% (%site_url%)."
 msgstr ""
-"Je ontvangt deze email omdat we een aanvraag tot registratie hebben "
-"ontvangen bij de e-mail \"% 0% \" die is verstrekt in de vorm van% site_name"
-"% (% site_url%)."
+"Je ontvangt deze email omdat we een aanvraag tot registratie hebben ontvangen "
+"bij de e-mail \"% 0% \" die is verstrekt in de vorm van% site_name% (% site_url"
+"%)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:48
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/RegistrationCore.php:66
@@ -2306,19 +2298,19 @@ msgstr "Categorieën:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/UserCore.php:379
 msgid ""
-"Sorry, your account has not yet been activated. Please activate it by "
-"clicking the activation link that was emailed."
+"Sorry, your account has not yet been activated. Please activate it by clicking "
+"the activation link that was emailed."
 msgstr ""
-"Sorry, je account is nog niet geactiveerd. Activeer het door te klikken op "
-"de activatielink die naar je is gemaild."
+"Sorry, je account is nog niet geactiveerd. Activeer het door te klikken op de "
+"activatielink die naar je is gemaild."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/UserCore.php:383
 msgid ""
-"Sorry, your account has not yet been activated. An administrator must "
-"validate your account."
+"Sorry, your account has not yet been activated. An administrator must validate "
+"your account."
 msgstr ""
-"Sorry, je account is nog niet geactiveerd. Een beheerder zal eerst je "
-"account valideren."
+"Sorry, je account is nog niet geactiveerd. Een beheerder zal eerst je account "
+"valideren."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/UserCore.php:387
 msgid ""
@@ -2381,8 +2373,8 @@ msgid ""
 "Caution! Your account is not activated yet. You will receive an email of any "
 "decision."
 msgstr ""
-"Waarschuwing! Je account is nog niet geactiveerd. Je ontvangt ongetwijfeld "
-"een email."
+"Waarschuwing! Je account is nog niet geactiveerd. Je ontvangt ongetwijfeld een "
+"email."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/RegistrationCore.php:56
 msgid "Password: %0% (please change it next time you login)."
@@ -2392,11 +2384,11 @@ msgstr "Wachtwoord: %0% (verander dit als je de volgende keer gaat inloggen)."
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/inc/class/Registration.php:49
 msgid ""
 "Password: ****** (This field is hidden to protect against theft of your "
-"account. If you have forgotten your password, please request a new one <a "
-"href=\"%0%\">here</a>)."
+"account. If you have forgotten your password, please request a new one <a href="
+"\"%0%\">here</a>)."
 msgstr ""
-"Wachwoord: ****** (Dit veld is verborgen in verband met veiligheid. Ale je "
-"het wachtwoord vergeten bent, vraag dan een nieuwe aan en klik <a href=\"%0%"
+"Wachwoord: ****** (Dit veld is verborgen in verband met veiligheid. Ale je het "
+"wachtwoord vergeten bent, vraag dan een nieuwe aan en klik <a href=\"%0%"
 "\">hier</a>)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/RegistrationCore.php:59
@@ -2424,12 +2416,12 @@ msgstr "Log nu in!"
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/RegistrationCore.php:95
 msgid ""
 "Please activate your account by clicking the activation link you received by "
-"email. If you can not find the email, please look in your SPAM FOLDER and "
-"mark as not spam."
+"email. If you can not find the email, please look in your SPAM FOLDER and mark "
+"as not spam."
 msgstr ""
 "Gelieve je account te activeren door te klikken op de link in je ontvangen "
-"email. Als je de desbetreffende email niet kan vinden, kijk dan in je SPAM "
-"map en markeer ons als geen spam."
+"email. Als je de desbetreffende email niet kan vinden, kijk dan in je SPAM map "
+"en markeer ons als geen spam."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/RegistrationCore.php:99
 msgid ""
@@ -2494,30 +2486,29 @@ msgid ""
 "For safety reasons we have blocked access to this person for a delay of %1% "
 "minutes."
 msgstr ""
-"Om veiligheidredenen hebben we deze persoon geblokkeerd met een vertraging "
-"van %1% minuten."
+"Om veiligheidredenen hebben we deze persoon geblokkeerd met een vertraging van "
+"%1% minuten."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/Security.php:39
 msgid ""
 "If it is you who have made ​​the connection attempts, we suggest you request a "
 "new password <a href=\"%0%\">here</a> in %1% minutes."
 msgstr ""
-"Als jij het was die de inlogpogingen, adviseren we je om een nieuw "
-"wachtwoord aan te vragen door <a href=\"%0%\">hier</a> te klikken over %1% "
-"minuten."
+"Als jij het was die de inlogpogingen, adviseren we je om een nieuw wachtwoord "
+"aan te vragen door <a href=\"%0%\">hier</a> te klikken over %1% minuten."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/Security.php:40
 msgid ""
-"If you do not know the person who made ​​the connection attempts, you should "
-"be very careful and change your password to a password more complicated."
+"If you do not know the person who made ​​the connection attempts, you should be "
+"very careful and change your password to a password more complicated."
 msgstr ""
 "Als je niet weet wie de persoon was die de inlogpogingen deed, moet je "
 "voorzichtig zijn en je wachtwoord wijzigen (liefst bijna niet te raden)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/classes/Security.php:41
 msgid ""
-"We also recommend that you change the password for your mailbox, because it "
-"is in this box email we send a potential new password in case you forget."
+"We also recommend that you change the password for your mailbox, because it is "
+"in this box email we send a potential new password in case you forget."
 msgstr ""
 "We adviseren je ook om het wachtwoord van je mailbox te veranderen omdat we "
 "naar deze mailbox een mogelijk nieuw wachtwoord sturen, in het geval dat je "
@@ -2644,8 +2635,8 @@ msgid ""
 "RSS Feed %site_name%, Free Onlide Dating Site with Webcam Chat Rooms, Meet "
 "Single People with %site_name%"
 msgstr ""
-"RSS Feed %site_name%, Gratis Onlide Dating Site met Webcam Chat Rooms, "
-"Ontmoet Single People with %site_name%"
+"RSS Feed %site_name%, Gratis Onlide Dating Site met Webcam Chat Rooms, Ontmoet "
+"Single People with %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/xml/controllers/RssController.php:72
 msgid "Not Found RSS Feed!"
@@ -2726,8 +2717,7 @@ msgstr "Bewerk Foto"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:80
 msgid ""
 "%0%'s Albums | Picture Albums of the Dating Social Community - %site_name%"
-msgstr ""
-"%0%'s Albums | Foto Albums van de Dating Social Community - %site_name%"
+msgstr "%0%'s Albums | Foto Albums van de Dating Social Community - %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:88
 msgid "Empty Photo Album."
@@ -2837,11 +2827,11 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:229
 #, fuzzy
 msgid ""
-"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%"
-"\">add a new picture</a> in this album."
+"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%\">add "
+"a new picture</a> in this album."
 msgstr ""
-"Ga terug naar <a href=\"%1%\">de vorige pagina</a> of <a href=\"%1%\">voeg "
-"een foto toe</a> in dit album."
+"Ga terug naar <a href=\"%1%\">de vorige pagina</a> of <a href=\"%1%\">voeg een "
+"foto toe</a> in dit album."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/forms/SearchPictureForm.php:19
 msgid "ID or Name of Picture:"
@@ -2946,8 +2936,8 @@ msgid ""
 "You can select multiple photos at once by clicking multiple files while "
 "holding down the \"CTRL\" key."
 msgstr ""
-"Je kan meerdere foto's tegelijk selecteren door te klikken op meerdere "
-"foto's tegelijk met de \"CTRL\" toets ingedrukt. "
+"Je kan meerdere foto's tegelijk selecteren door te klikken op meerdere foto's "
+"tegelijk met de \"CTRL\" toets ingedrukt. "
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/forms/PictureForm.php:48
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/VideoForm.php:51
@@ -2959,8 +2949,8 @@ msgid ""
 "Please be patient while downloading pictures, this may take time (especially "
 "if you download a lot of photos at once)."
 msgstr ""
-"Gelieve even geduld te hebben tijdens het downloaden van foto's. Dit kan "
-"enige tijd kosten (vooral als je meerdere foto's tegelijkertijd download)"
+"Gelieve even geduld te hebben tijdens het downloaden van foto's. Dit kan enige "
+"tijd kosten (vooral als je meerdere foto's tegelijkertijd download)"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/forms/processing/EditAlbumFormProcess.php:26
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/processing/EditAlbumFormProcess.php:26
@@ -3003,8 +2993,7 @@ msgstr "De rapportage is verwijderd."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/report/controllers/AdminController.php:70
 msgid "A problem occurred during the deleted of the reporting."
-msgstr ""
-"Er is een probleem opgetreden tijdens het verwijderen van de rapportage."
+msgstr "Er is een probleem opgetreden tijdens het verwijderen van de rapportage."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/report/assets/ajax/ReportAjax.php:40
 msgid "The Report we been deleted."
@@ -3336,8 +3325,8 @@ msgid ""
 "adult content, etc.). Help us to eliminate scams, fake profiles, spam ... "
 "Thank you"
 msgstr ""
-"Vertel ons waarom je de inhoud wil rapporteren (scam, illegale inhoud, "
-"porno, etc). Help ons om scams, nepprofielen, spam aan te vechten... Bedankt!"
+"Vertel ons waarom je de inhoud wil rapporteren (scam, illegale inhoud, porno, "
+"etc). Help ons om scams, nepprofielen, spam aan te vechten... Bedankt!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/report/forms/ReportForm.php:37
 msgid "Report this"
@@ -3623,12 +3612,12 @@ msgstr "Veld Naam:"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/field/forms/AddFieldForm.php:32
 #, fuzzy
 msgid ""
-"Field Name must contain 2-30 alphanumeric characters ([a-z], [A-Z], [0-9] "
-"and [_], [-]). After you can translate this language key in <span class="
-"\"italic underline\">%0%</span>"
+"Field Name must contain 2-30 alphanumeric characters ([a-z], [A-Z], [0-9] and "
+"[_], [-]). After you can translate this language key in <span class=\"italic "
+"underline\">%0%</span>"
 msgstr ""
-"De veld naam dient 2-30 alfanummerieke karakters ([a-z], [A-Z], [0-9] and "
-"[_], [-]) te bevatten."
+"De veld naam dient 2-30 alfanummerieke karakters ([a-z], [A-Z], [0-9] and [_], "
+"[-]) te bevatten."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/field/forms/EditFieldForm.php:33
 #: /var/www/html/pH7CMS/_protected/app/system/modules/field/forms/AddFieldForm.php:33
@@ -3748,8 +3737,8 @@ msgstr "zoeken,blog,dating,social netwerk,community,nieuws"
 #, fuzzy
 msgid ""
 "Sorry, we weren't able to find the page you requested.<br />\n"
-"        May we suggest <a href=\"%0%\">exploring some tags</a> or <a href="
-"\"%1%\">creating a new search</a>."
+"        May we suggest <a href=\"%0%\">exploring some tags</a> or <a href=\"%1%"
+"\">creating a new search</a>."
 msgstr ""
 "Sorry, we konden de pagina waar je om vroeg niet vinden.<br />\n"
 "        Een suggestie is, <a href=\"%0%\">doorzoek met trefwoorden</a> or <a "
@@ -4040,8 +4029,8 @@ msgid ""
 "Your IP address or the username/password you entered were not correct. Your "
 "request was denied as you have no permission to access the data."
 msgstr ""
-"Je IP adres of je gebruikersnaam/wachtwoord die je in hebt gegeven is "
-"onjuist. Je verzoek is afgewezen omdat je geen toegang hebt tot de data."
+"Je IP adres of je gebruikersnaam/wachtwoord die je in hebt gegeven is onjuist. "
+"Je verzoek is afgewezen omdat je geen toegang hebt tot de data."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:38
 msgid "Payment Required"
@@ -4065,9 +4054,9 @@ msgid ""
 "request was denied as you have no permission to access the data.<br />OR<br /"
 ">The server was unable to serve the data that was requested."
 msgstr ""
-"Je IP adres of je gebruikersnaam/wachtwoord die je in hebt gegeven is "
-"onjuist. Je verzoek is afgewezen omdat je geen toegang hebt tot de data.<br /"
-">OF<br />De server kon niet de data geven waar je om vroeg."
+"Je IP adres of je gebruikersnaam/wachtwoord die je in hebt gegeven is onjuist. "
+"Je verzoek is afgewezen omdat je geen toegang hebt tot de data.<br />OF<br /"
+">De server kon niet de data geven waar je om vroeg."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:54
 msgid "Method Not Allowed"
@@ -4075,13 +4064,13 @@ msgstr "Methode Niet Toegestaan"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:57
 msgid ""
-"A request was made of a resource using a request method not supported by "
-"that resource;[2] for example, using GET on a form which requires data to be "
+"A request was made of a resource using a request method not supported by that "
+"resource;[2] for example, using GET on a form which requires data to be "
 "presented via POST, or using PUT on a read-only resource."
 msgstr ""
 "Een verzoek die is gedaan dooe een bron methode die niet is ondersteund;[2] "
-"als voorbeeld, dmv GET op een formulier welke data vereist die aanwezig is "
-"via POST, of door gebruik making van PUT op een alleen-lezen bron."
+"als voorbeeld, dmv GET op een formulier welke data vereist die aanwezig is via "
+"POST, of door gebruik making van PUT op een alleen-lezen bron."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:62
 msgid "Internal Server Error"
@@ -4093,9 +4082,8 @@ msgid ""
 "problem, a failed database access attempt, or other similar reasons.<br /"
 ">Please come back later!"
 msgstr ""
-"De server stelde een fout vast. Meestal door een script probleem, een fout "
-"met database-toegang of andere soortgelijke problemen.<br />Probeer later "
-"nog eens!"
+"De server stelde een fout vast. Meestal door een script probleem, een fout met "
+"database-toegang of andere soortgelijke problemen.<br />Probeer later nog eens!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:70
 msgid "Not Implemented"
@@ -4118,8 +4106,8 @@ msgid ""
 "The server was acting as a gateway or proxy and received an invalid response "
 "from the upstream server."
 msgstr ""
-"De server werd als gateway of proxy gebruikt en ontving een ongeldig "
-"antwoord van de upstream-server."
+"De server werd als gateway of proxy gebruikt en ontving een ongeldig antwoord "
+"van de upstream-server."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:95
 msgid "Gateway Timeout"
@@ -4127,16 +4115,15 @@ msgstr "Gateway Timeout"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:98
 msgid ""
-"Most likely the client has lost connectivity (disconnected from the "
-"internet) or the client's host is having technical difficulties.<br /> This "
-"could also meanthat a server that allows access to the requested server is "
-"down, having bandwidth/load issues, or otherwise unavailable."
+"Most likely the client has lost connectivity (disconnected from the internet) "
+"or the client's host is having technical difficulties.<br /> This could also "
+"meanthat a server that allows access to the requested server is down, having "
+"bandwidth/load issues, or otherwise unavailable."
 msgstr ""
 "Waarschijnlijk is de verbinding verbroken (onderbreking van het internet) of "
-"de provider heeft technische problemen. <br /> Dit kan ook een server zijn "
-"die het mogelijk maakt dat de toegang tot de opgevraagde server down is. Dit "
-"kan een bandbreedte/belasting kwestie of op een andere wijze niet "
-"beschikbaar."
+"de provider heeft technische problemen. <br /> Dit kan ook een server zijn die "
+"het mogelijk maakt dat de toegang tot de opgevraagde server down is. Dit kan "
+"een bandbreedte/belasting kwestie of op een andere wijze niet beschikbaar."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:103
 msgid "HTTP Version Not Supported"
@@ -4166,9 +4153,8 @@ msgid ""
 "dating, free dating, online dating, people, meeting, romance, woman, man, "
 "dating site, flirt, chat, chat room, webcam, video chat, %site_name%"
 msgstr ""
-"dating, gratis dating, online dating, mensen, ontmoeten, romantisch, "
-"vrouwen, mannen, dating site, flirt, chat, chat room, webcam, video, chat, "
-"%site_name%"
+"dating, gratis dating, online dating, mensen, ontmoeten, romantisch, vrouwen, "
+"mannen, dating site, flirt, chat, chat room, webcam, video, chat, %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:31
 msgid "Free Online Dating with %site_name%!"
@@ -4454,11 +4440,11 @@ msgstr "Deel deze site met anderen!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:116
 msgid ""
-"Do you like %site_name% and want it even more popular, then share this site "
-"on your website, blog, discussion forum, etc..."
+"Do you like %site_name% and want it even more popular, then share this site on "
+"your website, blog, discussion forum, etc..."
 msgstr ""
-"Vindt je %site_name% leuk en wil je dat het groeit ? Deel deze site dan op "
-"je website, blog, forum, Facebook, Twitter, etc... "
+"Vindt je %site_name% leuk en wil je dat het groeit ? Deel deze site dan op je "
+"website, blog, forum, Facebook, Twitter, etc... "
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/page/controllers/MainController.php:123
 msgid "Partners of %site_name%"
@@ -4585,17 +4571,16 @@ msgstr "Bericht achtergelaten door je vriend:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:63
 msgid ""
-"You are receiving this message because \"%0%\" you know has entered your "
-"email address in the form of invitation of friends to our site. This is not "
-"spam!"
+"You are receiving this message because \"%0%\" you know has entered your email "
+"address in the form of invitation of friends to our site. This is not spam!"
 msgstr ""
 "Je ontvangt dit bericht omdat \"%0%\" die je kent, jou heeft ingevuld op het "
 "uitnodigingsformulier op onze site. Dit is geen spam!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:69
 msgid ""
-"Privilege on the invitation from your friend for the new generation "
-"community platform - %site_name%"
+"Privilege on the invitation from your friend for the new generation community "
+"platform - %site_name%"
 msgstr ""
 "Privilege op uitnodiging van je vriend voor de nieuwe generatie community "
 "platform - %site_name%"
@@ -4611,8 +4596,8 @@ msgid ""
 "dating site for singles without registration with Video Chat Rooms!"
 msgstr ""
 "Gratis Live Speed Dating met de Chatroulette van %site_name%,Ontmoet nieuwe "
-"mensen bij je in de buurt, sex maatjes en gratis flirten, Gratis online "
-"dating site voor alleenstaande zonder registratie met Video Chat Rooms!"
+"mensen bij je in de buurt, sex maatjes en gratis flirten, Gratis online dating "
+"site voor alleenstaande zonder registratie met Video Chat Rooms!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/chatroulette/controllers/HomeController.php:22
 msgid ""
@@ -4624,8 +4609,8 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/chatroulette/controllers/HomeController.php:23
 msgid ""
-"Welcome to <span class=\"pH1\">Speed Dating ChatRoulette</span> of <span "
-"class=\"pH0\">%site_name%</span>!"
+"Welcome to <span class=\"pH1\">Speed Dating ChatRoulette</span> of <span class="
+"\"pH0\">%site_name%</span>!"
 msgstr ""
 "Welkom bij de <span class=\"pH1\">Speed Dating ChatRoulette</span> van <span "
 "class=\"pH0\">%site_name%</span>!"
@@ -4711,8 +4696,8 @@ msgid ""
 "affiliate,dating,dating site,social network,pay per click affiliate program, "
 "affiliate program"
 msgstr ""
-"affiliate,dating,dating site,social network,pay per click affiliate "
-"programma, affiliate programma"
+"affiliate,dating,dating site,social network,pay per click affiliate programma, "
+"affiliate programma"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/controllers/HomeController.php:26
 msgid "Affiliate Platform with %site_name%! Dating Social Affiliate"
@@ -5028,11 +5013,11 @@ msgstr "Je lidmaatschap account is geactiveerd"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/controllers/AdminController.php:314
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/UserController.php:371
 msgid ""
-"Congratulations! Your account has been approved by our team of "
-"administrators.<br />You can now %0% to meeting new people!"
+"Congratulations! Your account has been approved by our team of administrators."
+"<br />You can now %0% to meeting new people!"
 msgstr ""
-"Gefeliciteerd! Je account is goedgekeurd door het team van beheerders.<br /"
-">Je kan nu %0% om nieuwe mensen te ontmoeten!"
+"Gefeliciteerd! Je account is goedgekeurd door het team van beheerders.<br />Je "
+"kan nu %0% om nieuwe mensen te ontmoeten!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/controllers/AdminController.php:327
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/UserController.php:383
@@ -5157,8 +5142,8 @@ msgstr ""
 msgid ""
 "For site security and to avoid spam, you cannot change your email address."
 msgstr ""
-"Wegens veiligheidsoverwegingen en om spam tegen te gaan, kan je niet je "
-"email adres wijzigen."
+"Wegens veiligheidsoverwegingen en om spam tegen te gaan, kan je niet je email "
+"adres wijzigen."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/EditForm.php:61
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/JoinForm.php:43
@@ -5465,8 +5450,8 @@ msgstr "Er is eebn fout opgetreden tijdens het toevoegen van het artikel."
 msgid ""
 "Please try again with new information in the form fields or come back later."
 msgstr ""
-"Er is een fout opgetreden tijdens de registratie!<br /> Probeer opnieuw met "
-"de juiste informatie in de velden of kom later nog eens."
+"Er is een fout opgetreden tijdens de registratie!<br /> Probeer opnieuw met de "
+"juiste informatie in de velden of kom later nog eens."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/processing/JoinFormProcess.php:78
 msgid "Your affiliate account has been created! %0%"
@@ -5519,8 +5504,8 @@ msgid ""
 "Somebody (from the IP address %0%) has requested a new password for their "
 "account."
 msgstr ""
-"Hallo %0%!<br />Iemand (met het IP adres %1%) heeft een verzoek ingedient "
-"voor een nieuw wachtwoord voor het account"
+"Hallo %0%!<br />Iemand (met het IP adres %1%) heeft een verzoek ingedient voor "
+"een nieuw wachtwoord voor het account"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/lost-password/forms/processing/ForgotPasswordFormProcess.php:61
 msgid ""
@@ -5536,13 +5521,13 @@ msgstr "Verzoek om nieuw wachtwoord - %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/lost-password/config/Permission.php:23
 msgid ""
-"For security reasons, you do not have the right to generate a new password. "
-"To disable this security option, you must go to the Permission file of "
-"\"lost-password\" module"
+"For security reasons, you do not have the right to generate a new password. To "
+"disable this security option, you must go to the Permission file of \"lost-"
+"password\" module"
 msgstr ""
 "Om veiligheidsredenen, heb je geen rechten om een nieuw wachtwoord te "
-"genereren. Om deze optie uit te schakelen moet naar de Bestands-Permissie "
-"van de \"lost-password\" module gaan."
+"genereren. Om deze optie uit te schakelen moet naar de Bestands-Permissie van "
+"de \"lost-password\" module gaan."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/MainController.php:73
 #, fuzzy
@@ -5618,8 +5603,7 @@ msgstr "Verwijder Account"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SettingController.php:121
 msgid ""
-"At %site_name%, we are working hard to give you one of the best social "
-"service!"
+"At %site_name%, we are working hard to give you one of the best social service!"
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SettingController.php:147
@@ -5683,8 +5667,8 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/ProfileController.php:112
 msgid ""
-"A <span class=\"pH1\">%0%</span> of <span class=\"pH3\">%1% years</span>, "
-"from <span class=\"pH2\">%2%, %3% %4%</span>"
+"A <span class=\"pH1\">%0%</span> of <span class=\"pH3\">%1% years</span>, from "
+"<span class=\"pH2\">%2%, %3% %4%</span>"
 msgstr ""
 "Een <span class=\"pH1\">%0%</span> van <span class=\"pH3\">%1% jaar</span>, "
 "uit <span class=\"pH2\">%2%, %3% %4%</span>"
@@ -5698,9 +5682,8 @@ msgid ""
 "Whoops! The \"%0%\" profile is only visible to members. Please <a href=\"%1%"
 "\">login</a> or <a href=\"%2%\">register</a> to see this profile."
 msgstr ""
-"Ohoh! Het profiel van \"%0%\" is alleen zichtbaar voor leden. Klik op <a "
-"href=\"%1%\">login</a> of <a href=\"%2%\">registreer</a> om het profiel te "
-"zien."
+"Ohoh! Het profiel van \"%0%\" is alleen zichtbaar voor leden. Klik op <a href="
+"\"%1%\">login</a> of <a href=\"%2%\">registreer</a> om het profiel te zien."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/ProfileController.php:191
 msgid "Whoops! The \"%0%\" profile is not available to you."
@@ -5719,8 +5702,7 @@ msgid ""
 "birthday,birthdate,anniversary,birth,friend,dating,social networking,profile,"
 "social"
 msgstr ""
-"verjaardag,geboortedatum,geboren,vriend,dating,social networking,profiel,"
-"social"
+"verjaardag,geboortedatum,geboren,vriend,dating,social networking,profiel,social"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/BirthdayController.php:48
 msgid "Users Birthday (<span class=\"pH3\">%0%</span>)"
@@ -5729,8 +5711,8 @@ msgstr "Gebruikers Verjaardag (<span class=\"pH3\">%0%</span>)"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/VisitorController.php:47
 #, fuzzy
 msgid ""
-"The Last %0%'s visitors. Meet new people and make new visitors on your "
-"social profile. Make new Visitors and Friends with %site_name%"
+"The Last %0%'s visitors. Meet new people and make new visitors on your social "
+"profile. Make new Visitors and Friends with %site_name%"
 msgstr ""
 "De laatste bezoekers van %0%. Ontmoet nieuwe mensen en krijg bezoekers op je "
 "eigen profiel, Ontmoet nieuwe mensen en krijg meer vrieden met %site_name%"
@@ -5821,14 +5803,14 @@ msgid ""
 "Free online dating in %0% %1%, meet people, find friends. Single men & women "
 "in %2% %3%"
 msgstr ""
-"Gratis online dating in %0% %1%, ontmoet mensen, vindt vrienden. "
-"Alleenstaande mannen & vrouwen in %2% %3%"
+"Gratis online dating in %0% %1%, ontmoet mensen, vindt vrienden. Alleenstaande "
+"mannen & vrouwen in %2% %3%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/CountryController.php:53
 msgid ""
 "Free online dating in %0% with single women & men. Personals, meet people & "
-"find friends in %1% on internet dating site. Find sweet love or sex dating "
-"and flirt in %2%, %3% with %site_name%"
+"find friends in %1% on internet dating site. Find sweet love or sex dating and "
+"flirt in %2%, %3% with %site_name%"
 msgstr ""
 "Gratis online dating in %0% met alleenstaande vrouwen & mannen. Bekenden, "
 "ontmoet mensen & vindt vrienden in %1% op internet dating site. Zoek naar "
@@ -5868,8 +5850,8 @@ msgstr "Fout, land is niet aangegeven."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/FriendController.php:57
 msgid ""
-"The Hot Friend of %0%. Meet new people and make new friends, sex friends, "
-"hot friends for Flirt, Speed Dating or social relationship with %site_name%"
+"The Hot Friend of %0%. Meet new people and make new friends, sex friends, hot "
+"friends for Flirt, Speed Dating or social relationship with %site_name%"
 msgstr ""
 "De Hot Friend van %0%. Ontmoet nieuwe mensen en maak nieuwe vrienden, sex "
 "maatjes, hete vrienden om te flirten, speeddaten of gewoon vriendschap met "
@@ -5880,8 +5862,8 @@ msgid ""
 "friend,friends,girl friend,boy friend,sex friend,hot friend,new friend,"
 "friendship,dating,flirt,%0%"
 msgstr ""
-"vriend, vriendin,vienden,sex vriend,sex maatje,hete vriend, heet vriendje,"
-"heet vriendinnetje,vriendschap,dating,daten,flirt,flirten,%0%"
+"vriend, vriendin,vienden,sex vriend,sex maatje,hete vriend, heet vriendje,heet "
+"vriendinnetje,vriendschap,dating,daten,flirt,flirten,%0%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/FriendController.php:76
 msgid "No Friend found on the profile of \"%0%\""
@@ -5935,8 +5917,7 @@ msgstr "Aktie: %0%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SignupController.php:63
 #, fuzzy
-msgid ""
-"Register for free to meet %0% on %site_name%. The Real Social Dating app!"
+msgid "Register for free to meet %0% on %site_name%. The Real Social Dating app!"
 msgstr ""
 "Gratis Inschrijven om %0% te ontmoeten op %site_name%, De social dating site!"
 
@@ -5950,8 +5931,8 @@ msgid ""
 "Register for Free to Meet <span class=\"pink2\">%0%</span> (<span class="
 "\"pink1\">%1%</span>) on <span class=\"pink2\">%site_name%</span>!"
 msgstr ""
-"Schrijf je gratis is en ontmoet <span class=\"pink2\">%0%</span> (<span "
-"class=\"pink1\">%1%</span>) op <span class=\"pink2\">%site_name%</span>!"
+"Schrijf je gratis is en ontmoet <span class=\"pink2\">%0%</span> (<span class="
+"\"pink1\">%1%</span>) op <span class=\"pink2\">%site_name%</span>!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SignupController.php:66
 #, fuzzy
@@ -5965,11 +5946,10 @@ msgid ""
 "many others people near or far from you! %site_name% is a free social dating "
 "with profiles, blogs, rating, hot or not, video chat rooms, ..."
 msgstr ""
-"Schrijf Je Vandaag Gratis in en ontmoet vrienden, sex maatjes, "
-"alleenstaande, singles, families, buren en vele andere mensen vlakbij of "
-"verweg van je! %site_name% is een gratis dating site met vele profielen, "
-"blogs, waarderingen, Hot or Not, video, foto's en ja... Chat Rooms "
-"(eventueel met Webcam)...."
+"Schrijf Je Vandaag Gratis in en ontmoet vrienden, sex maatjes, alleenstaande, "
+"singles, families, buren en vele andere mensen vlakbij of verweg van je! "
+"%site_name% is een gratis dating site met vele profielen, blogs, waarderingen, "
+"Hot or Not, video, foto's en ja... Chat Rooms (eventueel met Webcam)...."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/controllers/SignupController.php:75
 msgid "Sign Up for Free Online Dating - STEP 2/3"
@@ -6026,11 +6006,11 @@ msgstr "De vrienden die we hebben verwijderd."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/assets/ajax/FriendAjax.php:146
 msgid ""
-"Hello %0%!<br /><strong>%1%</strong> sent you a friendship request on %2%."
-"<br /> <a href=\"%3%\">Click here</a> to see your friend request."
+"Hello %0%!<br /><strong>%1%</strong> sent you a friendship request on %2%.<br /"
+"> <a href=\"%3%\">Click here</a> to see your friend request."
 msgstr ""
-"Hallo %0%!<br /><strong>%1%</strong> stuurde je een vriendschapsverzoek op "
-"%2%.<br /> <a href=\"%3%\">Klik hier</a> om het vriendschapsverzoek te zien.."
+"Hallo %0%!<br /><strong>%1%</strong> stuurde je een vriendschapsverzoek op %2%."
+"<br /> <a href=\"%3%\">Klik hier</a> om het vriendschapsverzoek te zien.."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/assets/ajax/FriendAjax.php:155
 msgid "%0% wants to be friends with you on %1%"
@@ -6162,13 +6142,13 @@ msgstr "Nieuwsbrief"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/NotificationForm.php:33
 msgid ""
-"By enabling this option, you would be likely to receive occasional news on "
-"our website and our services and offers, promotions and other benefits to "
-"our partners."
+"By enabling this option, you would be likely to receive occasional news on our "
+"website and our services and offers, promotions and other benefits to our "
+"partners."
 msgstr ""
-"Door deze optie aan te zetten, vindt je het leuk om zo nu en dan nieuws op "
-"en over onze website, diensten en aanbiedingen als ook de extra voordeeltjes "
-"van onze partners te ontvangen."
+"Door deze optie aan te zetten, vindt je het leuk om zo nu en dan nieuws op en "
+"over onze website, diensten en aanbiedingen als ook de extra voordeeltjes van "
+"onze partners te ontvangen."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/NotificationForm.php:34
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/NotificationForm.php:35
@@ -6221,11 +6201,10 @@ msgstr "Zoek iemand van \"%0%\""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/SearchVisitorForm.php:21
 #, fuzzy
 msgid ""
-"Enter its First Name, Last Name, Username, Email address or ID of your "
-"Friend."
+"Enter its First Name, Last Name, Username, Email address or ID of your Friend."
 msgstr ""
-"Geef de Voornaam, Achternaam, Gebruikersnaam, Email adres of ID van je "
-"vriend in"
+"Geef de Voornaam, Achternaam, Gebruikersnaam, Email adres of ID van je vriend "
+"in"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:41
 msgid "Universal Login"
@@ -6301,8 +6280,8 @@ msgstr "Wil je ook in andere zoekmachines opgenomen worden?"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/PrivacyForm.php:37
 #, php-format
 msgid ""
-"Yes, include my profile in search results (%site_name%'s search, Google, "
-"Bing, Yahoo, etc.)."
+"Yes, include my profile in search results (%site_name%'s search, Google, Bing, "
+"Yahoo, etc.)."
 msgstr ""
 "Ja, inclusief mijn profiel in zoekresultaten (%site_name%'s search, Google, "
 "Bing, Yahoo, etc.)."
@@ -6333,9 +6312,9 @@ msgid ""
 "No, don't display members who viewed my profile. (Selecting this option will "
 "prevent you from seeing who visited your profile)."
 msgstr ""
-"Nee, laat de leden niet zien die naar mijn profiel hebben gekeken. (Deze "
-"optie gebruiken betekend dat een ander jou ook nooit kan als je hun profiel "
-"bekeken hebt)"
+"Nee, laat de leden niet zien die naar mijn profiel hebben gekeken. (Deze optie "
+"gebruiken betekend dat een ander jou ook nooit kan als je hun profiel bekeken "
+"hebt)"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/PrivacyForm.php:40
 msgid "Presence:"
@@ -6377,8 +6356,8 @@ msgid ""
 "Your Wallpaper has been received! But it will not be visible until it is "
 "approved by our moderators. Please do not send a new not."
 msgstr ""
-"Je Achtergrond is ontvangen! Deze wordt zichtbaar als een moderator hem "
-"heeft goedgekeurd. Opnieuw een Achtergrond sturen heeft geen zin!"
+"Je Achtergrond is ontvangen! Deze wordt zichtbaar als een moderator hem heeft "
+"goedgekeurd. Opnieuw een Achtergrond sturen heeft geen zin!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/processing/DesignFormProcess.php:42
 msgid "Your Wallpaper has been updated successfully!"
@@ -6391,8 +6370,8 @@ msgstr "Je privacy instellingen zijn met succes opgeslagen!"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/processing/AvatarFormProcess.php:41
 #, fuzzy
 msgid ""
-"Your avatar has been received! But it will not be visible until it is "
-"approved by our moderators. Please do not send a new not."
+"Your avatar has been received! But it will not be visible until it is approved "
+"by our moderators. Please do not send a new not."
 msgstr ""
 "Je avatar is ontvangen! Deze wordt zichtbaar als een moderator hem heeft "
 "goedgekeurd. Opnieuw een avatar sturen heeft geen zin!"
@@ -6423,8 +6402,8 @@ msgid ""
 "forum,discussion,dating forum,social forum,people,meet people,forums,free "
 "dating forum,free forum,community forum,social forum"
 msgstr ""
-"forum,discussie,dating forum,social forum,mensen,ontmoet mensen,forums,"
-"gratis dating forum,gratis forum,community forum,social forum"
+"forum,discussie,dating forum,social forum,mensen,ontmoet mensen,forums,gratis "
+"dating forum,gratis forum,community forum,social forum"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/controllers/ForumController.php:47
 msgid "No Forums found."
@@ -6456,8 +6435,8 @@ msgstr "%0% - Topics - Discussie Forums"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/controllers/ForumController.php:81
 msgid ""
-"%0%,forum,discussion,dating forum,social forum,people,meet people,forums,"
-"free dating forum"
+"%0%,forum,discussion,dating forum,social forum,people,meet people,forums,free "
+"dating forum"
 msgstr ""
 "%0%,forum,discussie,dating forum,social forum,mensen,ontmoet people,forums,"
 "gratis dating forum"
@@ -6759,8 +6738,7 @@ msgstr "Dit Lidmaatschap is verwijderd!"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/payment/inc/class/design/PaymentDesign.php:38
 msgid "The payment was aborted, no changes have been made to your account."
 msgstr ""
-"De betaling is afgebroken en er zijn geen veranderingen gemaakt op je "
-"account."
+"De betaling is afgebroken en er zijn geen veranderingen gemaakt op je account."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/payment/inc/class/design/PaymentDesign.php:128
 msgid "Buy %0% with %1%!"
@@ -6779,11 +6757,11 @@ msgstr "Prijs:"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/payment/forms/EditMembershipForm.php:48
 #: /var/www/html/pH7CMS/_protected/app/system/modules/payment/forms/MembershipForm.php:40
 msgid ""
-"Currency: %0%. 0 = Free. To change the currency, please <a href=\"%1%\">go "
-"to settings</a>."
+"Currency: %0%. 0 = Free. To change the currency, please <a href=\"%1%\">go to "
+"settings</a>."
 msgstr ""
-"Munteenheid: %0%. 0 = Free. Om de munteenheid te veranderen <a href=\"%1%"
-"\">ga naar instellingen</a>."
+"Munteenheid: %0%. 0 = Free. Om de munteenheid te veranderen <a href=\"%1%\">ga "
+"naar instellingen</a>."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/payment/forms/EditMembershipForm.php:49
 #: /var/www/html/pH7CMS/_protected/app/system/modules/payment/forms/MembershipForm.php:41
@@ -7112,11 +7090,11 @@ msgstr "Ohoh! Je kan geen berichten naar jezelf sturen."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/forms/processing/MailFormProcess.php:42
 msgid ""
-"Oops! You cannot reply to administrator! If you want to contact us, please "
-"use our <a href=\"%0%\">contact form</a>."
+"Oops! You cannot reply to administrator! If you want to contact us, please use "
+"our <a href=\"%0%\">contact form</a>."
 msgstr ""
-"Ohoh! Je kan niet reageren als beheerder! Als je contact met ons wilt "
-"opnemen ga dan naar het <a href=\"%0%\">contact formulier</a>. "
+"Ohoh! Je kan niet reageren als beheerder! Als je contact met ons wilt opnemen "
+"ga dan naar het <a href=\"%0%\">contact formulier</a>. "
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/forms/processing/MailFormProcess.php:46
 msgid "Oops! The username \"%0%\" does not exist."
@@ -7174,8 +7152,8 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/validate-site/controllers/MainController.php:63
 msgid ""
-"The hash is incorrect. Please copy/paste the hash link received in your "
-"email in Web browser URL bar."
+"The hash is incorrect. Please copy/paste the hash link received in your email "
+"in Web browser URL bar."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/validate-site/forms/ValidationForm.php:24
@@ -7225,8 +7203,7 @@ msgstr[1] "%n% Artikelen Resultaten!"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/MainController.php:133
 msgid "Search Note Post by Category %0% - Dating Social Community Note"
 msgstr ""
-"Zoek Artikel Posting middels Categorie %0% - Dating Social Community "
-"Artikelen"
+"Zoek Artikel Posting middels Categorie %0% - Dating Social Community Artikelen"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/MainController.php:134
 msgid "search,post,blog,note,dating,social network,community,news"
@@ -7249,8 +7226,7 @@ msgstr "Zoeken met Auteur: \"%0%\" Artikel"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/MainController.php:169
 msgid "Search Note Post by Author %0% - Dating Social Community Note"
 msgstr ""
-"Zoeken naar Artikel Posting door Auteur %0% - Dating Social Community "
-"Artikelen"
+"Zoeken naar Artikel Posting door Auteur %0% - Dating Social Community Artikelen"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/MainController.php:170
 msgid "author,search,post,blog,note,dating,social network,community,news"
@@ -7319,8 +7295,8 @@ msgid ""
 "href=\"%1%\">creating a new search</a>."
 msgstr ""
 "Sorry, we konden je opgevraagde pagina niet vinden.<br />\n"
-"                We adviseren je om wat andere <a href=\"%0%\">trefwoorden</"
-"a> or <a href=\"%1%\">te gebruiken in een nieuwe zoekopdracht</a>."
+"                We adviseren je om wat andere <a href=\"%0%\">trefwoorden</a> "
+"or <a href=\"%1%\">te gebruiken in een nieuwe zoekopdracht</a>."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/AdminController.php:16
 msgid "Welcome to the Note administrator mode."
@@ -7351,8 +7327,8 @@ msgid ""
 "Select a category that fits the best for your article. You can select up to "
 "three different categories"
 msgstr ""
-"Selecteer een categorie dat het beste past bij je artikel. Je mag er "
-"maximaal drie selecteren."
+"Selecteer een categorie dat het beste past bij je artikel. Je mag er maximaal "
+"drie selecteren."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/forms/NoteForm.php:44
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/forms/EditNoteForm.php:64
@@ -7365,8 +7341,8 @@ msgstr "Zoek Artikel Posting:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/forms/SearchNoteForm.php:19
 msgid ""
-"Enter Name, Keyword of post, Author (username, first name, last name) or ID "
-"of a Note."
+"Enter Name, Keyword of post, Author (username, first name, last name) or ID of "
+"a Note."
 msgstr ""
 "Geef de Naam, Trefwoord van de Posting, Auteur (gebruikersnaam, voornaam, "
 "achternaam) of ID van het Artikel."
@@ -7418,13 +7394,13 @@ msgstr "Welkom bij de Algemene Inlog Pagina"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/connect/controllers/MainController.php:29
 msgid ""
-"Universal Login, Use the service Facebook, Twitter, Yahoo, AOL, Windows "
-"Live, Microsoft Live, Google, or other account to login on the social dating "
-"site %site_name%"
+"Universal Login, Use the service Facebook, Twitter, Yahoo, AOL, Windows Live, "
+"Microsoft Live, Google, or other account to login on the social dating site "
+"%site_name%"
 msgstr ""
-"Algemene Login, Gebruik Facebook, Twitter, Yahoo, AOL, Windows Live, "
-"Microsoft Live, Google, of een ander account om in te loggen op de social "
-"dating site %site_name%"
+"Algemene Login, Gebruik Facebook, Twitter, Yahoo, AOL, Windows Live, Microsoft "
+"Live, Google, of een ander account om in te loggen op de social dating site "
+"%site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/connect/controllers/MainController.php:30
 msgid ""
@@ -7475,8 +7451,8 @@ msgstr "Jullie mannen!"
 #, fuzzy
 msgid "Vote for the most beautiful women, the sexiest and hottest!"
 msgstr ""
-"Stem op de meest mooie vrouwen, de meest sexy en heetste gratis online "
-"dating site!"
+"Stem op de meest mooie vrouwen, de meest sexy en heetste gratis online dating "
+"site!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/hotornot/controllers/MainController.php:32
 #, fuzzy
@@ -7487,8 +7463,8 @@ msgstr "Jullie vrouwen!"
 #, fuzzy
 msgid "Vote for the best men, the sexiest and hottest!"
 msgstr ""
-"Stem op de meest mooie mannen, de  meest sexy en heetste gratis online "
-"dating site!"
+"Stem op de meest mooie mannen, de  meest sexy en heetste gratis online dating "
+"site!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/hotornot/controllers/MainController.php:34
 msgid "Hot On Not - Free Online Dating Site"
@@ -7500,8 +7476,8 @@ msgid ""
 "speed dating, flirt"
 msgstr ""
 "hot, hot or not, hotornot,heet, sexy, rate, rating,stemmen, voting, women,"
-"vrouwen, mannen, single, married, getrouwd, bi, gay, homo, free, dating, "
-"speed dating, flirt"
+"vrouwen, mannen, single, married, getrouwd, bi, gay, homo, free, dating, speed "
+"dating, flirt"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/hotornot/controllers/MainController.php:48
 #, fuzzy
@@ -7533,10 +7509,8 @@ msgid "Video Gallery Community"
 msgstr "Video Gallerij Community"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/controllers/MainController.php:98
-msgid ""
-"%0%'s Albums | Video Albums of the Dating Social Community - %site_name%"
-msgstr ""
-"%0%'s Albums | Video Albums van de Dating Social Community - %site_name%"
+msgid "%0%'s Albums | Video Albums of the Dating Social Community - %site_name%"
+msgstr "%0%'s Albums | Video Albums van de Dating Social Community - %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/controllers/MainController.php:112
 msgid "Browse Videos From %0% | Video Album Social Community - %site_name%"
@@ -7595,17 +7569,17 @@ msgstr "Zoeken - %site_name% is een Dating Social Video Community!"
 msgid ""
 "search,video,dating,social network,community,music,movie,news,video sharing"
 msgstr ""
-"search,video,dating,daten,social network,netwerk,community,music,muziek,"
-"movie,film,news,nieuws,video sharing, video delen"
+"search,video,dating,daten,social network,netwerk,community,music,muziek,movie,"
+"film,news,nieuws,video sharing, video delen"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/controllers/MainController.php:239
 #, fuzzy
 msgid ""
-"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%"
-"\">add a new video</a> in this album."
+"Please return to <a href=\"%1%\">the previous page</a> or <a href=\"%1%\">add "
+"a new video</a> in this album."
 msgstr ""
-"Ga terug naar de <a href=\"%1%\">vorige pagina</a> of <a href=\"%1%\">voeg "
-"een nieuwe video toe</a> in dit album."
+"Ga terug naar de <a href=\"%1%\">vorige pagina</a> of <a href=\"%1%\">voeg een "
+"nieuwe video toe</a> in dit album."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/SearchVideoForm.php:19
 msgid "ID or Name of Video:"
@@ -7704,11 +7678,11 @@ msgstr "Je moet het type van de video selecteren!"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/processing/VideoFormProcess.php:136
 #, fuzzy
 msgid ""
-"Your video has been received! But it will not be visible until it is "
-"approved by our moderators. Please do not send a new not."
+"Your video has been received! But it will not be visible until it is approved "
+"by our moderators. Please do not send a new not."
 msgstr ""
-"Je video is ontvangen! Zodra deze is goedgekeurd door de beheerder(s) is "
-"deze zichtbaar. Een nieuwe video sturen heeft geen zin, gaarne geduld!"
+"Je video is ontvangen! Zodra deze is goedgekeurd door de beheerder(s) is deze "
+"zichtbaar. Een nieuwe video sturen heeft geen zin, gaarne geduld!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/processing/VideoFormProcess.php:137
 msgid "Your video has been added successfully!"
@@ -7736,8 +7710,7 @@ msgid "comment,%0%"
 msgstr "commentaar,%0%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/comment/controllers/CommentController.php:96
-msgid ""
-"No comments yet, please return to the <a href=\"%0%\">previous page</a>."
+msgid "No comments yet, please return to the <a href=\"%0%\">previous page</a>."
 msgstr ""
 "Geen commentaar gevonden, ga terug naar de <a href=\"%0%\">vorige pagina</a>."
 
@@ -7771,8 +7744,7 @@ msgstr "Commentaar Niet gevonden"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/comment/controllers/CommentController.php:148
 msgid "No comments yet, <a class=\"bold\" href=\"%0%\">add one</a>!"
 msgstr ""
-"Momenteel geen commentaar, <a class=\"bold\" href=\"%0%\">voeg er één toe</"
-"a>!"
+"Momenteel geen commentaar, <a class=\"bold\" href=\"%0%\">voeg er één toe</a>!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/comment/assets/ajax/CommentAjax.php:50
 msgid "Your comment has been successfully removed!"
@@ -8085,13 +8057,13 @@ msgstr "Uitschrijven"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/newsletter/forms/processing/SubscriptionFormProcess.php:49
 msgid ""
-"Please activate your subscription by clicking the activation link you "
-"received by email. If you can not find the email, please look in your SPAM "
-"FOLDER and mark as not spam."
+"Please activate your subscription by clicking the activation link you received "
+"by email. If you can not find the email, please look in your SPAM FOLDER and "
+"mark as not spam."
 msgstr ""
-"Activeer je inschrijving door op de activatielink te klikken die je in de "
-"mail hebt ontvangen. Zie je de mail niet direct, kijk dan eens in je SPAM "
-"folder of hij daar niet terecht is gekomen."
+"Activeer je inschrijving door op de activatielink te klikken die je in de mail "
+"hebt ontvangen. Zie je de mail niet direct, kijk dan eens in je SPAM folder of "
+"hij daar niet terecht is gekomen."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/newsletter/forms/processing/SubscriptionFormProcess.php:59
 msgid "Oops! You are already subscribed to our newsletter."
@@ -8174,8 +8146,7 @@ msgstr[0] "%n% Game Resultaat!"
 msgstr[1] "%n% Games Resultaat!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/game/controllers/MainController.php:112
-msgid ""
-"Search the Flash Game in the Category %0% - Community Dating Social Games"
+msgid "Search the Flash Game in the Category %0% - Community Dating Social Games"
 msgstr "Zoek de Flash Game in de Categorie %0% - Community Dating Social Games"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/game/controllers/MainController.php:123
@@ -8202,11 +8173,11 @@ msgstr "Verkeerde download ID gespecificeerd!"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/game/controllers/MainController.php:210
 #, fuzzy
 msgid ""
-"Please return to the <a href=\"%0%\">main game page</a> or <a href=\"%1%"
-"\">the previous page</a>."
+"Please return to the <a href=\"%0%\">main game page</a> or <a href=\"%1%\">the "
+"previous page</a>."
 msgstr ""
-"Ga terug naar de <a href=\"%0%\">hoofdpagina</a> of <a href=\"%1%\">ga naar "
-"de vorige pagina</a>."
+"Ga terug naar de <a href=\"%0%\">hoofdpagina</a> of <a href=\"%1%\">ga naar de "
+"vorige pagina</a>."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/game/controllers/AdminController.php:16
 msgid "Welcome to the Game administrator mode."
@@ -9138,8 +9109,7 @@ msgstr "Selecteer aub een veld."
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/ToolController.php:220
 #, fuzzy
 msgid ""
-"Dump file must be a SQL type (extension \".sql\" or compressed archive \".gz"
-"\")"
+"Dump file must be a SQL type (extension \".sql\" or compressed archive \".gz\")"
 msgstr ""
 "Data bestand moet van het SQL type zijn (extensie \".sql\" or compressed "
 "archive \".bz2\")"
@@ -9356,14 +9326,14 @@ msgid ""
 "Invalid File Format! Please select a valid CSV/TXT file containing data "
 "members."
 msgstr ""
-"Verkeerd bestand! Selecteer aub een geldig CSV bestand met de gegevens van "
-"de leden."
+"Verkeerd bestand! Selecteer aub een geldig CSV bestand met de gegevens van de "
+"leden."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/inc/class/ImportUser.php:205
 msgid ""
-"The file is too large. Please select a smaller file or change your server "
-"PHP settings. Especially \"upload_max_filesize\" and \"post_max_size\" "
-"directives in the php.ini file."
+"The file is too large. Please select a smaller file or change your server PHP "
+"settings. Especially \"upload_max_filesize\" and \"post_max_size\" directives "
+"in the php.ini file."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/inc/class/ImportUser.php:209
@@ -9373,8 +9343,8 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/inc/class/Module.php:194
 msgid "Unable to execute the query SQL of module.<br />Error Message: %0%"
 msgstr ""
-"Niet mogelijk om het verzoek uit te voeren op de SQL van de module.<br /"
-">Error Message: %0%"
+"Niet mogelijk om het verzoek uit te voeren op de SQL van de module.<br />Error "
+"Message: %0%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/AddUserForm.php:38
 msgid "Match Sex:"
@@ -9448,29 +9418,29 @@ msgstr "Bestand van de Game:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/AdsForm.php:33
 msgid ""
-"The predefined variable for the URL of an affiliate account to put in the "
-"HTML is: %0%."
+"The predefined variable for the URL of an affiliate account to put in the HTML "
+"is: %0%."
 msgstr ""
-"De vooraf gedefinieerde variabele voor de URL van een affiliate account om "
-"in de HTML te zetten is:% 0%."
+"De vooraf gedefinieerde variabele voor de URL van een affiliate account om in "
+"de HTML te zetten is:% 0%."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/AdsForm.php:33
 msgid ""
 "The predefined variable to the URL of your site to indicate this in the HTML "
 "is: %0%."
 msgstr ""
-"De vooraf gedefinieerde variabele naar de URL van je site om dit aan te "
-"geven in de HTML is:% 0%."
+"De vooraf gedefinieerde variabele naar de URL van je site om dit aan te geven "
+"in de HTML is:% 0%."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/ImportUserForm.php:27
 msgid ""
 "Import members into your site from a <strong><abbr title=\"Comma Separated "
-"Values\">CSV</abbr></strong> file. You can find database users <strong><a "
-"href=\"%0%\">here</a></strong>."
+"Values\">CSV</abbr></strong> file. You can find database users <strong><a href="
+"\"%0%\">here</a></strong>."
 msgstr ""
 "Importeer leden in je site vannuit een <strong><abbr title=\"Comma Separated "
-"Values\">CSV</abbr></strong> bestand. Je vindt database gebruikers "
-"<strong><a href=\"%0%\">hier</a></strong>."
+"Values\">CSV</abbr></strong> bestand. Je vindt database gebruikers <strong><a "
+"href=\"%0%\">hier</a></strong>."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/ImportUserForm.php:30
 msgid "CSV file:"
@@ -9531,11 +9501,11 @@ msgstr "Landings Pagina:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:57
 msgid ""
-"Use the Splash Page for the visitors, otherwise it will classic page that "
-"will be used."
+"Use the Splash Page for the visitors, otherwise it will classic page that will "
+"be used."
 msgstr ""
-"Gebruik de Landings Pagina voor de bezoekers, anders wordt de klassieke "
-"pagina gebruikt."
+"Gebruik de Landings Pagina voor de bezoekers, anders wordt de klassieke pagina "
+"gebruikt."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:58
 msgid "Background Splash Video:"
@@ -9586,9 +9556,8 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:62
 msgid ""
 "Enable a Cookie Consent Bar to prevent your users that your website uses "
-"cookies. This is required by EU Law (if you have visitors from EU "
-"countries). The Cookie Bar will only be displayed if the visitor is in the "
-"EU."
+"cookies. This is required by EU Law (if you have visitors from EU countries). "
+"The Cookie Bar will only be displayed if the visitor is in the EU."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:63
@@ -9597,8 +9566,7 @@ msgstr "Toon de News Feed:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:63
 #, fuzzy
-msgid ""
-"Show the Latest News on the software in the admin dashboard (recommend)."
+msgid "Show the Latest News on the software in the admin dashboard (recommend)."
 msgstr "Toon de nieuws software op het beheer paneel."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:66
@@ -9852,16 +9820,15 @@ msgid ""
 msgstr ""
 "Geef <a href=\"%0%\" title=\"Get your IP here!\">je IP adres</a>in, en zelfs "
 "derden met hogere rechten of derden met de logingegevens worden geweigerd. "
-"Alleen jou IP adres heeft toegang. Leeg laten om deze optie niet te "
-"gebruiken.."
+"Alleen jou IP adres heeft toegang. Leeg laten om deze optie niet te gebruiken.."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:131
 msgid ""
-"Indicate a word that will replace the banned word in the <a href=\"%0%"
-"\">list</a>."
+"Indicate a word that will replace the banned word in the <a href=\"%0%\">list</"
+"a>."
 msgstr ""
-"Geeft het woord aan dat op de plaats komt van de <a href=\"%0%\">lijst</a> "
-"van verbannen woorden."
+"Geeft het woord aan dat op de plaats komt van de <a href=\"%0%\">lijst</a> van "
+"verbannen woorden."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:132
 msgid "Enable or Disable the CSRF security tokens in forms:"
@@ -9870,8 +9837,8 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:132
 msgid ""
 "Sometime this protection can be annoying for users if there are not fast "
-"enough to fulfill the forms. However, if disabled, your site can be "
-"vulnerable on CSRF attacks in forms."
+"enough to fulfill the forms. However, if disabled, your site can be vulnerable "
+"on CSRF attacks in forms."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:133
@@ -9901,8 +9868,7 @@ msgstr "Vertraging voor Gebruiker bij registratie"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:139
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:140
 msgid "Number of minutes for a new registration with the same IP address."
-msgstr ""
-"Aantal minuten tot tijdstip nieuwe registratie vanaf hetzelfde IP adres."
+msgstr "Aantal minuten tot tijdstip nieuwe registratie vanaf hetzelfde IP adres."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:140
 msgid "Registration delay for Affiliate"
@@ -9942,8 +9908,8 @@ msgstr "Verstuur Forum Topic vertraging"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:144
 msgid "Number of minutes for the same user can send a new topic in the forum."
 msgstr ""
-"Aantal minuten voor dezelfde gebruiker, voordat deze een een nieuwe topic "
-"kan starten op het forum."
+"Aantal minuten voor dezelfde gebruiker, voordat deze een een nieuwe topic kan "
+"starten op het forum."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:145
 msgid "Send Forum Message delay"
@@ -9951,11 +9917,10 @@ msgstr "Verstuur Forum Bericht vertraging"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:145
 msgid ""
-"Number of minutes for the same user can send a reply message in the same "
-"topic."
+"Number of minutes for the same user can send a reply message in the same topic."
 msgstr ""
-"Aantal minuten voor dezelfde gebruiker, voordat deze een antwoord kan geven "
-"op een bericht in dezelfde topic."
+"Aantal minuten voor dezelfde gebruiker, voordat deze een antwoord kan geven op "
+"een bericht in dezelfde topic."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:148
 msgid "Captcha for User Signup Form:"
@@ -9975,8 +9940,7 @@ msgstr "Captcha om commentaar te geven:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:152
 msgid "Captcha for adding or reply a message in the Forum:"
-msgstr ""
-"Captcha voor het toevoegen van een antwoord op een bericht in het forum:"
+msgstr "Captcha voor het toevoegen van een antwoord op een bericht in het forum:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:153
 msgid "Captcha for adding a User Post Note:"
@@ -10060,8 +10024,8 @@ msgstr "Geheim woord voor de URL cron:"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:168
 #, fuzzy
 msgid ""
-"Your very secret word for the cron URL. It will be used for running "
-"automated cron jobs."
+"Your very secret word for the cron URL. It will be used for running automated "
+"cron jobs."
 msgstr ""
 "Je super geheime woord voor de URL van de cron. Het wordt gebruikt om "
 "automatisch cron jobs te draaien."
@@ -10153,8 +10117,8 @@ msgid ""
 "With your time zone, the other administrators may know when they can contact "
 "you easily."
 msgstr ""
-"Met jouw tijdzone kan de beheerder zien wanner hij het beste eventueel "
-"contact met je op kan nemen."
+"Met jouw tijdzone kan de beheerder zien wanner hij het beste eventueel contact "
+"met je op kan nemen."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/MetaMainForm.php:39
 msgid "Click here to show/hide the languages"
@@ -10204,8 +10168,8 @@ msgstr "Zoek een Beheerder:"
 msgid ""
 "Enter their ID, First Name, Last Name, Username, Email, Sex or IP address."
 msgstr ""
-"Voer hun ID, Voornaam, Achternaam, Gebruikersnaam, Email, Geslacht of IP "
-"adres in."
+"Voer hun ID, Voornaam, Achternaam, Gebruikersnaam, Email, Geslacht of IP adres "
+"in."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SearchAdminForm.php:20
 msgid "Latest Admins"
@@ -10234,8 +10198,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/SettingFormProcess.php:242
 msgid "The token lifetime cannot be below 10 seconds."
-msgstr ""
-"De identificatiesleutel levensduur kan niet lager zijn als 10 seconden."
+msgstr "De identificatiesleutel levensduur kan niet lager zijn als 10 seconden."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/SettingFormProcess.php:331
 msgid "The configuration was saved successfully!"
@@ -10291,11 +10254,11 @@ msgstr "De code Analytics Api is met succes opgeslagen!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/EditFormProcess.php:35
 msgid ""
-"Your username has to contain from %0% to %1% characters, your username is "
-"not available or your username already used by other admin."
+"Your username has to contain from %0% to %1% characters, your username is not "
+"available or your username already used by other admin."
 msgstr ""
-"Your username has to contain from %0% to %1% characters, your username is "
-"not available or your username already used by other admin."
+"Your username has to contain from %0% to %1% characters, your username is not "
+"available or your username already used by other admin."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/EditFormProcess.php:51
 msgid "Invalid email address or this email is already used by another admin."
@@ -10317,9 +10280,9 @@ msgstr "Deze module is een test om simpel een module te maken"
 
 #: /var/www/html/pH7CMS/_protected/app/modules/helloworld/controllers/HomeController.php:26
 msgid ""
-"hello world, test, developpers, CMS, Dating CMS, CMS Dating, Social CMS, "
-"pH7, pH7 CMS, Dating Script, Social Dating Script, Dating Software, Social "
-"Network Software, Social Networking Software"
+"hello world, test, developpers, CMS, Dating CMS, CMS Dating, Social CMS, pH7, "
+"pH7 CMS, Dating Script, Social Dating Script, Dating Software, Social Network "
+"Software, Social Networking Software"
 msgstr ""
 "hello world, test, ontwikkelaars, CMS, Dating CMS, CMS Dating, Social CMS, "
 "pH7, pH7 CMS, Dating Script, Social Dating Script, Dating Software, Social "
@@ -11006,8 +10969,8 @@ msgstr "uitnodigen"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/homelayout.cpl.php:96
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/adminlayout.cpl.php:96
 msgid ""
-"JavaScript is disabled on your Web browser!<br /> Please enable JavaScript "
-"via the options of your Web browser in order to use this website."
+"JavaScript is disabled on your Web browser!<br /> Please enable JavaScript via "
+"the options of your Web browser in order to use this website."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contactlayout.cpl.php:176
@@ -11048,11 +11011,10 @@ msgid ""
 ">\n"
 "        Be careful, don't send the money to anybody!"
 msgstr ""
-"<strong>Attentie!</strong> Sommige van de vrouwlijke (of mannelijke) "
-"profielen die je vaak ziet op dating sites, zijn SCAM op geld in te zamelen."
-"<br /> Mensen die echt geïnterreseerd in je zijn vragen nooit om geld. Ook "
-"niet voor een vliegticket!<br /> Wees voorzichtig,  stuur NOOIT naar iemand "
-"geld!"
+"<strong>Attentie!</strong> Sommige van de vrouwlijke (of mannelijke) profielen "
+"die je vaak ziet op dating sites, zijn SCAM op geld in te zamelen.<br /> "
+"Mensen die echt geïnterreseerd in je zijn vragen nooit om geld. Ook niet voor "
+"een vliegticket!<br /> Wees voorzichtig,  stuur NOOIT naar iemand geld!"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contactlayout.cpl.php:189
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/adminlayout.cpl.php:189
@@ -17905,10 +17867,9 @@ msgstr "Standaard Lidmaatschap van Groep:"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/index.cpl.php:21
 msgid ""
 "WARNING! Before sending your emails, it is preferable that you have a "
-"dedicated hosting or agreement with your hosting company so that your "
-"hosting account will not be banned because many hosting not tolerate the "
-"sending of mass emails.<br /> Sending can take time! DO NOT interrupt the "
-"script."
+"dedicated hosting or agreement with your hosting company so that your hosting "
+"account will not be banned because many hosting not tolerate the sending of "
+"mass emails.<br /> Sending can take time! DO NOT interrupt the script."
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:27
@@ -18111,8 +18072,8 @@ msgstr "Opschonen:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/avatar.cpl.php:22
 msgid ""
-"Your avatar must contain a picture of you under penalty of banishment of "
-"your account!"
+"Your avatar must contain a picture of you under penalty of banishment of your "
+"account!"
 msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/avatar.cpl.php:25
@@ -18501,8 +18462,8 @@ msgstr "Game Commentaar"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/news.inc.cpl.php:21
 msgid ""
-"Latest <a href=\"%software_website%\" title=\"%software_name%\">Software</"
-"a>'s News"
+"Latest <a href=\"%software_website%\" title=\"%software_name%\">Software</a>'s "
+"News"
 msgstr ""
 "Laatste <a href=\"%software_website%\" title=\"%software_name%\">Software</"
 "a>Nieuws"
@@ -18533,11 +18494,11 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ msgstr "Verwijderen Tijdelijke Data... OK!"
 
 #~ msgid ""
-#~ "Hello!<br />Your password has been changed to <em>\"%0%\"</em>.<br /"
-#~ ">Please change it next time you login."
+#~ "Hello!<br />Your password has been changed to <em>\"%0%\"</em>.<br />Please "
+#~ "change it next time you login."
 #~ msgstr ""
-#~ "Hallo!<br />Je wachtwoord is veranderd naar <em>\"%0%\"</em>.<br /"
-#~ ">Gelieve dit de volgende keer na het inloggen te wijzigen."
+#~ "Hallo!<br />Je wachtwoord is veranderd naar <em>\"%0%\"</em>.<br />Gelieve "
+#~ "dit de volgende keer na het inloggen te wijzigen."
 
 #~ msgid ""
 #~ "Hello %0%!<br />You have received a new message from <strong>%1%</strong>."
@@ -18646,16 +18607,16 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ msgstr "Je moet jezelf registreren om deze persoon te rapporteren."
 
 #~ msgid ""
-#~ "<strong>Attention!</strong> Some of the women (or men) profiles you see "
-#~ "on dating sites might be scams to collect money.<br /> People who is "
-#~ "really interested in you will never ask for money.<br /> Be careful, "
-#~ "don't send the money to anybody!"
+#~ "<strong>Attention!</strong> Some of the women (or men) profiles you see on "
+#~ "dating sites might be scams to collect money.<br /> People who is really "
+#~ "interested in you will never ask for money.<br /> Be careful, don't send "
+#~ "the money to anybody!"
 #~ msgstr ""
 #~ "<strong>Attentie!</strong> Sommige van de vrouwlijke (of mannelijke) "
-#~ "profielen die je vaak ziet op dating sites, zijn SCAM op geld in te "
-#~ "zamelen.<br /> Mensen die echt geïnterreseerd in je zijn vragen nooit om "
-#~ "geld. Ook niet voor een vliegticket!<br /> Wees voorzichtig,  stuur NOOIT "
-#~ "naar iemand geld!"
+#~ "profielen die je vaak ziet op dating sites, zijn SCAM op geld in te zamelen."
+#~ "<br /> Mensen die echt geïnterreseerd in je zijn vragen nooit om geld. Ook "
+#~ "niet voor een vliegticket!<br /> Wees voorzichtig,  stuur NOOIT naar iemand "
+#~ "geld!"
 
 #, fuzzy
 #~ msgid "%site_name% Team."
@@ -18686,8 +18647,7 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ msgstr "Bevestig je email adres!"
 
 #, fuzzy
-#~ msgid ""
-#~ "For safety and to prevent spam, you can not change your email address."
+#~ msgid "For safety and to prevent spam, you can not change your email address."
 #~ msgstr ""
 #~ "Wegens veiligheidsoverwegingen en om spam tegen te gaan, kan je niet je "
 #~ "email adres wijzigen."
@@ -18790,15 +18750,15 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ "Virtual World, Earth 3D. A virtual Life 3D revolutionary ! Best Virtual "
 #~ "Free Online Dating 3D !"
 #~ msgstr ""
-#~ "Virtuale Wereld, Earth 3D. Een Virtuale Life 3D revolutie ! Beste "
-#~ "Virtuale Gratis Online Dating 3D !"
+#~ "Virtuale Wereld, Earth 3D. Een Virtuale Life 3D revolutie ! Beste Virtuale "
+#~ "Gratis Online Dating 3D !"
 
 #~ msgid ""
 #~ "virtual, world, earth, life, 3D, dating 3d, online, second life, free "
 #~ "online dating, free"
 #~ msgstr ""
-#~ "virtueel, wereld, aarde, leven, 3D, dating 3d, online, tweede leven, "
-#~ "gratis online dating, gratis"
+#~ "virtueel, wereld, aarde, leven, 3D, dating 3d, online, tweede leven, gratis "
+#~ "online dating, gratis"
 
 #~ msgid "Virtual Earth 3D, Revolutionary Online Virtual World 3D !"
 #~ msgstr "Virtual Earth 3D, Revolutionaire Online Virtuele Wereld in 3D!"
@@ -18838,13 +18798,13 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ msgstr "Beheerder Account"
 
 #~ msgid ""
-#~ "Oops! This password you entered is incorrect.<br /> Please try again "
-#~ "(make sure your caps lock is off).<br /> Forgot your password? <a href="
-#~ "\"%0%\">Request a new one</a>."
+#~ "Oops! This password you entered is incorrect.<br /> Please try again (make "
+#~ "sure your caps lock is off).<br /> Forgot your password? <a href=\"%0%"
+#~ "\">Request a new one</a>."
 #~ msgstr ""
-#~ "Ohoh! Het ingegeven wachtwoord is onjuist.<br /> Probeer opnieuw (let op "
-#~ "je Caps-Lock).<br />Wachtwoord vergeten? <a href=\"%0%\">Vraag een nieuwe "
-#~ "aan.</a>."
+#~ "Ohoh! Het ingegeven wachtwoord is onjuist.<br /> Probeer opnieuw (let op je "
+#~ "Caps-Lock).<br />Wachtwoord vergeten? <a href=\"%0%\">Vraag een nieuwe aan."
+#~ "</a>."
 
 #~ msgid ""
 #~ "An error occurred during registration!<br />\n"
@@ -18882,8 +18842,8 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ "you our %site_name%!</span>"
 #~ msgstr ""
 #~ "<span class=\"bold green1\">Geweldig, je blijft bij ons!<br />\n"
-#~ "            Je zult zien dat je er geen spijt van krijgt!<br />We doen "
-#~ "onze best voor je op %site_name%!</span>"
+#~ "            Je zult zien dat je er geen spijt van krijgt!<br />We doen onze "
+#~ "best voor je op %site_name%!</span>"
 
 #~ msgid "Donation - Help Us"
 #~ msgstr "Doneer en Steun ons Bestaan"
@@ -18892,8 +18852,8 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 #~ "Help us pay for our servers and development of our volunteer %site_name% "
 #~ "site."
 #~ msgstr ""
-#~ "Help ons om de servers en doorontwikkelingvan onze vrijwilligers "
-#~ "%site_name% site."
+#~ "Help ons om de servers en doorontwikkelingvan onze vrijwilligers %site_name"
+#~ "% site."
 
 #~ msgid "Your post was deleted!"
 #~ msgstr "Je posting is verwijderd!"
@@ -18915,15 +18875,13 @@ msgstr "Beste %0% %1%, Welkom op ons affiliate platform!"
 
 #~ msgid "Your message could not be moved to Trash because there no exist."
 #~ msgstr ""
-#~ "Je bericht kon niet worden verplaats naar de Prullenmand, omdat er geen "
-#~ "is."
+#~ "Je bericht kon niet worden verplaats naar de Prullenmand, omdat er geen is."
 
 #~ msgid "Your message has been moved to your Trash!"
 #~ msgstr "Je bericht is verplaatst naar je Prullenmand!"
 
 #~ msgid "Your message could not be moved to Inbox because there no exist."
-#~ msgstr ""
-#~ "Je bericht kon niet worden verplaats naar de Inbox, omdat er geen is."
+#~ msgstr "Je bericht kon niet worden verplaats naar de Inbox, omdat er geen is."
 
 #~ msgid "Your message could not be deleted because there no exist."
 #~ msgstr "Je bericht kon niet worden verwijderd, omdat er geen is."
