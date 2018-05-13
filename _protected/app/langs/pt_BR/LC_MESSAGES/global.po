@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-04-04 20:48-0300\n"
+"PO-Revision-Date: 2018-05-13 00:37-0300\n"
 "Last-Translator: Pierre-Henry Soria <hi@ph7.me>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
@@ -53,7 +53,7 @@ msgstr "Exemplo de título H3"
 
 #: _protected/app/modules/helloworld/controllers/HomeController.php:36
 msgid "Hello %0% %1% How are you on this %2%?"
-msgstr "Olá %0% % 1% Como você está neste % 2%?"
+msgstr "Olá %0% %1% Como você está neste %2%?"
 
 #: _protected/app/modules/helloworld/controllers/SecureController.php:26
 #: _protected/app/modules/helloworld/controllers/SecureController.php:31
@@ -283,8 +283,8 @@ msgstr "Banco de dados de reparo ... Ok!"
 #: _protected/app/system/core/assets/cron/96h/DatabaseCoreCron.php:142
 msgid "Deleted %n% temporary message... OK!"
 msgid_plural "Deleted %n% temporary messages... OK!"
-msgstr[0] "Deleted% n% mensagem temporária ... OK!"
-msgstr[1] "Deleted% n% mensagens temporárias ... OK!"
+msgstr[0] "Apagado %n% mensagem temporária ... OK!"
+msgstr[1] "Apagado %n% mensagens temporárias ... OK!"
 
 #: _protected/app/system/core/assets/cron/96h/DatabaseCoreCron.php:162
 msgid "Deleting Log... OK!"
@@ -292,13 +292,13 @@ msgstr "Excluindo o Log ... OK!"
 
 #: _protected/app/system/core/assets/cron/96h/DatabaseCoreCron.php:181
 msgid "Deleted %0% %1% comment(s) ... OK!"
-msgstr "Deleted % 0% % 1% comentário (s) ... OK!"
+msgstr "Apagado %0% % 1% comentário (s) ... OK!"
 
 #: _protected/app/system/core/assets/cron/96h/DatabaseCoreCron.php:189
 msgid "Deleted %n% message... OK!"
 msgid_plural "Deleted %n% messages... OK!"
 msgstr[0] "Mensagem %n% apagada ... OK!"
-msgstr[1] "Mensagens% n% apagadas ... OK!"
+msgstr[1] "Mensagens %n% apagadas ... OK!"
 
 #: _protected/app/system/core/assets/cron/96h/DatabaseCoreCron.php:196
 msgid "Deleted %n% IM message... OK!"
@@ -336,8 +336,8 @@ msgid ""
 "Upgrade <span class=\"bold italic\">%software_version_name% %software_version% "
 "Build %software_build%</span> to version <span class=\"bold italic\">%0%</span>"
 msgstr ""
-"Atualizar <span class = \"bold (realce)\">% software_version_name% % "
-"software_version% Build % software_build% </ span> para a versão <span class = "
+"Atualizar <span class = \"bold (realce)\">%software_version_name% "
+"%software_version% Build %software_build% </ span> para a versão <span class = "
 "\"bold italic\">%0% </ span>"
 
 #: _protected/app/system/core/assets/file/UpgradeCoreFile.php:163
@@ -447,7 +447,7 @@ msgstr "Você tem %0% de erro (s):"
 
 #: _protected/app/system/core/assets/file/UpgradeCoreFile.php:344
 msgid "%0%) %1%"
-msgstr "% 0%) %1%"
+msgstr "%0%) %1%"
 
 #: _protected/app/system/core/assets/file/UpgradeCoreFile.php:450
 #: _protected/app/system/modules/admin123/inc/class/Module.php:158
@@ -456,12 +456,12 @@ msgstr "Arquivo de instruções não encontrado!"
 
 #: _protected/app/system/core/assets/js/mailcheck.jsCoreJs.php:34
 msgid "Did you mean %0%?"
-msgstr "Você quis dizer % 0%?"
+msgstr "Você quis dizer %0%?"
 
 #: _protected/app/system/core/classes/BirthdayCore.php:59
 #: _protected/app/system/modules/newsletter/forms/processing/SubscriptionFormProcess.php:83
 msgid "Hi %0%!"
-msgstr "Oi % 0%!"
+msgstr "Oi %0%!"
 
 #: _protected/app/system/core/classes/BirthdayCore.php:60
 msgid "The %site_name%'s team wish you a very happy birthday!"
@@ -503,7 +503,7 @@ msgstr "Acesse o painel de administração e faça o login como administrador."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:50
 msgid "Password: %0% (please change it next time you login)."
-msgstr "Senha:% 0% (altere-a na próxima vez que você entrar)."
+msgstr "Senha: %0% (altere-a na próxima vez que você entrar)."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:52
 msgid ""
@@ -521,7 +521,7 @@ msgstr "Bem-vindo ao %site_name%, %0%!"
 #: _protected/app/system/core/classes/RegistrationCore.php:56
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:56
 msgid "Hi %0%! We are proud to welcome you as a member of %site_name%!"
-msgstr "Oi% 0%! Estamos orgulhosos de recebê-lo como membro de% site_name%!"
+msgstr "Oi %0%! Estamos orgulhosos de recebê-lo como membro de% site_name%!"
 
 #: _protected/app/system/core/classes/RegistrationCore.php:58
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:58
@@ -610,7 +610,7 @@ msgstr "Por favor, %0% para conhecer novas pessoas a partir de hoje!"
 #: _protected/app/system/modules/affiliate/inc/class/Registration.php:74
 #: _protected/app/system/modules/newsletter/forms/processing/SubscriptionFormProcess.php:85
 msgid "Activation link: %0%."
-msgstr "Link de ativação:% 0%."
+msgstr "Link de ativação:%0%."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:127
 #: _protected/app/system/modules/affiliate/inc/class/Registration.php:78
@@ -1559,7 +1559,7 @@ msgstr "Eu sou um %0% e estou olhando %1%."
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:120
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:122
 msgid "I from %0%, %1%."
-msgstr "Eu de %0%, % 1%."
+msgstr "Eu de %0%, %1%."
 
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:80
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:82
@@ -1787,7 +1787,7 @@ msgstr "Informação PHP"
 
 #: _protected/app/system/modules/admin123/controllers/InfoController.php:47
 msgid "%software_name% Information"
-msgstr "% software_name% Informações"
+msgstr "%software_name% Informações"
 
 #: _protected/app/system/modules/admin123/controllers/MainController.php:27
 msgid "Admin Panel"
@@ -1832,7 +1832,7 @@ msgid ""
 "%software_name% <strong>%0%</strong> is available! Please <a href=\"%1%\" "
 "target=\"_blank\">update it today</a> to keep your site safe and stable."
 msgstr ""
-"% software_name% <strong>%0% </ strong> está disponível! <a href=\"%1%\" target="
+"%software_name% <strong>%0% </ strong> está disponível! <a href=\"%1%\" target="
 "\"_blank\"> atualize-o hoje </a> para manter seu site seguro e estável."
 
 #: _protected/app/system/modules/admin123/controllers/ModeratorController.php:40
@@ -2293,7 +2293,7 @@ msgid ""
 "<br />You can now %0% to meeting new people!"
 msgstr ""
 "Parabéns! Sua conta foi aprovada pela nossa equipe de administradores. <br /> "
-"Agora você pode usar% 0% para conhecer novas pessoas!"
+"Agora você pode usar%0% para conhecer novas pessoas!"
 
 #: _protected/app/system/modules/admin123/controllers/UserController.php:417
 #: _protected/app/system/modules/affiliate/controllers/AdminController.php:374
@@ -2387,7 +2387,7 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/AddFakeProfilesForm.php:32
 msgid "Gentlemen &amp; Ladies"
-msgstr "Cavalheiros  & amp; Damas"
+msgstr "Cavalheiros  & Damas"
 
 #: _protected/app/system/modules/admin123/forms/AddFakeProfilesForm.php:32
 msgid "Only Gentlemen"
@@ -3637,8 +3637,8 @@ msgstr "Administrador adicionado com sucesso."
 #: _protected/app/system/modules/admin123/forms/processing/AddFakeProfilesFormProcess.php:52
 msgid "%n% user has successfully been added."
 msgid_plural "%n% users have successfully been added."
-msgstr[0] "% n% usuário foi adicionado com sucesso."
-msgstr[1] "% n% usuários foram adicionados com sucesso."
+msgstr[0] "%n% usuário foi adicionado com sucesso."
+msgstr[1] "%n% usuários foram adicionados com sucesso."
 
 #: _protected/app/system/modules/admin123/forms/processing/AddUserFormProcess.php:53
 msgid "User successfully added."
@@ -3768,8 +3768,8 @@ msgstr "O arquivo é inválido / vazio ou possui Delimiter / Enclosure incorreto
 #: _protected/app/system/modules/admin123/inc/class/ImportUser.php:312
 msgid "%n% user has been successfully added."
 msgid_plural "%n% users has been successfully added."
-msgstr[0] "% n% usuário foi adicionado com sucesso."
-msgstr[1] "% n% usuários foram adicionados com sucesso."
+msgstr[0] "%n% usuário foi adicionado com sucesso."
+msgstr[1] "%n% usuários foram adicionados com sucesso."
 
 #: _protected/app/system/modules/admin123/inc/class/Module.php:210
 msgid "Unable to execute the query SQL of module.<br />Error Message: %0%"
@@ -3805,8 +3805,8 @@ msgstr "Procurar afiliados"
 #: _protected/app/system/modules/affiliate/controllers/AdminController.php:109
 msgid "%n% Affiliate"
 msgid_plural "%n% Affiliates"
-msgstr[0] "% n% afiliado"
-msgstr[1] "% n% afiliados"
+msgstr[0] "%n% afiliado"
+msgstr[1] "%n% afiliados"
 
 #: _protected/app/system/modules/affiliate/controllers/AdminController.php:119
 msgid "Affiliate Search"
@@ -4132,7 +4132,7 @@ msgstr ""
 
 #: _protected/app/system/modules/affiliate/inc/class/Registration.php:49
 msgid "Dear %0% %1%, Welcome to our affiliate platform!"
-msgstr "Caro% 0%% 1%, Bem-vindo à nossa plataforma de afiliados!"
+msgstr "Caro %0% %1%, Bem-vindo à nossa plataforma de afiliados!"
 
 #: _protected/app/system/modules/affiliate/inc/class/Registration.php:68
 msgid "Please %0% to make money from today!"
@@ -4219,7 +4219,7 @@ msgstr "A miniatura foi excluída com sucesso!"
 
 #: _protected/app/system/modules/blog/controllers/MainController.php:50
 msgid "The Blog of %site_name%"
-msgstr "O Blog de% site_name%"
+msgstr "O Blog de %site_name%"
 
 #: _protected/app/system/modules/blog/controllers/MainController.php:62
 msgid "No Posts"
@@ -4481,7 +4481,7 @@ msgid ""
 "%site_name%</span>!"
 msgstr ""
 "Bem-vindo ao <span class = \"pH3\"> Sala de Chat Gratuito </ span> em <span "
-"class = \"pH0\">% site_name% </ span>!"
+"class = \"pH0\">%site_name% </ span>!"
 
 #: _protected/app/system/modules/chatroulette/controllers/HomeController.php:19
 msgid "Free Video Room, Live Speed Dating ChatRoulette"
@@ -4493,7 +4493,7 @@ msgid ""
 "near you and make new friends, sex friends and free flirting, Free online "
 "dating site for singles without registration with Video Chat Rooms!"
 msgstr ""
-"Namoro Rápido e Gratuito ao Vivo com o Chatroulette% site_name%, Conheça novas "
+"Namoro Rápido e Gratuito ao Vivo com o Chatroulette %site_name%, Conheça novas "
 "pessoas perto de você e faça novos amigos, sexo e flertes grátis, site de "
 "namoro online gratuito para solteiro, sem registro, com salas de vídeo chat!"
 
@@ -4511,7 +4511,7 @@ msgid ""
 "\"pH0\">%site_name%</span>!"
 msgstr ""
 "Bem-vindo a <span class = \"pH1\"> Conversa de Chat pela Speed ​​</ span> de "
-"<span class = \"pH0\">% site_name% </ span>!"
+"<span class = \"pH0\">%site_name% </ span>!"
 
 #: _protected/app/system/modules/comment/assets/ajax/CommentAjax.php:65
 msgid "Your comment has been successfully removed!"
@@ -4777,7 +4777,7 @@ msgid ""
 "Whoops! The \"%0%\" profile is only visible to members. Please <a href=\"%1%"
 "\">login</a> or <a href=\"%2%\">register</a> to see this profile."
 msgstr ""
-"Ops! O perfil \"% 0%\" é visível apenas para membros. <a href=\"%1%\"> faça "
+"Ops! O perfil \"%0%\" é visível apenas para membros. <a href=\"%1%\"> faça "
 "login </a> ou <a href=\"%2%\"> faça login </a> para ver este perfil."
 
 #: _protected/app/system/modules/cool-profile-page/controllers/MainController.php:172
@@ -4796,7 +4796,7 @@ msgstr "Registre-se gratuitamente para falar com %0%."
 #: _protected/app/system/modules/cool-profile-page/controllers/MainController.php:291
 #: _protected/app/system/modules/user/controllers/ProfileController.php:330
 msgid "Free Sign up for %site_name% to become friend with %0%."
-msgstr "Inscreva-se grátis para % site_name% para se tornar amigo com %0%."
+msgstr "Inscreva-se grátis para %site_name% para se tornar amigo com %0%."
 
 #: _protected/app/system/modules/error/controllers/HttpController.php:35
 msgid "Bad Request"
@@ -5649,7 +5649,7 @@ msgstr "Convide seus amigos"
 
 #: _protected/app/system/modules/invite/controllers/HomeController.php:16
 msgid "Invite your friends to join %site_name%"
-msgstr "Convide seus amigos para participar de% site_name%"
+msgstr "Convide seus amigos para participar de %site_name%"
 
 #: _protected/app/system/modules/invite/forms/InviteForm.php:32
 msgid "Your name:"
@@ -5670,7 +5670,7 @@ msgstr "Convide seus amigos!"
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:33
 msgid "To prevent spam, you cannot put more than %0% email addresses at a time."
 msgstr ""
-"Para evitar spam, você não pode colocar mais de % 0% de endereços de e-mail por "
+"Para evitar spam, você não pode colocar mais de %0% de endereços de e-mail por "
 "vez."
 
 #: _protected/app/system/modules/invite/forms/processing/InviteFormProcess.php:39
@@ -6001,7 +6001,7 @@ msgstr "Problema ao enviar a mensagem. Por favor, tente novamente mais tarde."
 
 #: _protected/app/system/modules/mail/forms/processing/MailFormProcess.php:81
 msgid "You received a new message from %0%"
-msgstr "Você recebeu uma nova mensagem de % 0%"
+msgstr "Você recebeu uma nova mensagem de %0%"
 
 #: _protected/app/system/modules/mail/forms/processing/MailFormProcess.php:82
 msgid "Click here"
@@ -6050,7 +6050,7 @@ msgid ""
 "Newsletters - Subscribe to our newsletter %site_name% | Social networking, "
 "dating website."
 msgstr ""
-"Newsletters - Subscreva a nossa newsletter% site_name% | Redes sociais, site de "
+"Newsletters - Subscreva a nossa newsletter %site_name% | Redes sociais, site de "
 "namoro."
 
 #: _protected/app/system/modules/newsletter/controllers/HomeController.php:17
@@ -6162,7 +6162,7 @@ msgstr "Opa! A nota não pôde ser aprovada!"
 
 #: _protected/app/system/modules/note/controllers/MainController.php:62
 msgid "The Notes of %site_name%"
-msgstr "As notas de% site_name%"
+msgstr "As notas de %site_name%"
 
 #: _protected/app/system/modules/note/controllers/MainController.php:79
 msgid "No Notes"
@@ -6494,7 +6494,7 @@ msgstr "Nunca"
 
 #: _protected/app/system/modules/payment/controllers/MainController.php:327
 msgid "Congratulation! You received a new payment from %0%"
-msgstr "Parabéns! Você recebeu um novo pagamento de % 0%"
+msgstr "Parabéns! Você recebeu um novo pagamento de %0%"
 
 #: _protected/app/system/modules/payment/controllers/MainController.php:328
 msgid "Date of the payment: %0%"
@@ -6506,7 +6506,7 @@ msgstr "Nome da associação: %0%"
 
 #: _protected/app/system/modules/payment/controllers/MainController.php:330
 msgid "Amount: %1%%0%"
-msgstr "Quantidade: %1%% 0%"
+msgstr "Quantidade: %1%%0%"
 
 #: _protected/app/system/modules/payment/controllers/MainController.php:331
 msgid "Membership duration: %n% day"
@@ -6946,7 +6946,7 @@ msgstr "Encontro:"
 
 #: _protected/app/system/modules/report/inc/class/Report.php:95
 msgid "Abuse report from %site_name%"
-msgstr "Relatório de abuso de % site_name%"
+msgstr "Relatório de abuso de %site_name%"
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:47
 msgid "Verification Code - Two-Factor Authentication"
@@ -7321,7 +7321,7 @@ msgstr ""
 
 #: _protected/app/system/modules/user/controllers/VisitorController.php:87
 msgid "No one has seen \"%0%\""
-msgstr "Ninguém viu \"% 0%\""
+msgstr "Ninguém viu \"%0%\""
 
 #: _protected/app/system/modules/user/controllers/VisitorController.php:90
 msgid "No one has visited the profile."
@@ -9004,7 +9004,7 @@ msgstr "Aqui"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/top_menu.inc.cpl.php:19
 msgid "Join Now!"
-msgstr "Entrar!"
+msgstr "Registrar agora!"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/top_menu.inc.cpl.php:19
 msgid "Members"
@@ -10179,7 +10179,7 @@ msgid ""
 "Error: Username has to be from %0% to %1% characters long, or it is not "
 "available or already used by other user."
 msgstr ""
-"Erro: o nome de usuário deve ser de % 0% a %1% caracteres, ou não está "
+"Erro: o nome de usuário deve ser de %0% a %1% caracteres, ou não está "
 "disponível ou já é usado por outro usuário."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/YesNo.php:13
