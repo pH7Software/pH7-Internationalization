@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-06 12:45+0100\n"
-"PO-Revision-Date: 2018-04-30 19:34+0100\n"
+"PO-Revision-Date: 2018-07-01 04:08-0400\n"
 "Last-Translator: Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <ph7software@gmail.com>\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SearchPath-0: global.po\n"
 "X-Poedit-SearchPath-1: global.mo\n"
 
@@ -25,9 +25,8 @@ msgstr "Connectez-vous au panneau d'administration"
 
 #: /var/www/html/pH7CMS/_repository/module/fake-admin-panel/controllers/MainController.php:22
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/MainController.php:55
-#, fuzzy
 msgid "Admin Panel - Login"
-msgstr "Connectez-vous au panneau d'administration"
+msgstr "Connexion - Administrateur"
 
 #: /var/www/html/pH7CMS/_repository/module/fake-admin-panel/controllers/AdminController.php:20
 msgid "Logs | Administration of Fake Admin"
@@ -59,7 +58,7 @@ msgstr "Referer: %0%"
 
 #: /var/www/html/pH7CMS/_repository/module/fake-admin-panel/inc/class/Logger.php:94
 msgid "LOGIN - Email: %0% - Username: %1% - Password: %2%"
-msgstr "LOGIN - Email: %0% - Username: %1% - Password: %2%"
+msgstr "LOGIN - Email: %0% - Usager: %1% - Mots de passe: %2%"
 
 #: /var/www/html/pH7CMS/_repository/module/fake-admin-panel/inc/class/Logger.php:137
 msgid "Reporting of the Fake Admin Honeypot"
@@ -76,7 +75,7 @@ msgstr "Compte-rendu de Fake Admin Honeypot"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:47
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/LoginForm.php:29
 msgid "Your Email:"
-msgstr "Votre Email:"
+msgstr "Votre Courriel:"
 
 #: /var/www/html/pH7CMS/_repository/module/fake-admin-panel/forms/LoginForm.php:34
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/LoginForm.php:30
@@ -345,19 +344,19 @@ msgstr "Connexion à PayPal a échoué."
 
 #: /var/www/html/pH7CMS/_protected/framework/Analytics/Analytics.class.php:203
 msgid "Unknown OS"
-msgstr "Inconnu OS"
+msgstr "Système d'Exploitation Inconnu"
 
 #: /var/www/html/pH7CMS/_protected/framework/Analytics/Analytics.class.php:218
 msgid "Unknown Web Browser"
-msgstr "Inconnu Navigateur Web"
+msgstr "Navigateur Web Inconnu"
 
 #: /var/www/html/pH7CMS/_protected/framework/Analytics/Analytics.class.php:233
 msgid "Unknown Search Engine Bot"
-msgstr "Inconnu Search Engine Bot"
+msgstr "Moteur de recherche inconnu"
 
 #: /var/www/html/pH7CMS/_protected/framework/Analytics/Analytics.class.php:248
 msgid "Unknown Search Engine Bot IP"
-msgstr "Inconnu Search Engine Bot IP"
+msgstr "Adresse IP de moteur de recherche inconnu"
 
 #: /var/www/html/pH7CMS/_protected/framework/Geo/Map/MapAPI.class.php:708
 msgid "Oops! Geo Map was not successful for the following reason:"
@@ -395,7 +394,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Html/Mail.class.php:79
 msgid "Best regards,<br />The %0% Team."
-msgstr "Cordialement, <br /> L'équipe %0%."
+msgstr "Coordialement, <br /> L'équipe %0%."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Html/Mail.class.php:88
 msgid ""
@@ -616,8 +615,8 @@ msgid ""
 "Error: %element% must contain a URL (e.g., <a href=\"http://sofun.co\">http://"
 "www.sofun.co</a>)."
 msgstr ""
-"Error:%element% doit contenir une URL (e.g., <a href=\"http://sofun.co\">http://"
-"www.sofun.co</a>)."
+"Erreur:%element% doit contenir une URL (e.g., <a href=\"http://sofun.co"
+"\">http://www.sofun.co</a>)."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/Phone.php:14
 msgid ""
@@ -660,7 +659,7 @@ msgstr "Erreur: ce %element% doit contenir %0% caractère (s) ou moins."
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/Str.php:47
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/ajax/ValidateCoreAjax.php:237
 msgid "Please enter a string."
-msgstr "S'il vous plaît entrer une chaîne."
+msgstr "S'il vous plaît entrer une chaîne de caractères."
 
 #: /var/www/html/pH7CMS/_protected/framework/Layout/Form/Engine/PFBC/Validation/YesNo.php:11
 msgid "Error: You must accept our %element%."
@@ -734,9 +733,8 @@ msgid "%0% - Page Not Found"
 msgstr "Page non trouvée"
 
 #: /var/www/html/pH7CMS/_protected/framework/Mvc/Controller/Controller.class.php:171
-#, fuzzy
 msgid "Page Not Found"
-msgstr "Page non trouvée"
+msgstr "Page Non Trouvée"
 
 #: /var/www/html/pH7CMS/_protected/framework/Mvc/Controller/Controller.class.php:172
 msgid "Whoops! The page you requested was not found."
@@ -889,7 +887,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/global/views/base/other/maintenance.html.php:27
 msgid "Site Maintenance"
-msgstr "l'entretien du site"
+msgstr "Maintenance du Site"
 
 #: /var/www/html/pH7CMS/_protected/app/system/global/views/base/other/maintenance.html.php:28
 msgid "Whoops! Our website is currently down for maintenance."
@@ -972,7 +970,7 @@ msgstr "Le répertoire de mise à niveau <em> (~%0%) </ em> a été supprimée!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:180
 msgid "Status... OK!"
-msgstr "\"status\": \"OK\","
+msgstr "\"État\": \"OK\","
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/assets/file/UpgradeCoreFile.php:184
 msgid ""
@@ -2233,9 +2231,8 @@ msgid "Unregister %0% - User: %1%"
 msgstr "Désenregistrez %0% - Utilisateur: %1%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/processing/DeleteUserCoreFormProcess.php:84
-#, fuzzy
 msgid "Your account has been removed successfully!"
-msgstr "Votre message a été supprimé avec succès!"
+msgstr "Votre compte a été supprimé avec succès !"
 
 #: /var/www/html/pH7CMS/_protected/app/system/core/forms/processing/ConfigFileCoreFormProcess.php:52
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/ProtectedFileFormProcess.php:21
@@ -2645,7 +2642,7 @@ msgstr "Flux RSS"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/xml/controllers/RssController.php:21
 msgid "RSS Feed List"
-msgstr "RSS Feed Liste"
+msgstr "Liste de Flux RSS"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/xml/controllers/RssController.php:23
 msgid ""
@@ -2657,7 +2654,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/xml/controllers/RssController.php:72
 msgid "Not Found RSS Feed!"
-msgstr "Introuvable Flux RSS!"
+msgstr "Flux RSS Introuvable!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/xml/controllers/SitemapController.php:21
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contactbottom_menu.inc.cpl.php:66
@@ -2725,11 +2722,11 @@ msgstr "Ajouter de nouvelles photos"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:64
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/controllers/MainController.php:67
 msgid "Edit Album"
-msgstr "Modifier albums"
+msgstr "Modifier Albums"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:72
 msgid "Edit Picture"
-msgstr "Modifier l'image"
+msgstr "Modifier Image"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:80
 msgid "%0%'s Albums | Picture Albums of the Dating Social Community - %site_name%"
@@ -2822,8 +2819,8 @@ msgstr "Rencontre Photo Social - Votre recherche a donné"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:207
 msgid "%n% Picture Result!"
 msgid_plural "%n% Pictures Result!"
-msgstr[0] "%n% Image Résultat!"
-msgstr[1] "%n% Image Résultat!"
+msgstr[0] "Résultat! %n% Image"
+msgstr[1] "Résultat! %n% Images"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/controllers/MainController.php:208
 msgid "Search - %site_name% is a Dating Social Photo Community!"
@@ -2924,7 +2921,7 @@ msgstr "Description de votre album:"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/forms/AlbumForm.php:29
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/AlbumForm.php:29
 msgid "Thumb of the your album"
-msgstr "Thumb de votre album"
+msgstr "Aperçu de votre album"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/picture/forms/PictureForm.php:42
 #: /var/www/html/pH7CMS/_protected/app/system/modules/video/forms/VideoForm.php:43
@@ -3367,7 +3364,7 @@ msgstr "Contactez %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/contact/inc/class/Contact.php:26
 msgid "No Phone"
-msgstr "Pas de signal"
+msgstr "Pas de téléphone"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/contact/inc/class/Contact.php:27
 msgid "No Site"
@@ -3400,7 +3397,7 @@ msgstr "info navigateur de l'utilisateur: %0%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/contact/inc/class/Contact.php:51
 msgid "URL Page"
-msgstr "URL page"
+msgstr "URL de page"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/contact/inc/class/Contact.php:51
 msgid "User come from: %0%"
@@ -3438,7 +3435,7 @@ msgstr "Entrez votre nom de famille."
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/JoinForm.php:39
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:47
 msgid "Enter your valid email address."
-msgstr "Entrez votre adresse e-mail valide."
+msgstr "Entrez votre adresse courriel valide."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/contact/forms/ContactForm.php:34
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:41
@@ -3480,7 +3477,7 @@ msgstr "Votre message a été envoyé avec succès!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/webcam/controllers/WebcamController.php:23
 msgid "Webcam Picture Party Fun"
-msgstr "Fun Webcam Picture Party"
+msgstr "Amusement Photo Webcam"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/webcam/controllers/WebcamController.php:26
 msgid ""
@@ -3497,7 +3494,7 @@ msgstr "Plaisir garanti!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/webcam/controllers/WebcamController.php:38
 msgid "Webcam Video Party Fun"
-msgstr "Fun Webcam Video Party"
+msgstr "Amusement Vidéo Webcam"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/webcam/controllers/WebcamController.php:41
 msgid ""
@@ -3877,7 +3874,7 @@ msgstr "Miniature"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/forms/NoteForm.php:47
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/forms/EditNoteForm.php:74
 msgid "Tags:"
-msgstr "Tags :"
+msgstr "Étiquette:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/blog/forms/AdminBlogForm.php:44
 #: /var/www/html/pH7CMS/_protected/app/system/modules/blog/forms/EditAdminBlogForm.php:70
@@ -4118,7 +4115,7 @@ msgstr ""
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:95
 msgid "Gateway Timeout"
-msgstr "Passerelle Timeout"
+msgstr "Passerelle Délai Expiré"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/error/controllers/HttpController.php:98
 msgid ""
@@ -4480,9 +4477,8 @@ msgstr "Liens et partenaires de %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/invite/controllers/HomeController.php:14
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/invite_4f9134677bad9915cda8e4002379daba/base/home/invitation.cpl.php:20
-#, fuzzy
 msgid "Invite your Friends"
-msgstr "Inviter un ami"
+msgstr "Inviter vos amis"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/invite/controllers/HomeController.php:15
 msgid "Invite your friends to join %site_name%"
@@ -5257,10 +5253,8 @@ msgid "I have read and agree to the %0%."
 msgstr "Je l'ai lu et accepté le %0%."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/JoinForm.php:62
-#, fuzzy
 msgid "Become an Affiliate!"
-msgstr ""
-"Devenez Membre de la plate - forme communautaire affilié datant %site_name%"
+msgstr "Devenez un Franchisé !"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/AdsAdminForm.php:28
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:303
@@ -5351,7 +5345,7 @@ msgstr "Nom de famille:"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/EditForm.php:49
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/AddAdminForm.php:32
 msgid "Sex:"
-msgstr "SEXE                        3."
+msgstr "Sexe:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:36
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/EditForm.php:70
@@ -5413,7 +5407,7 @@ msgstr "Compte bancaire (PayPal Adresse e-mail)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/processing/AddAffiliateFormProcess.php:48
 msgid "The affiliate has been successfully added."
-msgstr "La filiale a été ajouté avec succès."
+msgstr "La franchise a été ajouté avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/processing/LoginFormProcess.php:52
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/processing/LoginFormProcess.php:51
@@ -5439,9 +5433,8 @@ msgid "You are successfully logged!"
 msgstr "Vous êtes connecté avec succès!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/processing/AdsAdminFormProcess.php:25
-#, fuzzy
 msgid "The Advertisements has been successfully added!"
-msgstr "La filiale a été ajouté avec succès."
+msgstr "La franchise a été ajouté avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/affiliate/forms/processing/BankFormProcess.php:30
 msgid "Your bank information has been saved successfully!"
@@ -6222,18 +6215,16 @@ msgid "This username will be used for your site url."
 msgstr "Ce nom d'utilisateur sera utilisé pour votre site url."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:49
-#, fuzzy
 msgid "Password"
-msgstr "Mot de passe:"
+msgstr "Mots de Passe"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:54
 msgid "Captcha"
 msgstr "Captcha"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:60
-#, fuzzy
 msgid "Join for free!"
-msgstr "Date d'inscription"
+msgstr "Inscription Gratuite"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/JoinForm.php:88
 msgid "Please specify whom you are looking for"
@@ -6285,6 +6276,8 @@ msgid ""
 "Yes, include my profile in search results (%site_name%'s search, Google, Bing, "
 "Yahoo, etc.)."
 msgstr ""
+"Oui, inclure mon profil dans les résultats de recherche (%site_name% 's search, "
+"Google, Bing, Yahoo, etc.)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/user/forms/PrivacyForm.php:37
 msgid "No, do not include my profile in search results."
@@ -6569,7 +6562,7 @@ msgstr "Votre Forum a été supprimée!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/controllers/AdminController.php:74
 msgid "Oops! Your Forum could not be deleted"
-msgstr "Oops! Votre Forum n'a pas pu être supprimé"
+msgstr "Oops! Votre Forum n'a pu être supprimé"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/ForumForm.php:37
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/EditForumForm.php:40
@@ -6583,7 +6576,7 @@ msgstr "Nom de la catégorie"
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/ForumForm.php:38
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/EditForumForm.php:41
 msgid "Forum Name:"
-msgstr "Forum Nom:"
+msgstr "Nom du Forum:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/MsgForm.php:39
 msgid "Forum:"
@@ -6601,14 +6594,12 @@ msgid "Name, Keyword of message, Author (username) or ID of Topic Forum:"
 msgstr "Nom, Mot de message, Auteur (nom d'utilisateur) ou ID du sujet Forum:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/processing/ForumFormProcess.php:21
-#, fuzzy
 msgid "The Forum has been successfully added!"
-msgstr "L'utilisateur a été ajouté avec succès."
+msgstr "Le forum de discussion a été ajouté avec succès"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/processing/CategoryFormProcess.php:24
-#, fuzzy
 msgid "The Category has been successfully added!"
-msgstr "La filiale a été ajouté avec succès."
+msgstr "La franchise a été ajouté avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/forum/forms/processing/EditCategoryFormProcess.php:23
 msgid "The Category has been updated successfully!"
@@ -6840,9 +6831,8 @@ msgid "No trash was found."
 msgstr "Aucune poubelle n'a été trouvé."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:206
-#, fuzzy
 msgid "Search Mail - Look for a message"
-msgstr "Courrier | Message - Votre recherche a donné"
+msgstr "Courrier | Message - Votre cherche un message"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:223
 msgid "Your search did not match any of your messages."
@@ -6861,42 +6851,35 @@ msgstr[1] "%n% Résultat Mail!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:242
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/assets/ajax/MailAjax.php:53
-#, fuzzy
 msgid "Your message has been moved to your trash bin."
-msgstr "Votre message a été déplacé à votre poubelle."
+msgstr "Votre message a été déplacé à la corbeille."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:242
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/assets/ajax/MailAjax.php:51
-#, fuzzy
 msgid "Your message does not exist anymore in your trash bin."
-msgstr "Votre message n'existe plus dans votre poubelle."
+msgstr "Votre message n'existe plus dans la corbeille."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:263
-#, fuzzy
 msgid "Your message(s) has been moved to your trash bin."
-msgstr "Votre message (s) a été déplacé à votre poubelle."
+msgstr "Votre message (s) a été déplacé à la corbeille."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:273
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/assets/ajax/MailAjax.php:65
-#, fuzzy
 msgid "Your message has been moved to your inbox."
-msgstr "Votre message a été envoyé avec succès!"
+msgstr "Votre message a été déplacé dans votre boite de réception."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:273
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/assets/ajax/MailAjax.php:63
-#, fuzzy
 msgid "Your message does not exist anymore in your inbox."
-msgstr "Votre message n'existe plus."
+msgstr "Votre message est introuvable dans la boite de réception."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:294
-#, fuzzy
 msgid "Your message(s) has been moved to your inbox."
-msgstr "Votre message (s) a été supprimé avec succès!"
+msgstr "Votre message (s) a été déplacé dans la boite de réception avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:310
-#, fuzzy
 msgid "Your message has been deleted successfully"
-msgstr "Votre message (s) a été supprimé avec succès!"
+msgstr "Votre message (s) a été supprimé avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/controllers/MainController.php:310
 #: /var/www/html/pH7CMS/_protected/app/system/modules/mail/assets/ajax/MailAjax.php:78
@@ -7164,9 +7147,8 @@ msgid "Oops! Empty Note..."
 msgstr "Oops! Remarque vide ..."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/MainController.php:96
-#, fuzzy
 msgid "No Note Found."
-msgstr "Remarque:"
+msgstr "Aucune Remarque Trouvée"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/note/controllers/MainController.php:124
 msgid "Not \"%0%\" category found!"
@@ -7433,13 +7415,12 @@ msgid "Vote for the most beautiful women, the sexiest and hottest!"
 msgstr "Votez pour les plus belles femmes, la plus sexy et la plus chaude!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/hotornot/controllers/MainController.php:32
-#, fuzzy
 msgid "You Women!"
-msgstr "Femmes"
+msgstr "Femmes (Vous)"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/hotornot/controllers/MainController.php:32
 msgid "Vote for the best men, the sexiest and hottest!"
-msgstr "Votez pour les meilleurs hommes, la plus sexy et la plus chaude!"
+msgstr "Votez pour les meilleurs hommes, les plus sexy et les plus chauds!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/hotornot/controllers/MainController.php:34
 msgid "Hot On Not - Free Online Dating Site"
@@ -8216,9 +8197,8 @@ msgstr ""
 "(CHMOD 755)."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/game/forms/processing/AdminFormProcess.php:68
-#, fuzzy
 msgid "The game has been successfully added!"
-msgstr "L'utilisateur a été ajouté avec succès."
+msgstr "Le jeu a été ajouté avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/MainController.php:25
 msgid "Admin Panel"
@@ -8515,9 +8495,8 @@ msgid "License Key"
 msgstr "Clé de licence"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/SettingController.php:132
-#, fuzzy
 msgid "Hurrah! Your License Key was saved successfully."
-msgstr "Hourra! Votre clé de licence a été correctement enregistré."
+msgstr "Votre clé d'enregistrement a bien été sauvegardé."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/controllers/SettingController.php:137
 msgid "Oops! Your license key is Invalid."
@@ -9310,9 +9289,8 @@ msgstr "Rencontre Sexe:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/ProtectedFileForm.php:27
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/PublicFileForm.php:27
-#, fuzzy
 msgid "The requested file was not found: %0%"
-msgstr "fichier Instruction non trouvé!"
+msgstr "Le fichier demandé n'a pas été trouvé: %0%"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/ProtectedFileForm.php:34
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/PublicFileForm.php:34
@@ -9634,9 +9612,8 @@ msgid "Moderation:"
 msgstr "Modération:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:99
-#, fuzzy
 msgid "Avatar Manual Approval:"
-msgstr "Manuel Vidéos Approbation:"
+msgstr "Approbation Manuel Avatar:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:100
 msgid "Profile Background Manual Approval:"
@@ -9773,9 +9750,8 @@ msgid "Deactivate"
 msgstr "Désactiver"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:130
-#, fuzzy
 msgid "Security IP connection for Admin Panel:"
-msgstr "Votre adresse Ip est :"
+msgstr "Adresse IP pour connexion sécurisé au panneau d'administrateur:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:130
 msgid ""
@@ -9920,27 +9896,24 @@ msgid "Pruning:"
 msgstr "Taille:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:156
-#, fuzzy
 msgid "Delete old Messages:"
-msgstr "Ancien mot de passe:"
+msgstr "Effacer Vieux Messages:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:156
 msgid "Delete messages older than X days. 0 to disable."
 msgstr "Supprimer les messages de plus de X jours. 0 pour désactiver."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:157
-#, fuzzy
 msgid "Delete old Comments:"
-msgstr "Ancien mot de passe:"
+msgstr "Effacer Vieux Commentaires:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:157
 msgid "Delete comments older than X days. 0 to disable."
 msgstr "Supprimer les commentaires de plus de X jours. 0 pour désactiver."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:158
-#, fuzzy
 msgid "Delete old IM Messages:"
-msgstr "Supprimer les anciens messages IM:"
+msgstr "Supprimer Vieux Messages Instantannés:"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SettingForm.php:158
 msgid "Delete IM messages older than X days. 0 to disable."
@@ -10022,9 +9995,8 @@ msgid "Delete"
 msgstr "Supprimer"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/LicenseForm.php:27
-#, fuzzy
 msgid "Buy a License"
-msgstr "Acheter une clé de licence"
+msgstr "Acheté une licence."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/LicenseForm.php:28
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/payment_495e45d98058ba44fb259680f021e78e/base/admin/membershiplist.cpl.php:26
@@ -10127,11 +10099,11 @@ msgstr "Entrez leur ID, Prénom, Nom, Nom, Email, Sex ou adresse IP."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/SearchAdminForm.php:20
 msgid "Latest Admins"
-msgstr "Dernières Admins"
+msgstr "Dernier Administrateurs"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/LoginFormProcess.php:70
 msgid "Incorrect Login!"
-msgstr "Login incorrect!"
+msgstr "Connexion incorrecte !"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/SettingFormProcess.php:116
 msgid "The minimum length of the username cannot exceed %0% characters."
@@ -10165,7 +10137,7 @@ msgstr "Les annonces a été enregistré avec succès!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/DisableModuleFormProcess.php:33
 msgid "Module Status have been saved!"
-msgstr "Etat du module ont été sauvés!"
+msgstr "Etat du Module a été sauvegardé!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/MetaMainFormProcess.php:62
 msgid "The Meta Tags was saved successfully!"
@@ -10185,9 +10157,8 @@ msgid "Your CSS code was saved successfully!"
 msgstr "Votre code CSS a été enregistré avec succès!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/AdsFormProcess.php:39
-#, fuzzy
 msgid "The Advertisement has been successfully added!"
-msgstr "Les utilisateurs ont été ajoutées avec succès."
+msgstr "La publicité a été ajouté avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/AddAdminFormProcess.php:37
 msgid "The administrator has been successfully added."
@@ -10199,7 +10170,7 @@ msgstr "Les utilisateurs ont été ajoutées avec succès."
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/AnalyticsApiFormProcess.php:27
 msgid "The code Analytics Api was saved successfully!"
-msgstr "L'API Analytics de code a été enregistré avec succès!"
+msgstr "L'API Code Analytics a été enregistré avec succès!"
 
 #: /var/www/html/pH7CMS/_protected/app/system/modules/admin123/forms/processing/EditFormProcess.php:35
 msgid ""
@@ -10455,10 +10426,8 @@ msgstr "Blogue"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/mainbottom_menu.inc.cpl.php:34
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/adminbottom_menu.inc.cpl.php:34
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/homebottom_menu.inc.cpl.php:34
-#, fuzzy
 msgid "Become an Affiliate"
-msgstr ""
-"Devenez Membre de la plate - forme communautaire affilié datant %site_name%"
+msgstr "Devenez Membre de la plateforme communautaire franchisé %site_name%"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contactbottom_menu.inc.cpl.php:37
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/adminbottom_menu.inc.cpl.php:37
@@ -10490,7 +10459,6 @@ msgstr ""
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/mainbottom_menu.inc.cpl.php:37
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/adminbottom_menu.inc.cpl.php:37
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/homebottom_menu.inc.cpl.php:37
-#, fuzzy
 msgid "Contact us"
 msgstr "Nous joindre"
 
@@ -11970,9 +11938,8 @@ msgstr "Galerie photos"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:410
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:117
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:411
-#, fuzzy
 msgid "Picture"
-msgstr "Modifier l'image"
+msgstr "Image"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:119
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:119
@@ -12070,9 +12037,8 @@ msgstr "Chaud ou pas"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:125
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:125
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:125
-#, fuzzy
 msgid "Search a Picture"
-msgstr "Recherche Photo - Recherche une image"
+msgstr "Recherche Photo"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:131
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:133
@@ -12201,9 +12167,8 @@ msgstr "Vidéos"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:134
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:134
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:134
-#, fuzzy
 msgid "Search a Video"
-msgstr "Recherche vidéo - Regarder une vidéo"
+msgstr "Recherche Vidéo"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:140
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:142
@@ -12391,11 +12356,8 @@ msgstr "Jeu"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:143
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:143
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:143
-#, fuzzy
 msgid "Search a Game"
-msgstr ""
-"Rechercher sur le Jeu Flash dans la catégorie %0% - Communauté Rencontres Jeux "
-"sociaux"
+msgstr "Rechercher un jeu"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:149
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:151
@@ -12490,9 +12452,8 @@ msgstr "Forums"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:152
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:152
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:152
-#, fuzzy
 msgid "Search a Topic"
-msgstr "Recherche Sujet - Forum de discussion - %site_name%"
+msgstr "Recherche par Sujet"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:158
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:160
@@ -12683,9 +12644,8 @@ msgstr "Remarques"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:161
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:161
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:161
-#, fuzzy
 msgid "Search a Note"
-msgstr "Rechercher Remarque Poster:"
+msgstr "Rechercher par Remarque"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:173
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:173
@@ -13129,9 +13089,8 @@ msgstr "Paramètre de confidentialité"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:195
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:255
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:257
-#, fuzzy
 msgid "My account"
-msgstr "Oui, je veux vraiment supprimer mon compte"
+msgstr "Mon compte"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:195
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:255
@@ -13253,9 +13212,8 @@ msgstr "Oui, je veux vraiment supprimer mon compte"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:255
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:257
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:475
-#, fuzzy
 msgid "Account"
-msgstr "Supprimer le compte d'affiliation"
+msgstr "Compte"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:197
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:197
@@ -13320,9 +13278,8 @@ msgstr "Mes paramètres"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:198
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:198
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:198
-#, fuzzy
 msgid "See My Profile"
-msgstr "Qui a visité mon profil"
+msgstr "Voir Mon Profil"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:198
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:198
@@ -13354,7 +13311,6 @@ msgstr "Qui a visité mon profil"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:198
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:198
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:198
-#, fuzzy
 msgid "See my Profile"
 msgstr "Qui a visité mon profil"
 
@@ -13388,9 +13344,8 @@ msgstr "Qui a visité mon profil"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:199
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:199
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:199
-#, fuzzy
 msgid "Change My Avatar"
-msgstr "Changez votre Avatar"
+msgstr "Changez Votre Avatar"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:199
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:199
@@ -13422,9 +13377,8 @@ msgstr "Changez votre Avatar"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:199
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:199
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:199
-#, fuzzy
 msgid "Change my Avatar"
-msgstr "Changez votre Avatar"
+msgstr "Changez mon Avatar"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:204
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:213
@@ -13487,7 +13441,7 @@ msgstr "Changez votre Avatar"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:204
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:213
 msgid "Add an Album"
-msgstr "Ajouter un album"
+msgstr "Ajouter un Album"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:205
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:214
@@ -14128,9 +14082,8 @@ msgstr "Obtient Bannières"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:476
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:258
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:477
-#, fuzzy
 msgid "Edit my account"
-msgstr "Dernier compte Modifier"
+msgstr "Modifier mon compte"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:271
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:271
@@ -14351,9 +14304,8 @@ msgstr "Naviguer"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:276
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:276
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:276
-#, fuzzy
 msgid "Search a Users"
-msgstr "Rechercher des utilisateurs"
+msgstr "Rechercher d'Utilisateur"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:278
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:278
@@ -14613,9 +14565,8 @@ msgstr "Admins"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:292
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:292
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:292
-#, fuzzy
 msgid "Search an Admin"
-msgstr "Rechercher un Admin:"
+msgstr "Rechercher un Administrateur"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:293
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:293
@@ -15172,9 +15123,8 @@ msgstr "Mass Mailer"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:320
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:320
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:320
-#, fuzzy
 msgid "Subscribers"
-msgstr "recherche abonnés"
+msgstr "Abonnés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:331
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:331
@@ -15533,9 +15483,8 @@ msgstr "Liste des Affiliés"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:357
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:357
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:357
-#, fuzzy
 msgid "Search an Affiliate"
-msgstr "Rechercher un affilié:"
+msgstr "Rechercher un Franchisé"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:358
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:358
@@ -15567,9 +15516,8 @@ msgstr "Rechercher un affilié:"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:358
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:358
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:358
-#, fuzzy
 msgid "Add Affiliate"
-msgstr "Ajouter un affilié"
+msgstr "Ajouter un Franchisé"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:360
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:360
@@ -15733,9 +15681,8 @@ msgstr "Gestion d'adhésion"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:374
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:373
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:374
-#, fuzzy
 msgid "Add a new Membership"
-msgstr "Ajouter des membres"
+msgstr "Ajouter un abonnement"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:374
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:374
@@ -15899,9 +15846,8 @@ msgstr "Messages Moniteur"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:382
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:381
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:382
-#, fuzzy
 msgid "Search Email"
-msgstr "Recherche"
+msgstr "Recherche Courriel"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:381
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:381
@@ -15933,9 +15879,8 @@ msgstr "Recherche"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:382
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:381
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:382
-#, fuzzy
 msgid "Search Message"
-msgstr "Rechercher un message:"
+msgstr "Rechercher par message"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:386
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:386
@@ -16163,9 +16108,8 @@ msgstr "album photo"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:411
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:410
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:411
-#, fuzzy
 msgid "Moderate Pictures"
-msgstr "Modérer les photos Webcam"
+msgstr "Valider les Photos"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:411
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:411
@@ -16230,9 +16174,8 @@ msgstr "video album"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:413
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:412
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:413
-#, fuzzy
 msgid "Moderate Videos"
-msgstr "Vidéos"
+msgstr "Valider Vidéos"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:413
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:413
@@ -17450,9 +17393,8 @@ msgstr "Signaler un problème"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:469
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:468
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:469
-#, fuzzy
 msgid "Report a Bug"
-msgstr "Reporter cela"
+msgstr "Reporter un problème"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:470
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:470
@@ -17517,9 +17459,8 @@ msgstr "Acheter une clé de licence"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:471
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:470
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:471
-#, fuzzy
 msgid "You Need a License"
-msgstr "Acheter une clé de licence"
+msgstr "Vous avez besoin d'une clé d'activation"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:474
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:474
@@ -17550,9 +17491,8 @@ msgstr "Acheter une clé de licence"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/usertop_menu.inc.cpl.php:475
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:474
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:475
-#, fuzzy
 msgid "my account"
-msgstr "Oui, je veux vraiment supprimer mon compte"
+msgstr "Mon compte"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contacttop_menu.inc.cpl.php:476
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/connect_bd3b7137c063174a089e1da2dac3e6fa/base/admintop_menu.inc.cpl.php:476
@@ -17584,18 +17524,16 @@ msgstr "Oui, je veux vraiment supprimer mon compte"
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/mail_826e5b60cf6b9975ab7de18d349bfd27/base/maintop_menu.inc.cpl.php:477
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/hometop_menu.inc.cpl.php:476
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/admintop_menu.inc.cpl.php:477
-#, fuzzy
 msgid "Edit ny account"
-msgstr "Dernier compte Modifier"
+msgstr "Modifier mon compte"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/contact_a2ffe56633ca54da2fb418ba514613a0/base/contact/index.cpl.php:21
 msgid "Your IP is:"
 msgstr "Votre adresse IP est:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:22
-#, fuzzy
 msgid "Search Note Posts"
-msgstr "Non Remarque Messages pour le traitement de modéré."
+msgstr "Rechercher les remarques postées"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:27
 msgid "Top Authors"
@@ -17615,14 +17553,12 @@ msgid "Top Rated Posts"
 msgstr "Les plus beaux messages"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:81
-#, fuzzy
 msgid "See more"
-msgstr "Lire plus"
+msgstr "Voir plus"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:84
-#, fuzzy
 msgid "Edit Article"
-msgstr "Titre de l'article:"
+msgstr "Éditer Article"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:84
 msgid "Delete Article"
@@ -17641,9 +17577,8 @@ msgid "Approve"
 msgstr "Approuver"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:91
-#, fuzzy
 msgid "Moderation Action"
-msgstr "Modération:"
+msgstr "Modérer l'Action"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:92
 msgid ""
@@ -17655,14 +17590,12 @@ msgstr ""
 "le supprimer."
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:92
-#, fuzzy
 msgid "Login as this User"
-msgstr "Connexion"
+msgstr "Connexion sous cet usager"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/note_d880b9627c41e2ad2e37110bf1730853/base/mainhome.inc.cpl.php:108
-#, fuzzy
 msgid "Add a new Article"
-msgstr "Ajouter un nouveau commentaire"
+msgstr "Ajouter un nouvel article"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/picture_df8d2f83dc5b309e7f1e27ee8f9633f9/base/main/index.cpl.php:27
 msgid "by"
@@ -17683,9 +17616,8 @@ msgstr "Modifié le %0%."
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/picture_df8d2f83dc5b309e7f1e27ee8f9633f9/base/main/index.cpl.php:40
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/picture_df8d2f83dc5b309e7f1e27ee8f9633f9/base/main/albums.cpl.php:59
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/video_ab38ae305aa66d65a1b060aec4b7f3ff/base/main/albums.cpl.php:58
-#, fuzzy
 msgid "Add a new album"
-msgstr "Ajouter un nouvel album"
+msgstr "Ajouter un Nouvel Album"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/picture_df8d2f83dc5b309e7f1e27ee8f9633f9/base/main/albums.cpl.php:32
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:147
@@ -17694,27 +17626,24 @@ msgid "Views:"
 msgstr "Vues:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/forum_d891944e0ee96a7e67395c2a2152cf25/base/forum/index.cpl.php:26
-#, fuzzy
 msgid "Edit Category"
-msgstr "Modifier la catégorie"
+msgstr "Modifier la Catégorie"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/forum_d891944e0ee96a7e67395c2a2152cf25/base/forum/index.cpl.php:26
 msgid "Delete Category"
 msgstr "Supprimer la catégorie"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/forum_d891944e0ee96a7e67395c2a2152cf25/base/forum/index.cpl.php:37
-#, fuzzy
 msgid "Edit Forum"
-msgstr "Modifier le Forum"
+msgstr "Modifier Forum"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/forum_d891944e0ee96a7e67395c2a2152cf25/base/forum/index.cpl.php:37
 msgid "Delete Forum"
 msgstr "Supprimer Forum"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/forum_d891944e0ee96a7e67395c2a2152cf25/base/forum/index.cpl.php:51
-#, fuzzy
 msgid "Add Category"
-msgstr "S'il vous plaît ajouter une catégorie avant d'ajouter quelques photos."
+msgstr "Ajouter Catégorie"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/forum_d891944e0ee96a7e67395c2a2152cf25/base/forum/index.cpl.php:51
 msgid "Add Forum"
@@ -17733,9 +17662,8 @@ msgid "Newest Games"
 msgstr "Nouveaux Jeux"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/game_b232b42cb09f27e71d01c69ce4ca2053/base/main/index.cpl.php:81
-#, fuzzy
 msgid "Edit this Game"
-msgstr "Modifier jeu"
+msgstr "Éditer ce Jeu"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/game_b232b42cb09f27e71d01c69ce4ca2053/base/main/index.cpl.php:81
 msgid "Delete this Game"
@@ -17785,9 +17713,8 @@ msgid "Price (%0%)"
 msgstr "Prix (%0%)"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/payment_495e45d98058ba44fb259680f021e78e/base/admin/membershiplist.cpl.php:25
-#, fuzzy
 msgid "Expiration Days"
-msgstr "Jours d'expiration:"
+msgstr "Jours avant expiration:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/payment_495e45d98058ba44fb259680f021e78e/base/admin/membershiplist.cpl.php:27
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:32
@@ -17825,9 +17752,8 @@ msgstr ""
 "NE PAS interrompre le script."
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:27
-#, fuzzy
 msgid "Subscribers ID#"
-msgstr "recherche abonnés"
+msgstr "ID Abonnés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:28
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:28
@@ -17841,9 +17767,8 @@ msgstr "IP"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:31
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:35
-#, fuzzy
 msgid "Registration Date"
-msgstr "Date d'inscription"
+msgstr "Date d'Inscription"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:55
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:74
@@ -17851,14 +17776,12 @@ msgid "IP Country"
 msgstr "IP Pays"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:57
-#, fuzzy
 msgid "Active Account"
-msgstr "Actif:"
+msgstr "Compte Actif"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/newsletter_dd4eb6951f31cfb0d4e8942e0c56c458/base/admin/browse.cpl.php:57
-#, fuzzy
 msgid "Inactive Account"
-msgstr "Inactif"
+msgstr "Compte Inactif"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/visitor/index.cpl.php:22
 msgid "To see the new members who view your profile, you must first change"
@@ -17867,23 +17790,20 @@ msgstr ""
 "changer"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/visitor/index.cpl.php:22
-#, fuzzy
 msgid "your privacy settings"
-msgstr "Vos paramètres de confidentialité ont été enregistrés avec succès!"
+msgstr "Vos paramètres de confidentialité"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/visitor/index.cpl.php:27
 msgid "Recently Viewed By:"
 msgstr "Récemment vu par:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/visitor/index.cpl.php:40
-#, fuzzy
 msgid "Search for a visitor of %0%"
-msgstr "Trouver Recherche un visiteur de \"%0%\""
+msgstr "Trouver un visiteur de \"%0%\""
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:30
-#, fuzzy
 msgid "Map"
-msgstr "Introuvable Plan du site!"
+msgstr "Plan"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:36
 msgid "Photos"
@@ -17898,14 +17818,12 @@ msgid "Recently Viewed"
 msgstr "Récemment vu"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:49
-#, fuzzy
 msgid "Send Message"
-msgstr "Vous devez libérer registre pour envoyer un message à %0%."
+msgstr "Envoyer un Message"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:52
-#, fuzzy
 msgid "Live Chat"
-msgstr "Tchat"
+msgstr "Clavardage"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:55
 msgid "Add Friend"
@@ -17928,7 +17846,6 @@ msgid "Seeking a:"
 msgstr "a la recherche de"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:74
-#, fuzzy
 msgid "First name:"
 msgstr "Prénom:"
 
@@ -17937,7 +17854,6 @@ msgid "Middle name:"
 msgstr "deuxième prénom"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:83
-#, fuzzy
 msgid "Last name:"
 msgstr "Nom de famille:"
 
@@ -17966,9 +17882,8 @@ msgid "Last Activity:"
 msgstr "Dernière Activité:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/profile/index.cpl.php:162
-#, fuzzy
 msgid "Profile Map:"
-msgstr "Type de carte"
+msgstr "Carte de Profil:"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/birthday/index.cpl.php:35
 msgid "No users have a birthday today. Come back tomorrow ;-)"
@@ -17976,9 +17891,8 @@ msgstr "Aucun membre ne fête son anniversaire aujourd'hui. Reviens demain ;-)"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/design.cpl.php:19
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/index.cpl.php:22
-#, fuzzy
 msgid "Wallpaper"
-msgstr "fond d'écran."
+msgstr "Fond d'écran."
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/design.cpl.php:19
 msgid "Your current wallpaper"
@@ -17990,14 +17904,12 @@ msgid "Remove wallpaper?"
 msgstr "Retirer le papier peint?"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/index.cpl.php:20
-#, fuzzy
 msgid "Edit Account"
 msgstr "Modifier votre compte"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/privacy.cpl.php:21
-#, fuzzy
 msgid "Want to delete your account...?"
-msgstr "Etes-vous vraiment sûr de vouloir supprimer votre compte?"
+msgstr "Etes-vous certain de vouloir supprimer votre compte?"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/avatar.cpl.php:20
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/setting/avatar.cpl.php:21
@@ -18061,9 +17973,8 @@ msgid "register!"
 msgstr "S'enregistrer"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/main/login.cpl.php:36
-#, fuzzy
 msgid "Free Online Dating Site"
-msgstr "Hot Or Not - Free Dating Site en ligne"
+msgstr "Rencontre Gratuite Enligne"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/main/index.guest_splash.inc.cpl.php:33
 msgid "Be on the best e-place!"
@@ -18087,14 +17998,12 @@ msgid "Pending..."
 msgstr "En attente"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/user_e888eb84d2ca551198fab2948f8716d5/base/friend/index.cpl.php:45
-#, fuzzy
 msgid "Search for a friend of %0%"
-msgstr "Rechercher un ami de \"%0%\""
+msgstr "Rechercher un ami de %0%"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/moderator/albumpicture.cpl.php:31
-#, fuzzy
 msgid "Posted by"
-msgstr "Ajouté le"
+msgstr "Ajouté par"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/moderator/albumpicture.cpl.php:34
 msgid "Disapproved"
@@ -18113,9 +18022,8 @@ msgid "Click for display/edit this file"
 msgstr "Cliquez pour afficher / modifier ce fichier"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/file/protecteddisplay.inc.cpl.php:32
-#, fuzzy
 msgid "File Not Found!"
-msgstr "fichier Instruction non trouvé!"
+msgstr "Fichier Non Trouvé!"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:27
 msgid "User ID#"
@@ -18130,9 +18038,8 @@ msgid "Membership Group + ID"
 msgstr "Appartenance à un groupe + ID"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:37
-#, fuzzy
 msgid "Last Edit"
-msgstr "Dernier compte Modifier"
+msgstr "Dernière Modification"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:38
 msgid "Reference"
@@ -18140,9 +18047,8 @@ msgstr "Référence"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:46
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:88
-#, fuzzy
 msgid "Ban"
-msgstr "fichiers Ban"
+msgstr "Fichier Ban"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:47
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:90
@@ -18158,56 +18064,48 @@ msgid "No last editing"
 msgstr "Aucune dernière édition"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:81
-#, fuzzy
 msgid "Edit User's Profile"
-msgstr "Modifier votre profil"
+msgstr "Éditer Profil Usager"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:82
-#, fuzzy
 msgid "Edit User's Avatar"
-msgstr "avatar"
+msgstr "Éditer Avatar Usager"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:82
-#, fuzzy
 msgid "Edit Avatar"
-msgstr "Modifier"
+msgstr "Éditer Avatar"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:83
-#, fuzzy
 msgid "Edit User's Wallpaper"
-msgstr "Modifier"
+msgstr "Éditer Fond d'écran Usager"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:83
-#, fuzzy
 msgid "Edit Wallpaper"
-msgstr "fond d'écran."
+msgstr "Éditer Fond d'écran"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:84
 msgid "Send a message to this member"
 msgstr "Envoyer un message à ce membre"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:84
-#, fuzzy
 msgid "Send mail"
-msgstr "Envoyer retard Mail"
+msgstr "Envoyer un message"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:85
 msgid "Login As a member (to all edit this user account)."
 msgstr "Connexion En tant que membre (à tous modifier ce compte d'utilisateur)."
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:85
-#, fuzzy
 msgid "Login as"
-msgstr "Connexion"
+msgstr "Connexion sous"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/user/browse.cpl.php:95
 msgid "Disapprove (This ONLY notified user by email)"
 msgstr "Désapprouver (Cet utilisateur SEULEMENT notifié par e-mail)"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/setting/general.cpl.php:22
-#, fuzzy
 msgid "Registration"
-msgstr "Inscription :"
+msgstr "Inscription"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/setting/general.cpl.php:23
 msgid "Picture and Video"
@@ -18218,7 +18116,6 @@ msgid "Security"
 msgstr "Sécurité"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/setting/general.cpl.php:27
-#, fuzzy
 msgid "Spam"
 msgstr "Pourriel"
 
@@ -18279,46 +18176,40 @@ msgid "All Members Logins"
 msgstr "Tous les membres Logins"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:84
-#, fuzzy
 msgid "Men Members Logins"
-msgstr "Tous les membres Logins"
+msgstr "Connexion Homme"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:93
 msgid "Women Members Logins"
-msgstr "Membres Femmes Logins"
+msgstr "Connexion Femme"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:102
 msgid "Couple Members Logins"
-msgstr "Couple Membres Logins"
+msgstr "Connexion Couple"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:111
-#, fuzzy
 msgid "All Affiliates Logins"
-msgstr "Tous les membres Logins"
+msgstr "Toutes les Connexions"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:120
-#, fuzzy
 msgid "Men Affiliates Logins"
-msgstr "Vous les hommes!"
+msgstr "Hommes Franchisés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:129
-#, fuzzy
 msgid "Women Affiliates Logins"
-msgstr "Membres Femmes Logins"
+msgstr "Femmes Franchisés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:138
 msgid "All Admins Logins"
 msgstr "Tous les Admins Logins"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:147
-#, fuzzy
 msgid "Men Admins Logins"
-msgstr "Tous les Admins Logins"
+msgstr "Connexion Hommes Admins"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:156
-#, fuzzy
 msgid "Women Admins Logins"
-msgstr "Membres Femmes Logins"
+msgstr "Connexion Femmes Admins"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:165
 msgid "All Members Registrations"
@@ -18337,19 +18228,16 @@ msgid "Couple Members Registrations"
 msgstr "Couple Membres Inscriptions"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:201
-#, fuzzy
 msgid "All Affiliates Registrations"
-msgstr "Tous les membres Enregistrements"
+msgstr "Toutes Inscriptions Franchisés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:210
-#, fuzzy
 msgid "Men Affiliates Registrations"
-msgstr "Hommes Membres Enregistrements"
+msgstr "Inscriptions Hommes Franchisés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:219
-#, fuzzy
 msgid "Women Affiliates Registrations"
-msgstr "Membres Femmes Inscriptions"
+msgstr "Inscriptions Femmes Franchisés"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:228
 msgid "All Admins Registrations"
@@ -18368,39 +18256,32 @@ msgid "Blogs"
 msgstr "Blogs"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:273
-#, fuzzy
 msgid "Messages"
-msgstr "Messages Moniteur"
+msgstr "Messages"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:282
-#, fuzzy
 msgid "Profile Comments"
-msgstr "Derniers Commentaires profil"
+msgstr "Commentaires du profil"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:291
-#, fuzzy
 msgid "Picture Comments"
-msgstr "Dernières photos Commentaires"
+msgstr "Commentaires des photos"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:300
-#, fuzzy
 msgid "Video Comments"
-msgstr "Derniers Commentaires"
+msgstr "Commentaires des vidéos"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:309
-#, fuzzy
 msgid "Blog Comments"
-msgstr "Derniers commentaires du blog"
+msgstr "Commentaires du blog"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:318
-#, fuzzy
 msgid "Note Comments"
-msgstr "Derniers billets Commentaires"
+msgstr "Commentaires des remarques"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/stat.cpl.php:327
-#, fuzzy
 msgid "Game Comments"
-msgstr "Derniers jeux Commentaires"
+msgstr "Commentaires des jeux"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/admin123_a34d1afaa72ccd84640004ac1c0413a4/base/main/news.inc.cpl.php:21
 msgid ""
@@ -18423,9 +18304,8 @@ msgid "Make Money with our Affiliate Program!"
 msgstr "Faire de l'argent avec notre programme d'affiliation!"
 
 #: /var/www/html/pH7CMS/_protected/data/cache/pH7tpl_compile/affiliate_f1f5f77a2cc47e40aaee63db4e1127dd/base/home/index.cpl.php:38
-#, fuzzy
 msgid "Welcome to our Affiliate Program!"
-msgstr "Faire de l'argent avec notre programme d'affiliation!"
+msgstr "Obtenez un revenu avec notre programme de Franchisé !"
 
 #, fuzzy
 #~ msgid "Last Edited"
