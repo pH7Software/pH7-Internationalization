@@ -326,12 +326,12 @@ Framework\Registry\Registry::getInstance()->lang = [
 
     /***** GENDER *****/
     'male' => 'Man',
-    'female' => 'Woman',
-    'couple' => 'Couple',
-    'male,female' => 'Men and Women',
-    'male,couple' => 'Men and Couple',
-    'female,couple' => 'Women and Couple',
-    'male,female,couple' => 'Men, Women and Couple',
+    'female' => 'Vrouw',
+    'couple' => 'Stel',
+    'male,female' => 'Mannen en vrouwen',
+    'male,couple' => 'Mannen en stel',
+    'female,couple' => 'Vrouwen en stel',
+    'male,female,couple' => 'Mannen vrouwen en stel',
 
     /***** BYTE UNIT *****/
     'byte' => '%0% Bytes',
@@ -341,10 +341,10 @@ Framework\Registry\Registry::getInstance()->lang = [
     'terabyte' => '%0% TB',
 
     /***** USER'S INFO FIELDS *****/
-    'address' => 'Address:',
-    'street' => 'Street:',
-    'middlename' => 'Middle Name:',
-    'businessname' => 'Business Name:',
-    'taxid' => 'Tax ID, VAT or SSN:',
+    'address' => 'Adres:',
+    'street' => 'Straat:',
+    'middlename' => 'Middelste Naam:',
+    'businessname' => 'Bedrijfsnaam:',
+    'taxid' => 'BTW nummer:',
 
 ];
