@@ -5719,7 +5719,7 @@ msgid "Verification Code - Two-Factor Authentication"
 msgstr "Código de verificação - Autenticação de dois fatores"
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:99
-msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area"
+msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area."
 msgstr "CÓDIGO DE VERIFICAÇÃO DE BACKUP - %site_url% | %0% área"
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:100
