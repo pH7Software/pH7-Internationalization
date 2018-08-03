@@ -321,7 +321,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     '+12' => '(UTC +12:00) Auckland, Wellington, Fiji, Kamchatka',
     '+12.75' => '(UTC +12:45) Îles Chatham',
     '+13' => '(UTC +13:00) Île Phoenix, Tonga',
-    '+14' => '(UTC +14:00) Île Line',
+    '+14' => '(UTC +14:00) Île de la ligne',
 
     /***** GENDER *****/
     'male' => 'Homme',
