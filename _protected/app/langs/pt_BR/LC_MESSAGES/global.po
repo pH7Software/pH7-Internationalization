@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-05-13 00:37-0300\n"
+"PO-Revision-Date: 2018-08-06 10:54-0300\n"
 "Last-Translator: Pierre-Henry Soria <hi@ph7.me>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: _protected/app/includes/classes/Cron.php:33
@@ -119,7 +119,7 @@ msgstr "Voto"
 
 #: _protected/app/system/core/assets/ajax/RatingCoreAjax.php:121
 msgid "Score: %0% - %2%: %1%"
-msgstr "Pontuação: %0% -%2%: % 1%"
+msgstr "Pontuação: %0% -%2%: %1%"
 
 #: _protected/app/system/core/assets/ajax/ValidateCoreAjax.php:131
 msgid "This Username is available!"
@@ -1134,7 +1134,7 @@ msgstr "Enviar Ativação"
 #: _protected/app/system/modules/user/forms/JoinForm.php:91
 #: _protected/data/cache/pH7tpl_compile/cool-profile-page_24c864680ee1bf87a84b989b035a6c21/base/main/index.cpl.php:19
 msgid "I am a:"
-msgstr "Eu sou um:"
+msgstr "Eu sou um(a):"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:51
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:52
@@ -1189,7 +1189,7 @@ msgstr "Casal"
 #: _protected/app/system/modules/user/forms/JoinForm.php:93
 #: _protected/data/cache/pH7tpl_compile/cool-profile-page_24c864680ee1bf87a84b989b035a6c21/base/main/index.cpl.php:19
 msgid "Looking for a:"
-msgstr "Procurando um:"
+msgstr "Procurando por:"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:54
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:83
@@ -2523,7 +2523,7 @@ msgid ""
 "The predefined variable to the URL of your site to indicate this in the HTML "
 "is: %0%."
 msgstr ""
-"A variável predefinida para o URL do seu site para indicar isso no HTML é:% 0%."
+"A variável predefinida para o URL do seu site para indicar isso no HTML é: %0%."
 
 #: _protected/app/system/modules/admin123/forms/AnalyticsApiForm.php:30
 msgid "Your analytics code (e.g., Google Analytics)"
@@ -3973,7 +3973,7 @@ msgstr "Todas as suas informações devem ser precisas e válidas."
 #: _protected/app/system/modules/contact/forms/ContactForm.php:33
 #: _protected/app/system/modules/user/forms/JoinForm.php:44
 msgid "Your First Name:"
-msgstr "Seu Nome:"
+msgstr "Seu Primeiro Nome:"
 
 #: _protected/app/system/modules/affiliate/forms/EditForm.php:57
 #: _protected/app/system/modules/affiliate/forms/JoinForm.php:36
@@ -4750,7 +4750,7 @@ msgstr "Formulário de contato: %0%"
 #: _protected/app/system/modules/cool-profile-page/controllers/MainController.php:81
 #: _protected/app/system/modules/user/controllers/ProfileController.php:104
 msgid "Meet %0%, A %1% looking for %2% - %3% years - %4% - %5% %6%"
-msgstr "Conheça %0%, A % 1% procurando %2% - %3% anos -%4% -%5% %6%"
+msgstr "Conheça %0%, A %1% procurando %2% - %3% anos -%4% -%5% %6%"
 
 #: _protected/app/system/modules/cool-profile-page/controllers/MainController.php:84
 #: _protected/app/system/modules/user/controllers/ProfileController.php:107
@@ -4976,7 +4976,7 @@ msgid ""
 msgstr ""
 "O nome do campo deve conter de 2 a 30 caracteres alfanuméricos ([a-z], [A-Z], "
 "[0-9] e [_], [-]). Depois que você pode traduzir essa chave de idioma em <span "
-"class = \"italic underline\">% 0% </ span>"
+"class = \"italic underline\">%0% </ span>"
 
 #: _protected/app/system/modules/field/forms/AddFieldForm.php:34
 #: _protected/app/system/modules/field/forms/EditFieldForm.php:35
@@ -6953,8 +6953,8 @@ msgid "Verification Code - Two-Factor Authentication"
 msgstr "Código de verificação - Autenticação de dois fatores"
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:99
-msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area"
-msgstr "CÓDIGO DE VERIFICAÇÃO DE BACKUP - %site_url% | %0% área"
+msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area."
+msgstr "CÓDIGO DE VERIFICAÇÃO DE BACKUP - %site_url% | %0% área."
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:100
 msgid "Code: %0%"
@@ -7263,8 +7263,8 @@ msgstr "Ação: %0%"
 #: _protected/app/system/modules/user/controllers/SignupController.php:58
 msgid "Register for free to meet %0% on %site_name%. The Real Social Dating app!"
 msgstr ""
-"Registre-se gratuitamente para encontrar %0% em %site_name%. O app Real Social "
-"Dating!"
+"Registre-se gratuitamente para encontrar %0% em %site_name%. O aplicativo real "
+"de paqueras!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:58
 msgid "Free Sign Up to Meet Lovely People!"
@@ -7277,7 +7277,7 @@ msgid ""
 msgstr ""
 "Registre-se gratuitamente para encontrar <span class = \"pink2\">%0% </ span> "
 "(<span class = \"pink1\"> %1% </ span>) em <span class = \"pink2\">%site_name% "
-"< / span>!"
+"</span>!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:63
 msgid "Sign Up on %site_name%!"
@@ -7300,7 +7300,7 @@ msgstr "Inscreva-se - Etapa 2/3"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:84
 msgid "Sign up - Step 3/3"
-msgstr "Registe-se - Passo 3/3"
+msgstr "Inscreva-se - Passo 3/3"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:92
 msgid "Now, Upload a Profile Photo of you!"
@@ -8318,7 +8318,7 @@ msgstr "Seu IP é: %0%"
 
 #: _protected/data/cache/pH7tpl_compile/cool-profile-page_24c864680ee1bf87a84b989b035a6c21/base/main/index.cpl.php:19
 msgid "Age:"
-msgstr "Era:"
+msgstr "Idade:"
 
 #: _protected/data/cache/pH7tpl_compile/cool-profile-page_24c864680ee1bf87a84b989b035a6c21/base/main/index.cpl.php:19
 msgid "City/Town:"
@@ -8413,7 +8413,7 @@ msgid ""
 "press the SKIP button below"
 msgstr ""
 "Se a foto não corresponder à sua preferência sexual, por favor, seja respeitoso "
-"e pressione o botão SKIP abaixo"
+"e pressione o botão PULAR abaixo"
 
 #: _protected/data/cache/pH7tpl_compile/hotornot_f3d2bdd7ad95a9afbca80554b5207c57/base/main/rating.cpl.php:19
 msgid "SKIP"
@@ -8598,8 +8598,8 @@ msgstr ""
 "com a url do perfil da pessoa e a explicação do que a pessoa fez de errado."
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/faq.cpl.php:19
-msgid "By who this Web App has been created?"
-msgstr "Por quem este Web App foi criado?"
+msgid "By who this Web App has been developed?"
+msgstr "Por quem este Web App foi desenvolvido?"
 
 #: _protected/data/cache/pH7tpl_compile/page_1fb6bbd1e3c1c380b80a129f79a6fd30/base/main/helpus.cpl.php:19
 msgid ""
@@ -8955,7 +8955,7 @@ msgstr "Login Como membro"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/error.inc.cpl.php:19
 msgid "Relax and go"
-msgstr "Relaxe e vá"
+msgstr "Relaxe e vá para"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/error.inc.cpl.php:19
 msgid "home"
@@ -10067,7 +10067,7 @@ msgstr "Enviar"
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Textarea.php:30
 msgid "character(s)."
-msgstr "personagens."
+msgstr "caracteres."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Error/Standard.php:38
 msgid "The following error was found:"
@@ -10152,7 +10152,7 @@ msgid ""
 "\"%0%\""
 msgstr ""
 "Erro: %element% contém caracteres inválidos. Aqui está a regra a ser seguida: "
-"\"% 0%\""
+"\"%0%\""
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/Required.php:13
 msgid "Error: %element% is a required field."
@@ -10896,6 +10896,10 @@ msgstr "<a>"
 #: static/js/jquery/jquery-ui.js:7
 msgid "#"
 msgstr "#"
+
+#: _protected/data/cache/pH7tpl_compile/user_811ed9cc35c27820724b99647bf99579/base/main/user_promo_block.inc.cpl.php:19
+msgid "Meet &amp; date amazing people near %0%!"
+msgstr "Encontre &amp; divirta-se com pessoas próximo a %0% !"
 
 #, fuzzy
 #~ msgid "Contact Author"
