@@ -17,3 +17,7 @@ Thumbs.db
 # Mac OS
 .DS_Store*
 ._*
+# Eclipse Project Files
+.project
+.buildpath
+.settings/

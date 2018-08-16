@@ -1,9 +1,9 @@
 <?php
 /**
- * @author         Pierre-Henry Soria <ph7software@gmail.com>
+ * @author         Pierre-Henry Soria <ph7software@gmail.com> / Polyna-Maude R.-Summerside <devel@polynamaude.com>
  * @copyright      (c) 2012-2018, Pierre-Henry Soria. All Rights Reserved.
  * @license        GNU General Public License; See PH7.LICENSE.txt and PH7.COPYRIGHT.txt in the root directory.
- * @package        PH7 / App / Lang / Fr FR
+ * @package        PH7 / App / Lang / Fr CA
  */
 
 namespace PH7;
@@ -12,7 +12,7 @@ defined('PH7') or exit('Restricted access');
 
 Framework\Registry\Registry::getInstance()->lang = [
 
-    /***** COUNTRIES *****/
+    /***** PAYS *****/
     '' => '-- Select --',
     'AF' => 'Afghanistan',
     'AL' => 'Albanie',
@@ -255,7 +255,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'ZM' => 'Zambie',
     'ZW' => 'Zimbabwe',
 
-    /***** LANGUAGES LIST *****/
+    /***** LISTE DES LANGUES *****/
     'en' => 'English',
     'fr' => 'Français',
     'de' => 'Deutsch',
@@ -285,7 +285,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'hi' => 'हिन्दी',
     'th' => 'ไทย',
 
-    /***** Time Zone *****/
+    /***** FUSEAUX HORAIRES *****/
     '-12' => '(UTC -12:00) Eniwetok, Kwajalein',
     '-11' => '(UTC -11:00) Îles Midway, Samoa',
     '-10' => '(UTC -10:00) Hawaii',
@@ -321,9 +321,9 @@ Framework\Registry\Registry::getInstance()->lang = [
     '+12' => '(UTC +12:00) Auckland, Wellington, Fiji, Kamchatka',
     '+12.75' => '(UTC +12:45) Îles Chatham',
     '+13' => '(UTC +13:00) Île Phoenix, Tonga',
-    '+14' => '(UTC +14:00) Île de la Ligne',
+    '+14' => '(UTC +14:00) Île de la ligne',
 
-    /***** GENDER *****/
+    /***** GENRE *****/
     'male' => 'Homme',
     'female' => 'Femme',
     'couple' => 'Couple',
@@ -332,14 +332,14 @@ Framework\Registry\Registry::getInstance()->lang = [
     'female,couple' => 'Femme et Couple',
     'male,female,couple' => 'Homme, Femme et Couple',
 
-    /***** BYTE UNIT *****/
+    /***** UNITE D'OCTETS *****/
     'byte' => '%0% Octets',
     'kilobyte' => '%0% KO',
     'megabyte' => '%0% MO',
     'gigabyte' => '%0% GO',
     'terabyte' => '%0% TO',
 
-    /***** USER'S INFO FIELDS *****/
+    /***** CHAMPS INFORMATION USAGER *****/
     'address' => 'Addresse:',
     'street' => 'Rue:',
     'middlename' => 'Surnom:',

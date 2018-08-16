@@ -7810,8 +7810,8 @@ msgid "Verification Code - Two-Factor Authentication"
 msgstr "Kode Verifikasi - Autentifikasi Dua-Faktor"
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:98
-msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area"
-msgstr "BACKUP VERIFICATION CODE - %site_url% | %0% area"
+msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area."
+msgstr "BACKUP VERIFICATION CODE - %site_url% | %0% area."
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:99
 msgid "Code: %0%"
