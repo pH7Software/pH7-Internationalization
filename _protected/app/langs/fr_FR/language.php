@@ -11,7 +11,7 @@ namespace PH7;
 defined('PH7') or exit('Restricted access');
 
 Framework\Registry\Registry::getInstance()->lang = [
-    
+
     /***** COUNTRIES *****/
     '' => '-- Select --',
     'AF' => 'Afghanistan',
@@ -254,7 +254,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'YU' => 'Yougoslavie',
     'ZM' => 'Zambie',
     'ZW' => 'Zimbabwe',
-    
+
     /***** LANGUAGES LIST *****/
     'en' => 'English',
     'fr' => 'Français',
@@ -284,7 +284,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'id' => 'bahasa Indonesia',
     'hi' => 'हिन्दी',
     'th' => 'ไทย',
-    
+
     /***** Time Zone *****/
     '-12' => '(UTC -12:00) Eniwetok, Kwajalein',
     '-11' => '(UTC -11:00) Îles Midway, Samoa',
@@ -322,7 +322,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     '+12.75' => '(UTC +12:45) Îles Chatham',
     '+13' => '(UTC +13:00) Île Phoenix, Tonga',
     '+14' => '(UTC +14:00) Île de la Ligne',
-    
+
     /***** GENDER *****/
     'male' => 'Homme',
     'female' => 'Femme',
@@ -331,19 +331,19 @@ Framework\Registry\Registry::getInstance()->lang = [
     'male,couple' => 'Homme et Couple',
     'female,couple' => 'Femme et Couple',
     'male,female,couple' => 'Homme, Femme et Couple',
-    
+
     /***** BYTE UNIT *****/
     'byte' => '%0% Octets',
     'kilobyte' => '%0% KO',
     'megabyte' => '%0% MO',
     'gigabyte' => '%0% GO',
     'terabyte' => '%0% TO',
-    
+
     /***** USER'S INFO FIELDS *****/
     'address' => 'Addresse:',
     'street' => 'Rue:',
     'middlename' => 'Surnom:',
     'businessname' => 'Nom commercial:',
     'taxid' => 'ID Taxe, TVH, TVA ou NAS:',
-    
+
 ];
