@@ -9,9 +9,9 @@
 --
 --
 
------
+--
 -- Replace "ph7_" by your prefix set in "~/_protected/app/configs/config.ini" [database] prefix variable
------
+--
 
 
 -- Increase length of "metaCopyright" column for French copyright (since it is longer)
