@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-08-06 10:54-0300\n"
+"PO-Revision-Date: 2018-10-22 15:46-0300\n"
 "Last-Translator: Pierre-Henry Soria <hi@ph7.me>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: _protected/app/includes/classes/Cron.php:33
@@ -521,7 +521,7 @@ msgstr "Bem-vindo ao %site_name%, %0%!"
 #: _protected/app/system/core/classes/RegistrationCore.php:56
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:56
 msgid "Hi %0%! We are proud to welcome you as a member of %site_name%!"
-msgstr "Oi %0%! Estamos orgulhosos de recebê-lo como membro de% site_name%!"
+msgstr "Oi %0%! Estamos orgulhosos de recebê-lo como membro de %site_name%!"
 
 #: _protected/app/system/core/classes/RegistrationCore.php:58
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:58
@@ -551,8 +551,8 @@ msgid ""
 "You are receiving this email because we received a registration application "
 "with \"%0%\" email address for %site_name% (%site_url%)."
 msgstr ""
-"Você está recebendo este e-mail porque recebemos um aplicativo de registro com "
-"o endereço de e-mail \"% 0%\" para% site_name% (% site_url%)."
+"Você está recebendo este e-mail porque recebemos uma aplicação de registro com "
+"o endereço de e-mail \"%0%\" para %site_name% (%site_url%)."
 
 #: _protected/app/system/core/classes/RegistrationCore.php:64
 #: _protected/app/system/core/forms/processing/ResendActivationCoreFormProcess.php:64
@@ -1242,7 +1242,7 @@ msgstr "Pesquisa"
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:80
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:81
 msgid "Male"
-msgstr "Masculino"
+msgstr "Homem"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:81
 #: _protected/app/system/modules/admin123/forms/AddUserForm.php:39
@@ -1618,7 +1618,7 @@ msgstr ""
 
 #: _protected/app/system/global/views/base/tpl/other/banned.html.php:35
 msgid "Regards, %site_name%'s Team."
-msgstr "Atenciosamente, %site_name% Team."
+msgstr "Atenciosamente, time %site_name%."
 
 #: _protected/app/system/global/views/base/tpl/other/maintenance.html.php:18
 msgid "Website Maintenance"
@@ -1845,7 +1845,7 @@ msgstr "Modulação de Álbuns de Fotos"
 
 #: _protected/app/system/modules/admin123/controllers/ModeratorController.php:66
 msgid "Pictures Moderation"
-msgstr "Moderation de imagens"
+msgstr "Moderação de imagens"
 
 #: _protected/app/system/modules/admin123/controllers/ModeratorController.php:85
 msgid "Video Albums Moderation"
@@ -5253,7 +5253,7 @@ msgstr "Nome do Fórum:"
 #: _protected/app/system/modules/mail/forms/MailForm.php:34
 #: _protected/app/system/modules/newsletter/forms/MsgForm.php:31
 msgid "Subject:"
-msgstr "Sujeito:"
+msgstr "Assunto:"
 
 #: _protected/app/system/modules/forum/forms/EditMsgForm.php:50
 #: _protected/app/system/modules/forum/forms/EditReplyMsgForm.php:42
@@ -5786,7 +5786,7 @@ msgid ""
 "%0%</span>"
 msgstr ""
 "Calculadora do Amor com <span class = \"pH1\"> Você </ span> e <span class = "
-"\"pH1\">% 0% </ span>"
+"\"pH1\">%0% </ span>"
 
 #: _protected/app/system/modules/love-calculator/controllers/MainController.php:84
 msgid "No Name Found for the Love Calculator!"
@@ -5953,7 +5953,7 @@ msgstr ""
 
 #: _protected/app/system/modules/mail/forms/SearchMailForm.php:20
 msgid "Subject"
-msgstr "Sujeito"
+msgstr ""
 
 #: _protected/app/system/modules/mail/forms/SearchMailForm.php:20
 msgid "Author (username)"
@@ -10054,7 +10054,7 @@ msgstr ""
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Age.php:34
 msgid "Age"
-msgstr "Era"
+msgstr "Idade entre"
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Age.php:34
 msgid "years"
@@ -10176,10 +10176,10 @@ msgstr ""
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/Username.php:33
 msgid ""
-"Error: Username has to be from %0% to %1% characters long, or it is not "
+"Error: Nickname has to be from %0% to %1% characters long, or it is not "
 "available or already used by other user."
 msgstr ""
-"Erro: o nome de usuário deve ser de %0% a %1% caracteres, ou não está "
+"Erro: o nome de usuário (Apelido) deve ser de %0% a %1% caracteres, ou não está "
 "disponível ou já é usado por outro usuário."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/YesNo.php:13
