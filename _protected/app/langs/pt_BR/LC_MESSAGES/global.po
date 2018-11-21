@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-10-22 15:46-0300\n"
+"PO-Revision-Date: 2018-11-21 12:22-0200\n"
 "Last-Translator: Pierre-Henry Soria <hi@ph7.me>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
@@ -6748,11 +6748,11 @@ msgstr "Descrição da imagem:"
 #: _protected/app/system/modules/picture/forms/PictureForm.php:44
 #: _protected/app/system/modules/video/forms/VideoForm.php:43
 msgid "Choose your album - OR - <a href=\"%0%\">Add a new Album</a>"
-msgstr "Choose your album - OR - <a href=\"%0%\">Add a new Album</a>"
+msgstr "Escolha seu álbum - OU - <a href=\"%0%\">Adicione um novo álbum.</a>"
 
 #: _protected/app/system/modules/picture/forms/PictureForm.php:48
 msgid "Name for your photo(s):"
-msgstr "Name for your photo(s):"
+msgstr "Nomeie suas foto(s):"
 
 #: _protected/app/system/modules/picture/forms/PictureForm.php:49
 msgid "Your photo(s):"
