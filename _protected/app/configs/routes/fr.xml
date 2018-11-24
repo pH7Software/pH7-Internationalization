@@ -20,13 +20,12 @@
       <route url="utilisateur/avatar/?([0-9]+)?/?([a-zA-Z0-9_-]+)?/?([^/]+)?/?([a-z]+)?" path="system/modules" module="user" controller="setting" action="avatar" vars="profile_id,username,first_name,sex" />
       <route url="utilisateur/design/?([0-9]+)?/?([a-zA-Z0-9_-]+)?/?([^/]+)?/?([a-z]+)?" path="system/modules" module="user" controller="setting" action="design" vars="profile_id,username,first_name,sex" />
 
-      <route url="rencontrer-des-gens-sympas" path="system/modules" module="user" controller="browse" action="index" />
       <!-- search -->
+      <route url="rencontrer-des-gens-sympas" path="system/modules" module="user" controller="browse" action="index" />
       <route url="recherche-gens" path="system/modules" module="user" controller="search" action="index" />
       <route url="recherche-gens-rapide" path="system/modules" module="user" controller="search" action="quick" />
       <route url="recherche-gens-avancee" path="system/modules" module="user" controller="search" action="advanced" />
 
-      <route url="rencontre/([a-zA-Z0-9_-]+)/?([^/]+)?" path="system/modules" module="user" controller="country" action="index" vars="country,city" />
       <!-- friend -->
       <route url="amis/?([a-zA-Z0-9_-]+)?" path="system/modules" module="friend" controller="main" action="index" vars="username" />
       <route url="amis-mutuels/?([a-zA-Z0-9_-]+)?" path="system/modules" module="friend" controller="main" action="mutual" vars="username" />
@@ -41,6 +40,9 @@
 
     <!-- Cool Profile Page -->
       <route url="super-profil/([0-9]+)?" path="system/modules" module="cool-profile-page" controller="main" action="index" vars="profile_id" />
+
+    <!-- Map (Country page) -->
+      <route url="rencontre/([a-zA-Z0-9_-]+)/?([^/]+)?" path="system/modules" module="map" controller="country" action="index" vars="country,city" />
 
     <!-- Picture -->
       <route url="galerie-photo" path="system/modules" module="picture" controller="main" action="index" />
