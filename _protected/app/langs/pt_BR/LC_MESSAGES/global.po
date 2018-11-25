@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-11-21 12:22-0200\n"
+"PO-Revision-Date: 2018-11-24 22:44-0200\n"
 "Last-Translator: Pierre-Henry Soria <hi@ph7.me>\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
@@ -10371,11 +10371,11 @@ msgstr ""
 
 #: _protected/framework/Math/Measure/Height.class.php:44
 msgid "%0% &prime; %1% &Prime; &ndash; %2% cm"
-msgstr "%0% & prime; %1% & Prime; & ndash; %2% cm"
+msgstr "%0% &prime; %1% &Prime; &ndash; %2% cm"
 
 #: _protected/framework/Math/Measure/Weight.class.php:43
 msgid "%0% sts &ndash; %1% lbs &ndash; %2% kgs"
-msgstr "%0% sts & ndash; %1% lbs & ndash; %2% kgs"
+msgstr "%0% sts &ndash; %1% lbs &ndash; %2% kgs"
 
 #: _protected/framework/Mvc/Controller/Controller.class.php:145
 msgid "%0% - Page Not Found"
