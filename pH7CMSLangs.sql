@@ -39,4 +39,4 @@ CREATE TABLE IF NOT EXISTS ph7_languages_phrases (
   added int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (phraseId),
   FOREIGN KEY (langId) REFERENCES ph7_languages_info(langId)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=1;
