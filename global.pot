@@ -906,7 +906,7 @@ msgid ""
 "If you see \"Internal Server Error\" message on your site, please set to "
 "\"development\" mode in order to see the details of the error. If your site "
 "is on production (and visible by everyone) please set it to the production "
-"mode for security reason."
+"mode for security reasons."
 msgstr ""
 
 #: _protected/app/system/core/forms/ConfigFileCoreForm.php:105
@@ -1583,14 +1583,14 @@ msgstr ""
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:83
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:121
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:123
-msgid "I am a %0% and I am looking %1%."
+msgid "I'm a %0% and I'm looking for %1%."
 msgstr ""
 
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:81
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:83
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:121
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:123
-msgid "I from %0%, %1%."
+msgid "I'm from %0%, %1%."
 msgstr ""
 
 #: _protected/app/system/core/models/design/UserDesignCoreModel.php:81
@@ -1706,7 +1706,7 @@ msgid "Cannot remove the banner. Please try later."
 msgstr ""
 
 #: _protected/app/system/modules/admin123/assets/ajax/CacheAjax.php:62
-msgid "The cache has been deleted!"
+msgid "The cache has been cleared."
 msgstr ""
 
 #: _protected/app/system/modules/admin123/config/Permission.php:40
@@ -1859,10 +1859,7 @@ msgid "%0%, build %1%"
 msgstr ""
 
 #: _protected/app/system/modules/admin123/controllers/MainController.php:325
-msgid ""
-"%software_name% <strong>%0%</strong> is available! Please <a href=\"%1%\" "
-"target=\"_blank\" rel=\"noopener\">update it today</a> to keep your site "
-"safe and stable."
+msgid "%software_name% <strong>%0%</strong> is available! Please update it today to keep your site safe and stable."
 msgstr ""
 
 #: _protected/app/system/modules/admin123/controllers/ModeratorController.php:54
@@ -2895,7 +2892,7 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:60
 msgid ""
-"Use the Splash Page (recommended) for visitors (not logged), otherwise the "
+"Use the Splash Page for visitors (not logged), otherwise the "
 "classic page will be used. <br /><em>Available only if \"User\" is the "
 "Default Module.</em>"
 msgstr ""
@@ -2937,7 +2934,7 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:68
 msgid ""
-"Be careful! 'Full Ajax Navigation' feature is still in <strong>Beta version</"
+"Be careful! 'Full Ajax Navigation' feature is still in <strong>beta version</"
 "strong> and may not be working properly on all pages."
 msgstr ""
 
@@ -4900,7 +4897,7 @@ msgstr ""
 
 #: _protected/app/system/modules/field/forms/AddFieldForm.php:34
 #: _protected/app/system/modules/field/forms/EditFieldForm.php:35
-msgid "Length of the field in numeric number (e.g., 250)."
+msgid "Length of the field in numeric number (e.g., 150)."
 msgstr ""
 
 #: _protected/app/system/modules/field/forms/AddFieldForm.php:35
@@ -4925,7 +4922,7 @@ msgstr ""
 
 #: _protected/app/system/modules/field/forms/EditFieldForm.php:35
 msgid ""
-"Note: The field will always have the default value (255) even if you updated "
+"Note: The field will always have the default value (%0%) even if you updated "
 "to another value. Your change is saved, but cannot be retrieve on the form."
 msgstr ""
 
@@ -8303,7 +8300,7 @@ msgid "Country Flag"
 msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_f5e1563574ea44d60fdfdf225d89ec8f/base/user/browse.cpl.php:19
-msgid "Edit User's Profile"
+msgid "Edit User's Profile Information"
 msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_f5e1563574ea44d60fdfdf225d89ec8f/base/user/browse.cpl.php:19
@@ -10309,7 +10306,7 @@ msgid "You must enter a valid login ID and password to access this resource."
 msgstr ""
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Age.php:43
-msgid "Age"
+msgid "Age Range"
 msgstr ""
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Element/Age.php:43
