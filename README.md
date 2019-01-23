@@ -5,12 +5,13 @@ pH7CMS Internationalization package. To add new languages to your social dating 
 ### Available Languages
 *(not 100% completed)*
 
+* **Brazilian Portuguese** (Português)
+* **Dutch** (Nederlands)
 * **French** (Français)
 * **Canadian French** (Français canadien)
-* **Dutch** (Nederlands)
-* **Spanish** (Español)
-* **Brazilian Portuguese** (Português)
 * **Indonesian** (bahasa Indonesia)
+* **Italian** (Italiano)
+* **Spanish** (Español)
 
 
 Please feed free to contribute by translating the files and adding new languages. Fork the repo, add your changes, commit them and create a pull request.
