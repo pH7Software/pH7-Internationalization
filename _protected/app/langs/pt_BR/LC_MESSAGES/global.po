@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Trad I Seek You\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-07 20:02+0000\n"
-"PO-Revision-Date: 2018-04-30 19:33+0100\n"
-"Last-Translator: Edmundo <edmundo@hsmarketing.com.br>\n"
+"PO-Revision-Date: 2019-01-31 17:43+0000\n"
+"Last-Translator: Mobiller <mobiller@live.co.uk>\n"
 "Language-Team: Â¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -14,9 +14,349 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.7\n"
-"Last-Translator: Edmundo <edmundo@hsmarketing.com.br>\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Mobiller <mobiller@live.co.uk>\n"
 "X-Poedit-SearchPath-0: .\n"
+
+msgid "Youtube Key"
+msgstr "Chave do Youtube"
+
+msgid "Configure Payment Gateways"
+msgstr "Configure o Portal de Pagamentos"
+
+msgid "Currency Code"
+msgstr "Código da Moeda"
+
+msgid "Currency Sign (for display purposes only)"
+msgstr "Código da Moeda (Apenas para exibição)"
+
+msgid "Vat Rate"
+msgstr "Taxa do Imposto VAT"
+
+msgid "Log File Enabled"
+msgstr "Habilitar o registro de arquivos"
+
+msgid "Sandbox Enabled"
+msgstr "Habilitar SandBox"
+
+msgid "Paypal Enabled"
+msgstr "Habilitar Paypal"
+
+msgid "Paypal Email"
+msgstr "Email do Paypal"
+
+msgid "Stripe Enabled"
+msgstr "Habilitar Stripe"
+
+msgid "Stripe Publishable Key"
+msgstr "Chave Pública Stripe"
+
+msgid "Stripe Secret Key"
+msgstr "Chave Secreta Stripe"
+
+msgid "Braintree Enabled"
+msgstr "Habilitar Braintree"
+
+msgid "Braintree Merchant Id"
+msgstr "Número do Mercador Braintree"
+
+msgid "Braintree Public Key"
+msgstr "Chave Pública Braintree"
+
+msgid "Braintree Private Ke"
+msgstr "Chave Privada Braintree"
+
+msgid "2co Enabled"
+msgstr "Habilitar 2co"
+
+msgid "2co Vendor Id"
+msgstr "Identificador do 2co"
+
+msgid "2co Secret Word"
+msgstr "Palavra Secreta 2co"
+
+msgid "Gateways Configuration"
+msgstr "Configuração de Portais"
+
+msgid "Payment Gateways Settings"
+msgstr "Configurar Portais de Pagamentos"
+
+msgid "No modules available in your %software_name% repository"
+msgstr "Nenhum módulo disponível no %software_name% repositório"
+
+msgid "Module(s) installed on your website:"
+msgstr "Módulo(s) instalados no seu site:"
+
+msgid "Send Newsletters"
+msgstr "Enviar email em massa"
+
+msgid "No Profile Photos found for the moderation treatment."
+msgstr "Não há fotos de perfil para serem moderadas."
+
+msgid "No Pictures found for the moderation treatment."
+msgstr "Não foram encontradas fotos para serem moderadas."
+
+msgid "No Video Albums found for the moderation treatment."
+msgstr "Não foram encontrados álbuns de vídeo para serem moderados."
+
+msgid "No Videos found for the moderation treatment."
+msgstr "Não foram encontrados vídeos para moderação."
+
+msgid "No Profile Backgrounds found for the moderation treatment."
+msgstr "Não foram encontrados fotos de fundo para serem moderadas."
+
+msgid "members live near"
+msgstr "membros vivem perto de"
+
+msgid "Custom CSS"
+msgstr "CSS Customizado"
+
+msgid "Custom JavaScript"
+msgstr "JavaScript Customizado"
+
+msgid "/* Your custom CSS code here */"
+msgstr "/* Seu código CSS customizado */"
+
+msgid "Your custom CSS code here"
+msgstr "Seu código CSS customizado aqui"
+
+msgid "Yes  (recommend for security reasons)"
+msgstr "Sim  (recomendado por razões de segurança)"
+
+msgid "Yes (highly recommend for security reasons)"
+msgstr "Sim (altamente recomendado por razões de segurança)"
+
+msgid "This protection can cause problems for logged in users with dynamic IPs. Please disable if their IP changes frequently during the session."
+msgstr "Esta proteção pode causar problemas para usuários logados com IPs dinâmicos. Por favor disabiite se o IP dos usuários mudar frequentemente durante a sessão."
+
+msgid "Protect for Users against session cookies hijacking:"
+msgstr "Proteção para usuários contra cookies de seção de sequestro:"
+
+msgid "Protect for Affiliates against session cookies hijacking:"
+msgstr "Proteção para Afiliados contra cookies de seção de sequestro:"
+
+msgid "Protect for Admins against session cookies hijacking:"
+msgstr "Proteção para Administradores contra cookies de seção de sequestro:"
+
+msgid "This protection can cause problems for admins with dynamic IPs. Please disable if their IP changes frequently during the session."
+msgstr "Esta proteção pode causar problemas para Administradores logados com IPs dinâmicos. Por favor disabiite se o IP dos usuários mudar frequentemente durante a sessão."
+
+msgid "Number of minutes that has to pass before a user with the same IP address can register again."
+msgstr "Número de minutos a passar antes do usuário com o mesmo endereço de IP possa se registrar de novo."
+
+msgid "Number of minutes that has to pass before an Affiliate with the same IP address can register again."
+msgstr "Número de minutos a passar antes do Afiliado com o mesmo endereço de IP possa se registrar de novo."
+
+msgid "Captcha Complexity:"
+msgstr "Complexidade do Captcha:"
+
+
+msgid "Captcha Case Sensitive:"
+msgstr "Captcha Sensível caixa alta ou caixa baixa:"
+
+msgid "Override Website Colors"
+msgstr "Sobrepor as cores do Website"
+
+msgid "Website Background:"
+msgstr "Cor de Fundo do Website:"
+
+msgid "Text:"
+msgstr "Texto:"
+
+msgid "Links:"
+msgstr "Links:"
+
+msgid "Footer Links:"
+msgstr "Links do Rodapé:"
+
+msgid "Links hover:"
+msgstr "Mouse sobre Links:"
+
+msgid "This protection can cause problems for affiliates with dynamic IPs. Please disable if their IP changes frequently during the session."
+msgstr "Esta proteção pode causar problemas para afiliados com IPs dinâmicos. Por favor disabiite se o IP dos usuários mudar frequentemente durante a sessão."
+
+msgid "Usually"
+msgstr "Normalmente"
+
+msgid "The default module is the one running by default on the homepage."
+msgstr "O módulo padrão é aquele usado como padrão pela página inicial."
+
+msgid "Date of Birth field type:"
+msgstr "Formato da Data de Nascimento:"
+
+msgid "Age Range (without month and day of birth )"
+msgstr "Faixa Etária (sem mês e dia de aniversário )"
+
+msgid "Doesn't guarantee that all users will have a profile photo, because users can still close the tab without completely finishing the registration process."
+msgstr "Não garante que todos os usuários terão uma foto de perfil, porque usuários podem fechar a janela sem completar o processo de registro."
+
+msgid "Date-Picker calendar (full date of birth)"
+msgstr "Escolher no calendário (Data de aniversário completa)"
+
+msgid "Add your small logo/icon that represents/distinguishes the best your site/concept/brand."
+msgstr "Adicione seu logo/ícone que representa/diferencia o que há de melhor no seu site/conceito/marca."
+
+msgid "Design (color)"
+msgstr "Design (cores)"
+
+msgid "Help pH7CMS by giving a nice review! Highly appreciated :)"
+msgstr "Ajude pH7CMS dando uma boa avaliação! Agradecemos imensamente :)"
+
+msgid "Photo Albums"
+msgstr "Álbuns de Fotos"
+
+msgid "Video Albums"
+msgstr "Álbuns de Vídeos"
+
+msgid "Profile Photos"
+msgstr "Fotos de Perfil"
+
+msgid "Give Nice Review"
+msgstr "Deixe sua Avaliação"
+
+msgid "Profile Backgrounds"
+msgstr "Fundo do Perfil"
+
+msgid "Block Countries"
+msgstr "Bloqueador de Países"
+
+msgid "Country Restrictions for Registration and Search form"
+msgstr "Restrição de Países para registro e formulário de busca"
+
+msgid "Country Restrictions - User"
+msgstr "Restrição de Países - Usuários"
+
+msgid "Countries to be showed on registration forms"
+msgstr "Países a serem mostrados no formulário de registro"
+
+msgid "You can select/multi-select the amount of countries to be displayed on the registration form and user search forms."
+msgstr "Você pode selecionar/multi-selecionar os países a serem exibidos no formulário de registro e no formulário de busca."
+
+msgid "If you need to block all Internet traffic to your website from a specific country, please use <a href="https://namoromaduro.com/admin123/tool/blockcountry">Country Blocker</a> tool."
+msgstr "Se você precisar bloquear o acesso ao seu site de um país específico, por favor use a ferramenta <a href="https://namoromaduro.com/admin123/tool/blockcountry">Bloqueador de Países</a>."
+
+msgid "Country Restriction"
+msgstr "Restrição de Países"
+
+msgid "User Birthdays"
+msgstr "Aniversário Usuários"
+
+msgid "Birthdays"
+msgstr "Aniversários"
+
+msgid "All Birthdays"
+msgstr "Todos Aniversários"
+
+msgid "Men Birthdays"
+msgstr "Homens Aniversários"
+
+msgid "Women Birthdays"
+msgstr "Mulheres Aniversários"
+
+msgid "Couple Birthdays"
+msgstr "Casal Aniversários"
+
+msgid "Your content has been disapproved :("
+msgstr "Seu conteúddo não foi aprovado :("
+
+msgid "Please feel free to post again a content at any time as long as it respects our <a href="%0%">terms of service</a>"
+msgstr "Por favor, sinta-se à vontade para postar outro conteúdo desde que siga os nosso <a href="%0%">Termos de Serviço</a>"
+
+msgid "Indeed, it looks like it does not respect our <a href="%0%">terms of service</a>."
+msgstr "De fato, parece que o conteúdo não respeita os nossos <a href="%0%">Termos de Serviço</a>."
+
+msgid "Your content you recently posted at <a href="%site_url%">%site_name%</a> has unfortunately been disapproved by our moderation team."
+msgstr "O conteúdo que você postou no <a href="%site_url%">%site_name%</a> infelizmente não foi aprovado pelo Administrador."
+
+msgid "Please save the following information for future reference"
+msgstr "Por favor retenha essa informação para futura referência"
+
+msgid "Congratulation! The content you recently posted at <a href="%site_url%">%site_name%</a> has been successfully approved by the team."
+msgstr "Parabéns! O conteúdo que você postou no <a href="%site_url%">%site_name%</a> foi aprovado pelo Administrador."
+
+msgid "Other users will now enjoy what you posted and thanks you, our online service gets better! :)"
+msgstr "Outros usuários agora poderão ver o que você postou e graças a você, nossos serviços ficam cada vez melhores! :)"
+
+msgid "No related profiles found."
+msgstr "Nenhum perfil relacionado foi encontrado."
+
+msgid "Like"
+msgstr "Curta"
+
+msgid "Select"
+msgstr "Selecione"
+
+msgid "Wanna meet"
+msgstr "Gostaria de conhecer"
+
+msgid "Not Interested"
+msgstr "Não tenho Interesse"
+
+msgid "Nickname"
+msgstr "Apelido"
+
+msgid "The URL of your social profile, such as Facebook, Instagram, Snapchat, LinkedIn, ..."
+msgstr "O endereço do perfil das suas redes sociais, como Facebook, Instagram, Snapchat, LinkedIn, ..."
+
+msgid "Punchline/Headline:"
+msgstr "Sua frase favorita:"
+
+msgid "January"
+msgstr "Janeiro"
+
+msgid "People love us! Realtime users using our service"
+msgstr "Todo mundo nos ama! Pessoas usando os nossos serviço"
+
+msgid "Meet amazing people near"
+msgstr "Encontre pessoas fantásticas perto de"
+
+msgid "STEP"
+msgstr "Passo"
+
+msgid "I am a"
+msgstr "Eu sou"
+
+msgid "Looking for a"
+msgstr "Procurando por"
+
+msgid "How Old Are You?"
+msgstr "Qual a sua idade?"
+
+msgid "Your Country"
+msgstr "Seu País"
+
+msgid "Your City"
+msgstr "Sua Cidade"
+
+msgid "Your Postal Code"
+msgstr "Seu CEP/Código Postal"
+
+msgid "About Me"
+msgstr "Um pouco sobre mim"
+
+msgid "Now, Upload a Profile Photo of You!"
+msgstr "Agora, carregue sua foto para o perfil!"
+
+msgid "Not registered yet?"
+msgstr "Ainda não está registrado?"
+
+msgid "Join Us Today!"
+msgstr "Junte-se a nós hoje!"
+
+msgid "Age Range"
+msgstr "Faixa Etária"
+
+msgid "Your Personal Website/Blog (any promotional/affiliated contents will be removed)"
+msgstr "Seu website/blog (sites promocionais ou de afiliados serão removidos)"
+
+msgid "Your First Name"
+msgstr "Seu primeiro nome"
+
+msgid "Your Nickname"
+msgstr "Seu Apelido"
+
+msgid "Your content has been approved!"
+msgstr "Seu conteúdo foi aprovado!"
 
 #: _protected/app/includes/classes/Cron.php:33
 msgid "This cron has already been executed."
@@ -196,7 +536,7 @@ msgstr "Verificação de Captcha falhou!"
 
 #: _protected/app/system/core/assets/ajax/ValidateCoreAjax.php:295
 msgid "Please enter a correct phone number with area code!"
-msgstr "Digite um número de telefone correto com o código de área!"
+msgstr "Digite um número de telefone correto com o código de área (0055)(DDD)(Número Telefone)!"
 
 #: _protected/app/system/core/assets/ajax/ValidateCoreAjax.php:312
 msgid "You must read and approve the terms of use!"
@@ -944,7 +1284,7 @@ msgstr "Pesquisa"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:80 _protected/app/system/core/forms/SearchUserCoreForm.php:81
 msgid "Male"
-msgstr "Masculino"
+msgstr "Homem"
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:81 _protected/app/system/modules/admin123/forms/AddUserForm.php:39
 msgid "Looking for:"
@@ -2335,23 +2675,23 @@ msgid "Splash Homepage:"
 msgstr "Página inicial do Splash:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:58
-msgid "Use the Splash Page (recommended) for visitors (not logged), otherwise the classic page will be used. <br /><em>Available only if \"User\" is the Default Module.</em>"
-msgstr "Use a Página Splash (recomendada) para visitantes (não logados), caso contrário, a página clássica será usada. <br/ > <em> Disponível somente se \"Usuário\" para o Módulo Padrão. </em>"
+msgid "Use the Splash Page for visitors (not logged), otherwise the classic page will be used. <br /><em>Available only if \"User\" is the Default Module.</em>"
+msgstr "Use a Página Splash para visitantes (não logados), caso contrário, a página clássica será usada. <br/ > <em> Disponível somente se \"Usuário\" para o Módulo Padrão. </em>"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:60
 msgid "Background Splash Video:"
 msgstr "Vídeo de fundo de Splash:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:60
-msgid "Enable/Disable the \"Animated Video\" on the Splash Homepage. <br/ ><em>Available only if \"User\" is the Default Module.</em>"
-msgstr "Habilitar/Desabilitar a \"Vídeo Animação\" Splash na página inicial. <br/ ><em> Disponível apenas se \"Usuário\" for o Módulo Padrão. </em>"
+msgid "Enable/Disable the \"Animated Video\" on the Splash Homepage. <br /><em>Available only if \"User\" is the Default Module.</em>"
+msgstr "Habilitar/Desabilitar o \"Vídeo Animação\" Splash na página inicial. <br/ ><em> Disponível apenas se \"Usuário\" for o Módulo Padrão.</em>"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:62
 msgid "Display Profiles on Guest Homepage:"
 msgstr "Exibir perfis na página inicial de convidados:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:62
-msgid "Display or not the newest users on the homepage for visitors. <br /\"\"><em>Available only if \"User\" is the Default Module.</em>"
+msgid "Display or not the newest users on the homepage for visitors. <br /><em>Available only if \"User\" is the Default Module.</em>"
 msgstr "Exibir ou não os usuários mais novos na página inicial para os visitantes. <br/ ><em> Disponível somente se \"Usuário\" for o Módulo Padrão.</em>"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:64
@@ -2359,16 +2699,16 @@ msgid "Number of Profiles on Splash Page:"
 msgstr "Número de perfis na página inicial:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:64
-msgid "The number of profiles to display on the Splash Homepage. <br /><em>Available only if \"Profiles on Guest Homepage\" is enabled and if \"User\" is the Default Module.</em>"
-msgstr "O número de perfis a serem exibidos na página inicial do Splash. <br /> <em> Disponível somente se \"Perfil de visitantes na página inicial\" estiver habilitado e se \" \"Usuário\" for o Módulo padrão. </em>"
+msgid "The number of profile photos to display on the Splash Homepage. <br /><em>Available only if \"Profiles on Guest Homepage\" is enabled and if \"User\" is the Default Module.</em>"
+msgstr "O número de perfis a serem exibidos na página inicial do Splash. <br /> <em> Disponível somente se \"Perfil de visitantes na página inicial\" estiver habilitado e se \"Usuário\" for o Módulo padrão. </em>"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:66
 msgid "Ajax Site with AjPH:"
 msgstr "Site Ajax com AjPH:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:66
-msgid "Be careful! 'Full Ajax Navigation' feature is still in <strong>Beta version</strong> and may not be working properly on all pages."
-msgstr "Seja cuidadoso! O recurso 'Full Ajax Navigation' ainda está na <strong> versão beta </​​strong> e pode não estar funcionando corretamente em todas as páginas."
+msgid "Be careful! \'Full Ajax Navigation\' feature is still in <strong>beta version</strong> and may not be working properly on all pages."
+msgstr "Seja cuidadoso! O recurso \'Full Ajax Navigation\' ainda está na <strong>versão beta</strong> e pode não estar funcionando corretamente em todas as páginas."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:68
 msgid "Site Status:"
@@ -2396,10 +2736,7 @@ msgstr "Isenção de responsabilidade de adultos:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:72
 msgid ""
-"Show an Adult Warning to enter to your website. This is useful for websites "
-"with adult content. <br /><strong>WARNING: this disclaimer offered by a third-"
-"party provider may sometimes open a new tab promoting third-party adult "
-"websites.</strong>"
+"Show an Adult Warning to enter to your website. This is useful for websites with adult content. <br /><strong>WARNING: this disclaimer offered by a third-party provider may sometimes open a new tab promoting third-party adult websites.</strong>"
 msgstr ""
 "Mostrar um aviso de adulto para entrar no seu site. Isso é útil para sites com conteúdo adulto. <br /> <strong> Observação: este aviso oferecido por um provedor terceirizado pode, às vezes, abrir uma nova guia promovendo um site adulto de "
 "terceiros. </strong>"
@@ -2409,11 +2746,7 @@ msgid "Cookie Consent Bar:"
 msgstr "Barra de Permissão de Cookies:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:74
-msgid ""
-"Enable a Cookie Consent Bar to prevent your users that your website uses "
-"cookies. This is required by EU Law (if you have visitors from EU "
-"countries). The Cookie Bar will only be displayed if the visitor is in the "
-"EU."
+msgid "Enable a Cookie Consent Bar to prevent your users that your website uses cookies. This is required by EU Law (if you have visitors from EU countries). The Cookie Bar will only be displayed if the visitor is in the EU."
 msgstr "Ative a Barra de Permissão de Cookies para impedir que seus usuários usem. Isto é necessário para a legislação da UE (se você tiver visitantes de países da UE). A Barra de Cookies só será exibida se o visitante estiver na UE."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:76
@@ -2421,12 +2754,12 @@ msgid "Show \"Powered By\" link in footer:"
 msgstr "Mostrar o link \"Powered By\" no rodapé:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:76
-msgid "Disable (not recommended)"
-msgstr "Desativar (não recomendado)"
+msgid "Disable (NOT recommended)"
+msgstr "Desativar (NÃO recomendado)"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:76
-msgid "Are you proud of pH7CMS brand? Are you proud to say your dating app has been made by the European Leader Dating software?"
-msgstr "Você tem orgulho da marca pH7CMS? Você tem orgulho de dizer que seu aplicativo de namoro foi feito pelo software European Leader Dating?"
+msgid "Are you proud of using <a href=\"%software_website%\">pH7CMS</a> brand? Are you proud to say your dating app has been made by the Leading Dating Software provider?"
+msgstr "Você tem orgulho de usar a <a href=\"%software_website%\">pH7CMS</a> como marca? Você tem orgulho de dizer que seu aplicativo de namoro foi feito pelo lider Europeu em Softwares de namoro?"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:78
 msgid "Show the News Feed:"
@@ -2578,7 +2911,7 @@ msgid "Webcam Pictures Manual Approval:"
 msgstr "Aprovação manual de fotos da webcam:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:142
-msgid "This approval mode is experimental, do not use it in production."
+msgid "This approval mode is experimental, do not use it on production."
 msgstr "Este modo de aprovação é experimental, não use em produção."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:146
@@ -2683,9 +3016,10 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:192
 msgid "Indicate a word that will replace the banned word in the <a href=\"%0%\">list</a>."
-msgstr "Indique uma palavra que substituirá a palavra proibida na <a href=\"%0%\"> lista</a>."
+msgstr "Indique uma palavra que substituirá a palavra proibida na <a href=\"%0%\">lista</a>."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:194
+
 msgid "Enable/Disable the CSRF security tokens for forms:"
 msgstr "Ative/desative os tokens de segurança CSRF para formulários:"
 
@@ -3176,7 +3510,7 @@ msgstr "Descrição do(s) site(s) do afiliado."
 
 #: _protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:42
 msgid "Website:"
-msgstr "Local na rede Internet:"
+msgstr "Seu website ou blog:"
 
 #: _protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:42
 msgid "Main website where the affiliate is the owner (e.g. http://ph7cms.com)"
@@ -5247,7 +5581,7 @@ msgstr "Parceiros do - %site_name%"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:143
 msgid "Jobs - Careers @ %site_name%"
-msgstr "Jobs - Carreiras @ - %site_name%"
+msgstr "Empregos - Carreiras @ - %site_name%"
 
 #: _protected/app/system/modules/page/controllers/MainController.php:146
 msgid "Careers, Jobs and Internships at %site_name%"
@@ -5720,7 +6054,7 @@ msgstr "Código de verificação - Autenticação de dois fatores"
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:99
 msgid "BACKUP VERIFICATION CODE - %site_url% | %0% area."
-msgstr "CÓDIGO DE VERIFICAÇÃO DE BACKUP - %site_url% | %0% área"
+msgstr "CÓDIGO DE VERIFICAÇÃO DE BACKUP - %site_url% | %0% área."
 
 #: _protected/app/system/modules/two-factor-auth/controllers/MainController.php:100
 msgid "Code: %0%"
@@ -5920,7 +6254,7 @@ msgstr "Sugestões:"
 
 #: _protected/app/system/modules/user/controllers/ProfileController.php:453 _protected/framework/Mvc/Controller/Controller.class.php:150
 msgid "Return home"
-msgstr "Voltar para home"
+msgstr "Voltar para o início"
 
 #: _protected/app/system/modules/user/controllers/ProfileController.php:454 _protected/framework/Mvc/Controller/Controller.class.php:158
 msgid "Go back to the previous page"
@@ -7428,11 +7762,11 @@ msgstr "Login Como membro"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/error.inc.cpl.php:19
 msgid "Relax and go"
-msgstr "Relaxe e vá"
+msgstr "Relaxe e volte para o"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/error.inc.cpl.php:19
 msgid "home"
-msgstr "home"
+msgstr "início"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/layout.cpl.php:19
 msgid "JavaScript is disabled on your Web browser!<br /> Please enable JavaScript via the options of your Web browser in order to use this website."
@@ -7620,7 +7954,7 @@ msgstr "Editar Perfil"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/top_menu.inc.cpl.php:19 _protected/data/cache/pH7tpl_compile/user-dashboard_51f1069aaf5b60f0d44b39d2aeb39adb/base/main/index.cpl.php:19
 msgid "Design Profile"
-msgstr "Perfil de design"
+msgstr "Papel de Parede do Perfil"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/top_menu.inc.cpl.php:19
 msgid "My Account"
@@ -7944,7 +8278,7 @@ msgstr "Monitor de mensagens de membros"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/top_menu.inc.cpl.php:19
 msgid "Messages Monitor"
-msgstr "MOnitor de Mensagens"
+msgstr "Monitor de Mensagens"
 
 #: _protected/data/cache/pH7tpl_compile/public_main/base/top_menu.inc.cpl.php:19
 msgid "Search Member Messages"
@@ -8333,7 +8667,7 @@ msgstr "Procure um visitante de %0%"
 
 #: _protected/data/cache/pH7tpl_compile/webcam_5997640355582ea85cab83ee43d385f8/base/webcam/picture.cpl.php:19
 msgid "Shoot!"
-msgstr "Atirar!"
+msgstr "Tirar a Foto!"
 
 #: _protected/data/cache/pH7tpl_compile/webcam_5997640355582ea85cab83ee43d385f8/base/webcam/picture.cpl.php:19
 msgid "Upload!"
@@ -8705,7 +9039,7 @@ msgstr "Você precisa ser um membro para gostar de conteúdos."
 
 #: _protected/framework/Layout/Html/Design.class.php:751
 msgid "Like %0%"
-msgstr "LIKE %0%"
+msgstr "Curta %0%"
 
 #: _protected/framework/Layout/Html/Design.class.php:816
 msgid "You need to be a user to report contents."
@@ -8897,7 +9231,7 @@ msgstr "2) Encontre este trecho de código \"%0%\" e adicione o seguinte código
 
 #: _repository/module/fake-admin-panel/install/info/in_conclusion.php:38
 msgid "3) Save the file and go to your Admin Panel -> Mods -> Fake Admin Panel -> Config Fake Admin Panel"
-msgstr "3) Salve o arquivo e vá para o Painel do Administrador -> Mods -> Painel de Controle de Fakes -> Painel de Administração FAkes de Configuração"
+msgstr "3) Salve o arquivo e vá para o Painel do Administrador -> Mods -> Painel de Controle de Fakes -> Painel de Administração Fakes de Configuração"
 
 #: _repository/module/fake-admin-panel/install/info/in_conclusion.php:39
 msgid "4) Done!"
@@ -8991,11 +9325,11 @@ msgstr "span[!data-mce-type|*]"
 
 #: static/PFBC/tiny_mce/tiny_mce.js:1
 msgid "align"
-msgstr "alinhar"
+msgstr "align"
 
 #: static/PFBC/tiny_mce/tiny_mce.js:1
 msgid "blockquote"
-msgstr "bloco de citação"
+msgstr "blockquote"
 
 #: static/fileManager/js/elfinder.js:17
 msgid "Zlib.Unzip"
@@ -9266,7 +9600,7 @@ msgstr "#"
 #~ msgstr "Search a Subscriber:"
 
 #, fuzzy
-#~ msgid "No related profiles found."
+#~ msgid "No profiles found."
 #~ msgstr "Provider Not Found!"
 
 #, fuzzy
