@@ -150,7 +150,6 @@ msgstr "Número de minutos a passar antes do Afiliado com o mesmo endereço de I
 msgid "Captcha Complexity:"
 msgstr "Complexidade do Captcha:"
 
-
 msgid "Captcha Case Sensitive:"
 msgstr "Captcha Sensível caixa alta ou caixa baixa:"
 
@@ -232,8 +231,8 @@ msgstr "Países a serem mostrados no formulário de registro"
 msgid "You can select/multi-select the amount of countries to be displayed on the registration form and user search forms."
 msgstr "Você pode selecionar/multi-selecionar os países a serem exibidos no formulário de registro e no formulário de busca."
 
-msgid "If you need to block all Internet traffic to your website from a specific country, please use <a href="https://namoromaduro.com/admin123/tool/blockcountry">Country Blocker</a> tool."
-msgstr "Se você precisar bloquear o acesso ao seu site de um país específico, por favor use a ferramenta <a href="https://namoromaduro.com/admin123/tool/blockcountry">Bloqueador de Países</a>."
+msgid "If you need to block all Internet traffic to your website from a specific country, please use <a href=\"https://namoromaduro.com/admin123/tool/blockcountry\">Country Blocker</a> tool."
+msgstr "Se você precisar bloquear o acesso ao seu site de um país específico, por favor use a ferramenta <a href=\"https://namoromaduro.com/admin123/tool/blockcountry\">Bloqueador de Países</a>."
 
 msgid "Country Restriction"
 msgstr "Restrição de Países"
@@ -259,20 +258,20 @@ msgstr "Casal Aniversários"
 msgid "Your content has been disapproved :("
 msgstr "Seu conteúddo não foi aprovado :("
 
-msgid "Please feel free to post again a content at any time as long as it respects our <a href="%0%">terms of service</a>"
-msgstr "Por favor, sinta-se à vontade para postar outro conteúdo desde que siga os nosso <a href="%0%">Termos de Serviço</a>"
+msgid "Please feel free to post again a content at any time as long as it respects our <a href=\"%0%\">terms of service</a>"
+msgstr "Por favor, sinta-se à vontade para postar outro conteúdo desde que siga os nosso <a href=\"%0%\">Termos de Serviço</a>"
 
-msgid "Indeed, it looks like it does not respect our <a href="%0%">terms of service</a>."
-msgstr "De fato, parece que o conteúdo não respeita os nossos <a href="%0%">Termos de Serviço</a>."
+msgid "Indeed, it looks like it does not respect our <a href=\"%0%\">terms of service</a>."
+msgstr "De fato, parece que o conteúdo não respeita os nossos <a href=\"%0%\">Termos de Serviço</a>."
 
-msgid "Your content you recently posted at <a href="%site_url%">%site_name%</a> has unfortunately been disapproved by our moderation team."
-msgstr "O conteúdo que você postou no <a href="%site_url%">%site_name%</a> infelizmente não foi aprovado pelo Administrador."
+msgid "Your content you recently posted at <a href=\"%site_url%\">%site_name%</a> has unfortunately been disapproved by our moderation team."
+msgstr "O conteúdo que você postou no <a href=\"%site_url%\">%site_name%</a> infelizmente não foi aprovado pelo Administrador."
 
 msgid "Please save the following information for future reference"
 msgstr "Por favor retenha essa informação para futura referência"
 
-msgid "Congratulation! The content you recently posted at <a href="%site_url%">%site_name%</a> has been successfully approved by the team."
-msgstr "Parabéns! O conteúdo que você postou no <a href="%site_url%">%site_name%</a> foi aprovado pelo Administrador."
+msgid "Congratulation! The content you recently posted at <a href=\"%site_url%\">%site_name%</a> has been successfully approved by the team."
+msgstr "Parabéns! O conteúdo que você postou no <a href=\"%site_url%\">%site_name%</a> foi aprovado pelo Administrador."
 
 msgid "Other users will now enjoy what you posted and thanks you, our online service gets better! :)"
 msgstr "Outros usuários agora poderão ver o que você postou e graças a você, nossos serviços ficam cada vez melhores! :)"
@@ -2707,8 +2706,8 @@ msgid "Ajax Site with AjPH:"
 msgstr "Site Ajax com AjPH:"
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:66
-msgid "Be careful! \'Full Ajax Navigation\' feature is still in <strong>beta version</strong> and may not be working properly on all pages."
-msgstr "Seja cuidadoso! O recurso \'Full Ajax Navigation\' ainda está na <strong>versão beta</strong> e pode não estar funcionando corretamente em todas as páginas."
+msgid "Be careful! 'Full Ajax Navigation' feature is still in <strong>beta version</strong> and may not be working properly on all pages."
+msgstr "Seja cuidadoso! O recurso 'Full Ajax Navigation' ainda está na <strong>versão beta</strong> e pode não estar funcionando corretamente em todas as páginas."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:68
 msgid "Site Status:"
@@ -3019,7 +3018,6 @@ msgid "Indicate a word that will replace the banned word in the <a href=\"%0%\">
 msgstr "Indique uma palavra que substituirá a palavra proibida na <a href=\"%0%\">lista</a>."
 
 #: _protected/app/system/modules/admin123/forms/SettingForm.php:194
-
 msgid "Enable/Disable the CSRF security tokens for forms:"
 msgstr "Ative/desative os tokens de segurança CSRF para formulários:"
 
