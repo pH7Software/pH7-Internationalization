@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pH7CMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-27 19:00+0200\n"
-"PO-Revision-Date: 2018-12-15 18:54+0100\n"
+"PO-Revision-Date: 2019-03-27 18:34+0100\n"
 "Language-Team: ¡pH7! - Pierre-Henry Soria <hello@ph7cms.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "Last-Translator: \n"
 "Language: it_IT\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -9989,11 +9989,8 @@ msgid "Action: %0%"
 msgstr "Azione: %0%"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:60
-msgid ""
-"Register for free to meet %0% on %site_name%. The Real Social Dating app!"
-msgstr ""
-"Registrati gratuitamente per incontrare %0% su %site_name%. Il vero Social "
-"Dating app!"
+msgid "Registrati gratuitamente per incontrare %0% su %site_name% !"
+msgstr "Registrati gratuitamente per incontrare %0% su %site_name% !"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:60
 msgid "Free Sign Up to Meet Lovely People!"
@@ -10001,15 +9998,16 @@ msgstr "Iscriviti gratuitamente per incontrare persone adorabili!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:63
 msgid ""
-"Register for Free to Meet <span class=\"pink2\">%0%</span> (<span class="
-"\"pink1\">%1%</span>) on <span class=\"pink2\">%site_name%</span>!"
+"Registrati gratuitamente per incontrare <span class=\"pink2\">%0%</span> "
+"(<span class=\"pink1\">%1%</span>) su <span class=\"pink2\">%site_name%</"
+"span>!"
 msgstr ""
 "Registrati gratuitamente per incontrare <span class=\"pink2\">%0%</span> "
 "(<span class=\"pink1\">%1%</span>) su <span class=\"pink2\">%site_name%</"
 "span>!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:65
-msgid "Sign Up on %site_name%!"
+msgid "Registrati su %site_name%!"
 msgstr "Registrati su %site_name%!"
 
 #: _protected/app/system/modules/user/controllers/SignupController.php:69
@@ -10068,7 +10066,7 @@ msgstr[1] "%n% Visitatori"
 
 #: _protected/app/system/modules/user/controllers/VisitorController.php:105
 msgid "Find someone who has visited %0%'s profile"
-msgstr "Trova qualcuno che ha visitato il profilo di %0% ♥"
+msgstr "Trova qualcuno che ha visualizzato %0% e visitato il profilo"
 
 #: _protected/app/system/modules/user/forms/AvatarForm.php:33
 #: _protected/app/system/modules/user/forms/DesignForm.php:32
@@ -24639,8 +24637,8 @@ msgstr "Social Dating Web App"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/main/index.guest.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/main/user_promo_block.inc.cpl.php:19
-msgid "Meet &amp; date amazing people near %0%!"
-msgstr "Incontra &amp; persone fantastiche nelle vicinanze %0%!"
+msgid "Incontra &amp; gente vicino a %0%!"
+msgstr "Incontra &amp; date gente vicino a %0%!"
 
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/main/index.user.inc.cpl.php:19
 msgid "Hi <em>%0%</em>! How are you today?"
