@@ -2816,7 +2816,7 @@ msgid ""
 msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/AnalyticsApiForm.php:30
-msgid "Your analytics code (e.g., Google Analytics)"
+msgid "Your analytics tracking code (e.g., Google Analytics, Matomo)"
 msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/BlockCountryForm.php:34
@@ -4165,7 +4165,7 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/inc/class/UserNotifierString.php:44
 msgid ""
-"Other users will now enjoy what you posted and thanks you, our online "
+"Other users will now enjoy what you posted and thanks to you, our online "
 "service gets better! :)"
 msgstr ""
 
@@ -6515,7 +6515,7 @@ msgid "%0% near %1% %2%"
 msgstr ""
 
 #: _protected/app/system/modules/map/controllers/CountryController.php:118
-msgid "Meet new people here thanks <b>%site_name%</b>!"
+msgid "Meet new people here thanks to <b>%site_name%</b>!"
 msgstr ""
 
 #: _protected/app/system/modules/milestone-celebration/controllers/MainController.php:31
@@ -13684,7 +13684,7 @@ msgstr ""
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/signuptop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/user_92496e072f4a216a2e22292546425ec0/base/visitortop_menu.inc.cpl.php:19
 #: _protected/data/cache/pH7tpl_compile/video_f6fa126c5efdb5b591bfcfd28780c0a0/base/maintop_menu.inc.cpl.php:19
-msgid "Switch back to the Admin Panel"
+msgid "Switch back to Admin Panel"
 msgstr ""
 
 #: _protected/data/cache/pH7tpl_compile/admin123_4afd58a4d127bb00dfafed41a3407e91/base/info/software.cpl.php:19
@@ -14723,7 +14723,7 @@ msgid "Meet New People in %0%, %1% with %site_name%!"
 msgstr ""
 
 #: _protected/framework/Layout/Html/Design.class.php:595
-msgid "Meet New People in %0%, %1% thanks %site_name%!"
+msgid "Meet New People in %0%, %1% thanks to %site_name%!"
 msgstr ""
 
 #: _protected/framework/Layout/Html/Design.class.php:706
