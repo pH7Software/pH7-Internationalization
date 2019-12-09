@@ -15,7 +15,7 @@ pH7CMS Internationalization package. To add new languages to your social dating 
 * **Indonesian** (bahasa Indonesia)
 
 
-Please feel free to contribute by translating the files and adding new languages. Fork the repo, add your changes, commit them and create a pull request.
+**Feel free to contribute by translating the files and adding new languages. Fork the repo, add your changes, commit them and create a pull request.**
 
 
 If you want to translate new languages, start with `global.pot` Gettext file. You can use software such as [Poedit](http://poedit.net/) to make the translation much easier.
