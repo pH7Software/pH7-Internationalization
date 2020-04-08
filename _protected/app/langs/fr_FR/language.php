@@ -368,10 +368,10 @@ Framework\Registry\Registry::getInstance()->lang = [
     'terabyte' => '%0% TO',
 
     /***** USER'S INFO FIELDS *****/
-    'address' => 'Addresse:',
-    'street' => 'Rue:',
-    'middlename' => 'Surnom:',
-    'businessname' => 'Nom commercial:',
-    'taxid' => 'ID Taxe, TVH, TVA ou NAS:',
+    'address' => 'Addresse :',
+    'street' => 'Rue :',
+    'middlename' => 'Surnom :',
+    'businessname' => 'Nom commercial :',
+    'taxid' => 'Numéro de TVA :',
 
 ];
