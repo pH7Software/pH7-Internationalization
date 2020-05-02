@@ -369,6 +369,7 @@ Framework\Registry\Registry::getInstance()->lang = [
 
     /***** Benuter Info Felder *****/
     'address' => 'Addresse:',
+    'street' => 'Stasse:',
     'middlename' => 'Mittel Name:',
     'businessname' => 'Geschäftsname:',
     'taxid' => 'Steuer ID, VAT oder SSN:',
