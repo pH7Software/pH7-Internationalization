@@ -1372,7 +1372,7 @@ msgstr ""
 #: _protected/app/system/modules/friend/forms/SearchFriendForm.php:26
 #: _protected/app/system/modules/user/forms/JoinForm.php:45
 #: _protected/app/system/modules/user/forms/SearchVisitorForm.php:23
-msgid "First Name"
+msgid "Имя"
 msgstr ""
 
 #: _protected/app/system/core/forms/SearchUserCoreForm.php:145
@@ -4445,7 +4445,7 @@ msgstr ""
 #: _protected/app/system/modules/affiliate/forms/EditForm.php:51
 #: _protected/app/system/modules/affiliate/forms/JoinForm.php:34
 #: _protected/app/system/modules/contact/forms/ContactForm.php:33
-msgid "Your First Name:"
+msgid "Ваше имя:"
 msgstr ""
 
 #: _protected/app/system/modules/affiliate/forms/EditForm.php:54
@@ -8268,7 +8268,7 @@ msgstr ""
 
 #: _protected/app/system/modules/user/forms/LoginForm.php:33
 #: _protected/app/system/modules/user/forms/LoginSplashForm.php:34
-msgid "Stay signed in"
+msgid "Запомнить меня"
 msgstr ""
 
 #: _protected/app/system/modules/user/forms/NotificationForm.php:35
