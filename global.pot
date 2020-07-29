@@ -8268,7 +8268,7 @@ msgstr ""
 
 #: _protected/app/system/modules/user/forms/LoginForm.php:33
 #: _protected/app/system/modules/user/forms/LoginSplashForm.php:34
-msgid "Stay signed in"
+msgid "Запомнить меня"
 msgstr ""
 
 #: _protected/app/system/modules/user/forms/NotificationForm.php:35
