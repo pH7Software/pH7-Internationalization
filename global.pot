@@ -2770,7 +2770,7 @@ msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/AddUserForm.php:33
 #: _protected/app/system/modules/user/forms/EditForm.php:66
-msgid "Nickname:"
+msgid "Имя пользователя:"
 msgstr ""
 
 #: _protected/app/system/modules/admin123/forms/AddUserForm.php:63
