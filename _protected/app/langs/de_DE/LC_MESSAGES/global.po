@@ -212,7 +212,7 @@ msgid "Your name doesn't seem to be correct."
 msgstr "Dein Name scheint nicht korrekt zu sein."
 
 #: _protected/app/system/core/assets/ajax/ValidateCoreAjax.php:262
-msgid "Your must enter a valid url (e.g., http://ph7cms.com)."
+msgid "Your must enter a valid url (e.g., http://ph7builder.com)."
 msgstr "Du musst eine richtigen URL einfügen (bsp. http://facebook.com)"
 
 #: _protected/app/system/core/assets/ajax/ValidateCoreAjax.php:284
@@ -3821,8 +3821,8 @@ msgid "Description of the affiliate's site(s)."
 msgstr "Beschreibung der Partnerseite(n)."
 
 #: _protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:53
-msgid "Main website where the affiliate is the owner (e.g. http://ph7cms.com)"
-msgstr "Hauptwebseite wo der Partner Inhaber ist (z.B. http://ph7cms.com)"
+msgid "Main website where the affiliate is the owner (e.g. http://ph7builder.com)"
+msgstr "Hauptwebseite wo der Partner Inhaber ist (z.B. http://ph7builder.com)"
 
 #: _protected/app/system/modules/affiliate/forms/AddAffiliateForm.php:54
 msgid "Bank Account:"
@@ -8895,8 +8895,8 @@ msgid "Error: %element% cannot exceed %0% character(s)."
 msgstr "Fehler: %element% darf %0% Zeichen nicht überschreiten."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/Url.php:14
-msgid "Error: %element% must contain a URL (e.g., <a href=\"http://ph7cms.com\">http://ph7cms.com</a>)."
-msgstr "Fehler: %element% muss eine URL enthalten (z.B. <a href=\"http://ph7cms.com\"> http://ph7cms.com </a>)."
+msgid "Error: %element% must contain a URL (e.g., <a href=\"http://ph7builder.com\">http://ph7builder.com</a>)."
+msgstr "Fehler: %element% muss eine URL enthalten (z.B. <a href=\"http://ph7builder.com\"> http://ph7builder.com </a>)."
 
 #: _protected/framework/Layout/Form/Engine/PFBC/Validation/Username.php:33
 msgid "Error: Nickname has to be from %0% to %1% characters long, or it is not available, or already used by other user."
