@@ -40,7 +40,7 @@ For Debian-based OS (such as Ubuntu and Linux Mint), please have a look here -> 
 
 ## Official Website
 
-**[PHP Dating Script](http://ph7cms.com)**
+**[PHP Dating Script](http://ph7builder.com)**
 
 
 ## The Author
